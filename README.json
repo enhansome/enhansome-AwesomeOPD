@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "description": "Genuine OPD work on math / code / long-CoT reasoning. Off-policy SFT-distill from R1, pure RL methods (Skywork-OR1, SimpleRL-Zoo, Time-R1), and analysis-only papers are excluded from this list — each had no student-rollout-with-teacher-supervision component.\nThe reasoning-OPD canon already lives across OPSD (siyan-zhao/OPSD, CRISP, SD-Zero), Iterative Self-Bootstrapping (rStar / rStar-Math), OPD-RL Hybrids (LUFFY, RLAD, KDRL, RLSD, HDPO), and White-Box (REOPOLD, Fast OPD, Entropy-Aware OPD, TIP, SCOPE, PACED). This section only lists items not already covered above.",
+      "items": [],
+      "title": "🧠 Reasoning OPD (by application)"
+    },
+    {
+      "description": "Opinionated reading order for someone starting an OPD project today.",
+      "items": [],
+      "title": "🌟 Curator's Picks — where to start"
+    },
+    {
+      "description": "PRs are very welcome. When adding an entry, please attempt to fill in the technical details columns (loss / divergence, data source, teacher access, granularity). If you cannot determine these by reading the paper or repo, leave a — that's still useful.",
+      "items": [],
+      "title": "🤝 Contributing"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Star History"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T04:34:01.002Z",
+    "original_repository": "thinkwee/AwesomeOPD",
+    "original_repository_sha": "3731c2a6f723c7bc224640f3cb65801d4c61f339",
+    "enhanced_repository": "enhansome/enhansome-AwesomeOPD",
+    "enhanced_repository_description": null,
+    "title": "Awesome When LLMs Distill On-Policy with stars"
+  }
+}
