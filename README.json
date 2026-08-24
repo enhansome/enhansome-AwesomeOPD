@@ -1,7 +1,2607 @@
 {
-  "items": [],
+  "items": [
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "GKD",
+          "description": "2023.06 Google DeepMind (Agarwal et al.) arXiv 2306.13649 — implemented in TRL GKD: On-Policy Distillation of Language Models — Learning from Self-Generated Mistakes (Seminal · ICLR 2024)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 250510075,
+            "language": "Python",
+            "last_commit": "2026-08-24T14:18:52Z",
+            "owner": "huggingface",
+            "repo": "trl",
+            "stars": 19144
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Blog",
+          "description": "2025.10 Thinking Machines Lab (Kevin Lu et al.) Blog · tinker-cookbook Thinking Machines Lab — On-Policy Distillation (blog)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1019793048,
+            "language": "Python",
+            "last_commit": "2026-08-24T06:32:00Z",
+            "owner": "thinking-machines-lab",
+            "repo": "tinker-cookbook",
+            "stars": 4048
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tinker-cookbook",
+          "description": "2025.10 Thinking Machines Lab — Reference impl. of the OPD recipe on the Tinker SDK",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1019793048,
+            "language": "Python",
+            "last_commit": "2026-08-24T06:32:00Z",
+            "owner": "thinking-machines-lab",
+            "repo": "tinker-cookbook",
+            "stars": 4048
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "revisiting_opd",
+          "description": "2026.03 CASIA (Fu et al.) arXiv 2603.25562 Revisiting OPD: Failure Modes & Simple Fixes",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1132059038,
+            "language": "Python",
+            "last_commit": "2026-05-19T17:36:01Z",
+            "owner": "hhh675597",
+            "repo": "revisiting_opd",
+            "stars": 134
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPD",
+          "description": "2026.04 Tsinghua THUNLP arXiv 2604.13016 Rethinking On-Policy Distillation: Phenomenology, Mechanism & Recipe",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1208510936,
+            "language": "Python",
+            "last_commit": "2026-08-20T18:23:50Z",
+            "owner": "thunlp",
+            "repo": "OPD",
+            "stars": 947
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NAIL",
+          "description": "2026.06 Columbia (Sriraman, Liu, Hsu, Block) arXiv 2606.30923 Behavior Cloning is Not All You Need: The Optimality of OPD for Noisy Expert Feedback — proves offline BC needs samples exponential in horizon under a noisy expert (and that this is necessary for any offline IL), while OPD is polynomial; proposes NAIL",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1220300305,
+            "language": "Python",
+            "last_commit": "2026-07-06T23:03:18Z",
+            "owner": "plau666",
+            "repo": "NAIL",
+            "stars": 4
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Dense Supervision, Sparse Updates",
+          "description": "2026.06 Nanjing Univ. / Amap Alibaba arXiv 2606.13657 On the Sparsity and Geometry of OPD — OPD updates are tiny (0.036–0.142% relative Frobenius norm) and 67–90% coordinate-sparse, concentrated in FFN; training only the discovered sparse mask nearly recovers full OPD",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1255929323,
+            "language": "Python",
+            "last_commit": "2026-07-30T09:29:42Z",
+            "owner": "SydCS",
+            "repo": "OPD-Param-Analysis",
+            "stars": 3
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Rock Tokens",
+          "description": "2026.05 UMBC / Case Western / ASU / VU Amsterdam arXiv 2605.09253 Cornerstones or Stumbling Blocks? Deciphering the Rock Tokens in OPD — tokens keeping high KL after saturation are mostly structural scaffolding whose gradients Adam neutralizes, and are causally near-irrelevant to accuracy",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1212882934,
+            "language": "Python",
+            "last_commit": "2026-08-03T21:49:38Z",
+            "owner": "YuxuanJiang1",
+            "repo": "Rock-Token",
+            "stars": 2
+          }
+        }
+      ],
+      "title": "📚 Surveys, Foundations & Position Papers"
+    },
+    {
+      "description": "White-box methods use teacher logits / log-probabilities to supervise the student on student-generated rollouts. Each entry below has been verified to (a) train on student rollouts and (b) operate at the token level.\nMethods that turned out to be RL-style on verification have been moved to OPD-RL Hybrids; off-policy / pure-loss-function / pretraining-side methods are excluded from this list.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "LMOps",
+          "description": "2023.06 Microsoft / Tsinghua arXiv 2306.08543 MiniLLM (ICLR 2024)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 577753426,
+            "language": "Python",
+            "last_commit": "2026-07-25T06:15:21Z",
+            "owner": "microsoft",
+            "repo": "LMOps",
+            "stars": 4465
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "distillm",
+          "description": "2024.02 KAIST / Microsoft arXiv 2402.03898 DistiLLM (ICML 2024)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 753564120,
+            "language": "Python",
+            "last_commit": "2025-03-13T04:00:09Z",
+            "owner": "jongwooko",
+            "repo": "distillm",
+            "stars": 267
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "google-research",
+          "description": "2024.10 UCSB / Google arXiv 2410.11325 Speculative KD (ICLR 2025)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 151619717,
+            "language": "Jupyter Notebook",
+            "last_commit": "2026-08-21T19:58:51Z",
+            "owner": "google-research",
+            "repo": "google-research",
+            "stars": 38611
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "distillm-2",
+          "description": "2025.03 KAIST / Microsoft arXiv 2503.07067 DistiLLM-2 (ICML 2025 Oral)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 945843585,
+            "language": "Python",
+            "last_commit": "2025-06-27T12:19:26Z",
+            "owner": "jongwooko",
+            "repo": "distillm-2",
+            "stars": 70
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DSKDv2",
+          "description": "2025.04 BJTU arXiv 2504.11426 DSKDv2 — cross-tokenizer; supports on-policy mode",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 965900465,
+            "language": "Python",
+            "last_commit": "2026-01-04T11:10:18Z",
+            "owner": "songmzhang",
+            "repo": "DSKDv2",
+            "stars": 18
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "G-OPD",
+          "description": "2026.02 RUC / Tencent arXiv 2602.12125 G-OPD",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1156077864,
+            "language": "Python",
+            "last_commit": "2026-05-28T15:30:35Z",
+            "owner": "RUCBM",
+            "repo": "G-OPD",
+            "stars": 290
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPSD_OnPolicyDistillation",
+          "description": "2026.03 LinkedIn arXiv 2603.11178 PACED — frontier curriculum self-distill",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1202211835,
+            "language": "Python",
+            "last_commit": "2026-05-25T21:26:59Z",
+            "owner": "HJSang",
+            "repo": "OPSD_OnPolicyDistillation",
+            "stars": 97
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TSD-KD",
+          "description": "2026.03 Korea Univ. arXiv 2603.13260 TSD-KD — token-selective dual KD (ICLR 2026)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1145221454,
+            "language": "Python",
+            "last_commit": "2026-05-09T02:44:10Z",
+            "owner": "kmswin1",
+            "repo": "TSD-KD",
+            "stars": 13
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SCOPE",
+          "description": "2026.04 USTC / Meituan / Fudan arXiv 2604.10688 SCOPE — signal-calibrated dual-path",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1208162710,
+            "language": "Python",
+            "last_commit": "2026-06-22T06:00:20Z",
+            "owner": "machine981",
+            "repo": "SCOPE",
+            "stars": 29
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPSD_OnPolicyDistillation",
+          "description": "2026.04 Meta / LinkedIn arXiv 2604.14084 TIP — Token Importance, shares LinkedIn OPSD repo with PACED",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1202211835,
+            "language": "Python",
+            "last_commit": "2026-05-25T21:26:59Z",
+            "owner": "HJSang",
+            "repo": "OPSD_OnPolicyDistillation",
+            "stars": 97
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Hybrid-Policy-Distillation",
+          "description": "2026.04 SJTU / Shanghai Innovation Institute / Tencent arXiv 2604.20244 HPD — Hybrid Policy Distillation; LlamaFactory + verl backends (ICML 2026). ⚠️ headline Tables 2–4 use a lightweight approximation of on-policy sampling that avoids full-sequence rollouts; true on-policy results appear only in §5.4/Table 5",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1187797943,
+            "language": "Python",
+            "last_commit": "2026-04-24T08:20:47Z",
+            "owner": "zwhong714",
+            "repo": "Hybrid-Policy-Distillation",
+            "stars": 24
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "BRTS",
+          "description": "2026.05 JHU (Patel group) arXiv 2605.09725 BRTS — Best-of-N Teacher Rollout Selection; augments student-context OPD with a curated teacher-context branch (correctness-first, then student-alignment) to cut single-rollout teacher variance",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1234207967,
+            "language": "Python",
+            "last_commit": "2026-05-13T03:02:43Z",
+            "owner": "BWGZK-keke",
+            "repo": "BRTS",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FiRe-OPD",
+          "description": "2026.06 THU / HKUST / Meituan (Li et al.) arXiv 2606.02684 FiRe-OPD — Filter, then Reweight; decouples optimization granularity — hard trajectory-level filtering (drop bottom-p% rollouts by teacher log-prob) + soft token-level reweighting (teacher-confidence × student-confusion), arguing soft weighting beats hard token selection (cf. TIP); verl-based, with a multi-teacher math+code variant",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1254372509,
+            "language": "Python",
+            "last_commit": "2026-06-03T10:16:12Z",
+            "owner": "YuYingLi0",
+            "repo": "FiRe-OPD",
+            "stars": 22
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "trd",
+          "description": "2026.06 McGill / Mila / UT Austin (Jiang et al.) arXiv 2606.08432 TRD — Trajectory-Refined Distillation; diagnoses prefix failure of dense per-token OPD, refines student rollouts at trajectory level before distilling; verl-based, also applies to OPSD",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1260931078,
+            "language": "Python",
+            "last_commit": "2026-06-09T04:12:01Z",
+            "owner": "louieworth",
+            "repo": "trd",
+            "stars": 35
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPRD",
+          "description": "2026.06 ZJU / Ant Group arXiv 2606.06021 OPRD — On-Policy Representation Distillation; first OPD to supervise in hidden-state space (aligns teacher/student representations across layers on student rollouts, bypassing the LM head) rather than logits; built on the THUNLP OPD stack",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1259183090,
+            "language": "Python",
+            "last_commit": "2026-07-16T15:15:15Z",
+            "owner": "ShenzhiYang2000",
+            "repo": "OPRD",
+            "stars": 70
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "IW-OPD",
+          "description": "2026.06 Xidian / Georgia Tech / Amazon AGI SF Lab arXiv 2606.22600 · project IW-OPD — On the Position Bias of OPD; supervising only the prefix 30% of tokens matches full-token OPD while suffix-30% barely learns; reweights the OPD advantage by a prefix-importance term derived from a trust-region argument",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1233580586,
+            "language": "Python",
+            "last_commit": "2026-06-24T09:00:25Z",
+            "owner": "YannX1e",
+            "repo": "Importance-Weighted-On-Policy-Distillation",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ReNIO",
+          "description": "2026.06 ECNU / Shanghai Innovation Institute arXiv 2606.23104 ReNIO — Reweighting Negative Trajectory Importance; finds training on incorrect student outputs beats correct-only under both OPD and OPSD, then approximates correctness with a prefix-computable pivotal-token proxy",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1273059801,
+            "language": "Python",
+            "last_commit": "2026-06-22T09:50:50Z",
+            "owner": "BDML-lab",
+            "repo": "ReNIO",
+            "stars": 1
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Direct-OPD",
+          "description": "2026.07 Tsinghua AIR SIA-Lab / ByteDance Seed / PKU arXiv 2607.05394 · project Direct-OPD — Weak-to-Strong Generalization; distills the teacher's implicit reward (post-RL minus pre-RL log-ratio) instead of its distribution, so a weaker post-RL teacher can improve a stronger student. Qwen3-1.7B AIME24 48.3→58.3 in ~4 h on 8×A100",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1290769936,
+            "language": "Python",
+            "last_commit": "2026-08-18T11:13:14Z",
+            "owner": "BytedTsinghua-SIA",
+            "repo": "Direct-OPD",
+            "stars": 78
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPD²",
+          "description": "2026.07 NAVER AI Lab arXiv 2607.15161 On-Policy Delta Distillation; replaces the teacher–student log-ratio reward with a delta signal (teacher minus its own base model), plus a sign-agreement gate. Qwen3-1.7B math avg 34.8→54.6",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1301709626,
+            "language": "Python",
+            "last_commit": "2026-08-07T13:01:03Z",
+            "owner": "naver-ai",
+            "repo": "opd2",
+            "stars": 66
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SimCT",
+          "description": "2026.05 Tencent Hunyuan / USTC / Shanghai Innovation Institute arXiv 2605.07711 SimCT — Recovering Lost Supervision for Cross-Tokenizer OPD; builds a common supervision space of shared-vocab tokens ∪ minimal aligned units (finest jointly-tokenizable spans) so the unchanged OPD loss applies across tokenizers",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1232945890,
+            "language": "Python",
+            "last_commit": "2026-08-03T02:39:25Z",
+            "owner": "sunjie279",
+            "repo": "SimCT-",
+            "stars": 22
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Prune-OPD",
+          "description": "2026.05 HKUST(GZ) / MBZUAI / UC Merced / SYSU arXiv 2605.07804 Prune-OPD — monitors per-position teacher/student top-k overlap, attenuates rewards on prefix drift and truncates once supervision is locally unexploitable; −37.6–68.0% training time. The mechanism KAT-Coder-V2.5 credits for its drift-aware truncation",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1234387091,
+            "language": "Python",
+            "last_commit": "2026-05-31T13:40:51Z",
+            "owner": "yangzhch6",
+            "repo": "Prune-OPD",
+            "stars": 3
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TA-OPD",
+          "description": "2026.05 HK PolyU / InfiX.ai arXiv 2605.26844 Not All Disagreement Is Learnable — Token Teachability in OPD; supervises only a support-aligned \"teachable\" subset, matching or beating full-token OPD with 5–10% of tokens",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1245485177,
+            "language": "Python",
+            "last_commit": "2026-05-25T15:57:42Z",
+            "owner": "wyy-code",
+            "repo": "TA-OPD",
+            "stars": 14
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TrOPD",
+          "description": "2026.06 Samsung Research Beijing / Oxford / PKU arXiv 2606.01249 Trust Region On-Policy Distillation; partitions student tokens into a teacher-verifiable trust region (reverse KL) vs outliers (top-k forward KL), plus annealed off-policy guidance. AIME25 44.06 vs OPD 40.72",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1254517234,
+            "language": null,
+            "last_commit": "2026-05-31T13:05:46Z",
+            "owner": "Xingrun-Xing2",
+            "repo": "TrOPD",
+            "stars": 27
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ProteinOPD",
+          "description": "2026.05 Tsinghua / IDEA / HKUST(GZ) / NTU arXiv 2605.10189 ProteinOPD — multi-teacher OPD for protein language models; distills a normalized product-of-experts consensus over preference-specific teachers via token-level generalized JSD. PPL −83.7%, thermostability +54.2%",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1235310073,
+            "language": "Python",
+            "last_commit": "2026-08-04T02:36:54Z",
+            "owner": "THU-AI4S",
+            "repo": "ProteinOPD",
+            "stars": 19
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MAD-OPD",
+          "description": "2026.05 HUST / Alibaba arXiv 2605.01347 Breaking the Ceiling in OPD via Multi-Agent Debate; two larger teachers (K=2) debate across rounds to form the token-level target, with task-adaptive divergence. A 4B student beats its own 14B teacher on LiveCodeBench-v6",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1223535200,
+            "language": "Python",
+            "last_commit": "2026-07-31T07:25:43Z",
+            "owner": "chiefovoavicii",
+            "repo": "MAD-OPD",
+            "stars": 36
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "W2S-OPD",
+          "description": "2026.07 UMD / Microsoft Research / MBZUAI arXiv 2607.26246 · project W2S-OPD — Weak-to-Strong On-Policy Distillation; synthesises a proxy teacher distribution by re-anchoring a weak contrast pair's logit delta onto the student's own base model, then distils it with per-token reverse KL. Three interchangeable contrast sources: post-RL vs pre-RL expert, larger vs smaller base model, correct vs wrong hints",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1310495687,
+            "language": null,
+            "last_commit": "2026-08-09T19:37:55Z",
+            "owner": "Yu-Fangxu",
+            "repo": "W2S-OPD",
+            "stars": 28
+          }
+        }
+      ],
+      "title": "🔬 OPD with Larger External Teachers — White-Box"
+    },
+    {
+      "description": "When the teacher is API-only (no logits), OPD uses scalar rewards, verbal scores, preferences, or adversarial discriminators — all evaluated on student rollouts. Entries that turned out to use static teacher data only (Lion, SuperCorrect, DAIL, SODA) are excluded from this list.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "LMOps",
+          "description": "2025.11 Microsoft Research arXiv 2511.10643 · project GAD — Black-Box OPD",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 577753426,
+            "language": "Python",
+            "last_commit": "2026-07-25T06:15:21Z",
+            "owner": "microsoft",
+            "repo": "LMOps",
+            "stars": 4465
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SPoT",
+          "description": "2026.03 Visual-AI arXiv 2603.01683 SPOT: Surgical Post-Training — black-box oracle edits student failures into proximal rollouts",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1168674614,
+            "language": "Python",
+            "last_commit": "2026-06-16T18:34:38Z",
+            "owner": "Visual-AI",
+            "repo": "SPoT",
+            "stars": 21
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ROPD",
+          "description": "2026.05 NUS / USTC / Tencent arXiv 2605.07396 ROPD — Rubric-based On-Policy Distillation; induces prompt-specific rubrics from teacher–student contrasts, then scores student rollouts by those rubrics (logit-free / black-box); up to 10× sample efficiency",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1232488970,
+            "language": "Python",
+            "last_commit": "2026-05-08T01:35:05Z",
+            "owner": "Peregrine123",
+            "repo": "ROPD_official",
+            "stars": 80
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PRISM",
+          "description": "2026.04 HKUST(GZ) / Tsinghua / NTU / RUC / USTC / UCAS arXiv 2604.28123 PRISM — Pre-alignment via Black-Box OPD for Multimodal RL; an adversarial OPD stage inserted between SFT and RLVR, scoring student rollouts with a Mixture-of-Experts discriminator (separate perception and reasoning experts, Bradley–Terry loss). +4.4 / +6.0 avg over SFT→RLVR at 4B / 8B",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1220106304,
+            "language": "Python",
+            "last_commit": "2026-05-06T05:52:20Z",
+            "owner": "XIAO4579",
+            "repo": "PRISM",
+            "stars": 99
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ExpRL",
+          "description": "2026.06 Stanford / CMU arXiv 2606.17024 ExpRL — Exploratory RL for LLM Mid-Training; an LLM judge scores the student’s own rollouts and prefixes against a hidden reference solution under a fixed rubric, giving dense process-level reward before sparse RL ⚠️ see strictness note",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1270560882,
+            "language": "Python",
+            "last_commit": "2026-06-16T21:01:11Z",
+            "owner": "violetxi",
+            "repo": "ExpRL",
+            "stars": 23
+          }
+        }
+      ],
+      "title": "🎭 OPD with Black-Box / Outcome-Based Teachers"
+    },
+    {
+      "description": "Same model = teacher = student, but the teacher is conditioned on something the student doesn't see (verified trace, ground-truth answer, \"be concise\" prefix, longer context, document, …). The gap exists because of the conditioning, not weights.\nSeveral entries previously listed here turned out on verification to use static teacher data or a fixed self-rewritten dataset rather than student rollouts; those have been excluded. SPIN was reclassified to Iterative Self-Bootstrapping.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "OPSD",
+          "description": "2026.01 UCLA / Meta FAIR arXiv 2601.18734 · blog OPSD — Self-Distilled Reasoner",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1185545777,
+            "language": "Python",
+            "last_commit": "2026-05-10T05:46:29Z",
+            "owner": "siyan-zhao",
+            "repo": "OPSD",
+            "stars": 586
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Self-Distillation",
+          "description": "2026.01 MIT / ETH arXiv 2601.19897 SDFT-Continual",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1144658404,
+            "language": "Python",
+            "last_commit": "2026-04-07T20:14:25Z",
+            "owner": "idanshen",
+            "repo": "Self-Distillation",
+            "stars": 689
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mtp-lm",
+          "description": "2026.02 UMD / LLNL arXiv 2602.06019 MTP Self-Distill",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1150815898,
+            "language": "Python",
+            "last_commit": "2026-02-21T04:24:22Z",
+            "owner": "jwkirchenbauer",
+            "repo": "mtp-lm",
+            "stars": 39
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LMOps",
+          "description": "2026.02 Microsoft Research arXiv 2602.12275 OPCD — On-Policy Context Distillation",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 577753426,
+            "language": "Python",
+            "last_commit": "2026-07-25T06:15:21Z",
+            "owner": "microsoft",
+            "repo": "LMOps",
+            "stars": 4465
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EMPO²",
+          "description": "2026.02 Microsoft Research arXiv 2602.23008 · code · blog EMPO² — memory-tip-conditioned online self-distillation for exploratory LLM agents (ICLR 2026; cross-listed into Agent)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1004147641,
+            "language": "Python",
+            "last_commit": "2026-08-24T09:02:08Z",
+            "owner": "microsoft",
+            "repo": "agent-lightning",
+            "stars": 17632
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CRISP_Reasoning_Compression",
+          "description": "2026.03 LinkedIn arXiv 2603.05433 OPSDC / CRISP",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1175049141,
+            "language": "Python",
+            "last_commit": "2026-07-03T04:30:49Z",
+            "owner": "HJSang",
+            "repo": "CRISP_Reasoning_Compression",
+            "stars": 65
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LMOps",
+          "description": "2026.03 Microsoft Research arXiv 2603.16856 OEL — Online Experiential Learning",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 577753426,
+            "language": "Python",
+            "last_commit": "2026-07-25T06:15:21Z",
+            "owner": "microsoft",
+            "repo": "LMOps",
+            "stars": 4465
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "self-distillation-analysis",
+          "description": "2026.03 MSR / KAIST / SNU arXiv 2603.24472 Why Does Self-Distillation (Sometimes) Degrade Reasoning? — diagnostic study of OPSD failure modes",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1186286951,
+            "language": "Python",
+            "last_commit": "2026-04-14T13:34:21Z",
+            "owner": "beanie00",
+            "repo": "self-distillation-analysis",
+            "stars": 75
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ml-ssd",
+          "description": "2026.04 Apple MLR arXiv 2604.01193 Apple — Embarrassingly Simple Self-Distillation",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1196596858,
+            "language": "Python",
+            "last_commit": "2026-04-16T22:48:45Z",
+            "owner": "apple",
+            "repo": "ml-ssd",
+            "stars": 802
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "COPSD",
+          "description": "2026.05 LMU Munich / MCML arXiv 2605.09548 COPSD — crosslingual OPSD; teacher sees English problem translation + reference solution, student rolls out in low-resource language (17 African languages)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1234540984,
+            "language": "Python",
+            "last_commit": "2026-05-12T07:18:18Z",
+            "owner": "cisnlp",
+            "repo": "COPSD",
+            "stars": 4
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SGSD",
+          "description": "2026.05 THU arXiv 2605.28791 SGSD — Skill-Conditional Gated SD",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1251500279,
+            "language": "Python",
+            "last_commit": "2026-08-21T09:06:04Z",
+            "owner": "walawalagoose",
+            "repo": "SGSD",
+            "stars": 10
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CODE",
+          "description": "2026.05 USTC arXiv 2605.28303 CODE — OPSD on Knowledge Editing + Casual Editing",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1245726005,
+            "language": "Jupyter Notebook",
+            "last_commit": "2026-05-27T11:23:12Z",
+            "owner": "CrashBugger",
+            "repo": "CODE",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RLCSD",
+          "description": "2026.06 THU (BPM) / Alibaba Tongyi arXiv 2606.11709 RLCSD — Contrastive OPSD; cancels privilege-induced style drift by contrasting the teacher–student gap under a correct hint vs. a wrong hint; verl-based",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1260025410,
+            "language": "Python",
+            "last_commit": "2026-08-21T03:13:30Z",
+            "owner": "THU-BPM",
+            "repo": "RLCSD",
+            "stars": 95
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "d-OPSD",
+          "description": "2026.06 THU / TUM / NTU / UT Austin arXiv 2606.18195 d-OPSD — first OPSD for diffusion LLMs; self-generated answers as suffix conditioning (\"self future-experience\"); step-level (not token-level) divergence aligned to the denoising process",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1254424996,
+            "language": "Python",
+            "last_commit": "2026-08-17T16:42:40Z",
+            "owner": "xingzhejun",
+            "repo": "d-opsd-code",
+            "stars": 17
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CaOPD",
+          "description": "2026.04 Salesforce AI Research arXiv 2604.16830 CaOPD — The Illusion of Certainty; proves privileged conditioning makes the teacher's confidence a non-identifiable and upward-biased target, so OPD reliably buys accuracy at the cost of severe overconfidence; fixes it by rewriting confidence targets to the free empirical rollout success rate",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1198942525,
+            "language": "Python",
+            "last_commit": "2026-06-02T18:59:49Z",
+            "owner": "SalesforceAIResearch",
+            "repo": "CaOPD",
+            "stars": 17
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Vision-OPD",
+          "description": "2026.05 ISCAS / UCAS / Xiaohongshu arXiv 2605.18740 Vision-OPD — regional-to-global OPSD for MLLM fine detail; teacher sees a 2×-upscaled evidence crop, student sees the full image. 9B beats Gemini-3.1-Pro on the fine-grained suite using 6.2K fully synthetic triplets, no GT labels or verifier",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1237274132,
+            "language": "Python",
+            "last_commit": "2026-07-17T16:13:56Z",
+            "owner": "VisionOPD",
+            "repo": "Vision-OPD",
+            "stars": 288
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "D-OPSD",
+          "description": "2026.05 HKUST / Z-Image Team Alibaba / UCSD / CUHK arXiv 2605.05204 D-OPSD — OPSD for continuously tuning step-distilled diffusion models; exploits that LLM/VLM-encoder T2I models inherit in-context ability, so feeding the encoder the target image is free privileged context",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1205592360,
+            "language": "Python",
+            "last_commit": "2026-05-22T10:24:16Z",
+            "owner": "vvvvvjdy",
+            "repo": "D-OPSD",
+            "stars": 310
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PW-OPSD",
+          "description": "2026.05 SaFo Lab / UW–Madison arXiv 2605.21606 PW-OPSD — When Are Teacher Tokens Reliable?; a branch-viability diagnostic shows position separates genuinely-uncertain from merely-diverse teacher tokens (AUROC 0.83) where every local uncertainty measure fails (≤0.57)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1244210855,
+            "language": "Python",
+            "last_commit": "2026-05-23T22:33:13Z",
+            "owner": "SaFo-Lab",
+            "repo": "PW-OPSD",
+            "stars": 9
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPSD Predictive Law",
+          "description": "2026.05 Tufa Labs, Zürich arXiv 2605.30070 A Predictive Law for OPSD From World Feedback — the pre-training student–self-teacher accuracy gap linearly predicts final OPSD gain (R² 0.949 / 0.996), so privileged-context designs can be screened before training (ICML RLxF 2026)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1245489737,
+            "language": "Python",
+            "last_commit": "2026-06-04T16:45:52Z",
+            "owner": "Tufalabs",
+            "repo": "opsd-predictive-law",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Visual-OPSD",
+          "description": "2026.06 XJTU (MOE KLINNS) / SYSU arXiv 2606.18974 Visual-OPSD — shows a unified multimodal model's rendered \"visual thoughts\" matter as a generation pathway, not as pixels, then distills that pathway into a text-only student: +3.40 pp over its own teacher at 14.3× speedup",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1262604368,
+            "language": "Python",
+            "last_commit": "2026-07-03T01:46:27Z",
+            "owner": "TiezMind",
+            "repo": "Visual-OPSD",
+            "stars": 59
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Denser ≠ Better",
+          "description": "2026.07 HKISI CAS / CASIA / UCAS / NJUST arXiv 2607.01763 Denser ≠ Better: Limits of OPSD for Continual Post-Training — SDPO specialises harder than GRPO but forgets far more (ToolUse −80% vs GRPO +18%); dense self-distillation is a specialisation accelerator, not a continual-learning stabiliser",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1238629194,
+            "language": "Python",
+            "last_commit": "2026-07-09T08:53:47Z",
+            "owner": "Moenupa",
+            "repo": "SDPO-CL",
+            "stars": 11
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Rethinking OPSD",
+          "description": "2026.07 Princeton PLI (Kaur, Ri, He, Fowl, Arora) arXiv 2607.05184 Rethinking OPSD for Thinking Models — privileged self-distillation degrades all five thinking models tested (up to −17% rel.), while the same students improve under unprivileged OPD; mechanism is fork suppression of self-correction cues",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1302362085,
+            "language": "Python",
+            "last_commit": "2026-07-16T05:52:35Z",
+            "owner": "princeton-pli",
+            "repo": "rethinking-opsd-for-thinking-models",
+            "stars": 3
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dOPSD",
+          "description": "2026.07 NUS arXiv 2607.04428 dOPSD — OPSD for diffusion LMs; privilege comes from later, more-decoded steps of the student's own denoising trajectory (\"peek-ahead\"), needing no reference solution. Only method beating base on all four benchmarks where SFT and GRPO both degrade",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1231463858,
+            "language": "Python",
+            "last_commit": "2026-07-14T15:50:57Z",
+            "owner": "tuandattt",
+            "repo": "dOPSD",
+            "stars": 22
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "vOPD",
+          "description": "2026.05 Seoul National University arXiv 2605.07865 KL for a KL — OPD with Control Variate Baseline; derives the OPD value function in closed form as the per-token negative reverse KL (already computed in the forward pass) and subtracts it as an unbiased variance-reducing baseline. −57.7% wall-clock vs full-vocab KL",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1232726857,
+            "language": "Python",
+            "last_commit": "2026-07-25T05:55:19Z",
+            "owner": "holi-lab",
+            "repo": "vOPD",
+            "stars": 4
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPHSD",
+          "description": "2026.05 PKU arXiv 2605.08741 Training with Harnesses — On-Policy Harness Self-Distillation; the privileged context is an inference-time programmatic harness (draft-verify, plan-solve with oracle) rather than a text hint. +10.83% over OPSD on HMMT25",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1231018959,
+            "language": "Python",
+            "last_commit": "2026-05-06T15:01:57Z",
+            "owner": "zzy1127",
+            "repo": "OPHSD-On-Policy-Harness-Self-Distillation",
+            "stars": 24
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "AntiSD",
+          "description": "2026.05 Xiaohongshu / CASIA arXiv 2605.11609 Anti-Self-Distillation via Pointwise Mutual Information; deliberately ascends JSD (sign-reversed vs normal self-distillation) under an entropy gate. Reaches GRPO’s peak in 2–10× fewer steps, up to +11.5 avg",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1235318463,
+            "language": "Python",
+            "last_commit": "2026-05-14T06:39:00Z",
+            "owner": "FloyedShen",
+            "repo": "AntiSD",
+            "stars": 34
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Multi-Rollout OPD",
+          "description": "2026.05 Microsoft / CMU / Purdue arXiv 2605.12652 Multi-Rollout OPD via Peer Successes and Failures; conditions the self-teacher on peer rollouts from the same group — successes as demonstrations, failures as contrastive evidence. AIME25 mean@8 25.41 vs SDPO 7.81",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1230598582,
+            "language": "Python",
+            "last_commit": "2026-07-26T04:03:26Z",
+            "owner": "viviable",
+            "repo": "mopd_code",
+            "stars": 21
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RESD",
+          "description": "2026.05 UC San Diego / Amazon / Georgia Tech arXiv 2605.12741 Reflection-Enhanced Self-Distillation; enriches the teacher context with a retrospective reflection plus a persistent cross-step playbook of reusable lessons, learning from rare successes at 1 rollout/prompt",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1235349424,
+            "language": "Python",
+            "last_commit": "2026-05-21T10:38:57Z",
+            "owner": "horizon-llm",
+            "repo": "RESD",
+            "stars": 19
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPSA",
+          "description": "2026.05 UC Riverside / ICSI / Microsoft / Berkeley Lab arXiv 2605.15239 Reducing the Safety Tax with OPSD; a type-conditional privileged context (harmful→refusal steering, benign→helpfulness steering) selected by teacher flip rate. +4.00 safety AND +3.04 reasoning — no tax",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1240213772,
+            "language": "Python",
+            "last_commit": "2026-05-15T22:20:07Z",
+            "owner": "FYYFU",
+            "repo": "OPSA",
+            "stars": 16
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SafeSteer",
+          "description": "2026.06 Beihang / BIT / BUPT / PKU / CASIA / Shanghai AI Lab / BAAI arXiv 2606.02530 Localized OPD for Safety Alignment; privilege is an activation-level refusal steering vector injected into the residual stream, with KL restricted to a 50-token safety subset. ASR 2.87%→0.91% using only 100 harmful samples",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1252555083,
+            "language": "Python",
+            "last_commit": "2026-06-02T05:47:05Z",
+            "owner": "Anjingkun",
+            "repo": "SafeSteer",
+            "stars": 10
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "COPSD (Constitutional)",
+          "description": "2026.06 Fudan / Shanghai Innovation Institute / Ant Group / ZJU / CityU HK arXiv 2606.03089 Constitutional On-Policy Safe Distillation; teacher conditioned on a safety constitution, with a Cross-SFT cold start first fixing the constitution-induced distributional collapse ⚠️ name collides with crosslingual COPSD",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1246289195,
+            "language": "Python",
+            "last_commit": "2026-06-16T07:16:32Z",
+            "owner": "SII-FLEEECERmw",
+            "repo": "SafeC-OPSD",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DistIL",
+          "description": "2026.06 USC arXiv 2606.05152 RL from Rich Feedback with Distributional DAgger; unlike ordinary DAgger the forward-CE loss lands on the student’s own visited states, with a future-aware credit term, and comes with a monotonic-improvement guarantee",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1248670614,
+            "language": "Python",
+            "last_commit": "2026-05-24T23:56:26Z",
+            "owner": "rishabh-1086",
+            "repo": "distIL",
+            "stars": 15
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPDLM",
+          "description": "2026.06 Texas A&M / UTHealth Houston arXiv 2606.06712 Autoregressive-to-Diffusion LMs via OPD; the frozen ARLM run in its native causal mode is the privileged teacher for a diffusion student sampling its own denoising trajectories. 15×–7,000× fewer training tokens than from-scratch DLMs",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1257886535,
+            "language": "Python",
+            "last_commit": "2026-08-19T22:06:15Z",
+            "owner": "divelab",
+            "repo": "OPDLM",
+            "stars": 22
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "AR-OPD",
+          "description": "2026.06 SCUT arXiv 2606.10385 Anchored Residual Guidance for Privileged OPD; combats hindsight leakage by contrasting a partial-privilege anchor against a full-privilege teacher into a residual target. Shortcut events −21.7%",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1255624846,
+            "language": "Python",
+            "last_commit": "2026-06-10T08:48:00Z",
+            "owner": "vanhowe",
+            "repo": "AR-OPD",
+            "stars": 0
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RCSD",
+          "description": "2026.06 Yale arXiv 2606.19327 Rubric-Conditioned Self-Distillation; Stage I learns a rubric generator by OPSD, Stage II conditions the teacher on that learned rubric — replacing single-reference alignment with criterion-level guidance",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1271624617,
+            "language": "Python",
+            "last_commit": "2026-06-18T20:36:57Z",
+            "owner": "carriegu0818",
+            "repo": "RCSD",
+            "stars": 5
+          }
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "SPIN",
+              "description": "2024.01 UCLA arXiv 2401.01335 SPIN — Self-Play Fine-Tuning (ICML 2024)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 752815135,
+                "language": "Python",
+                "last_commit": "2024-05-08T05:59:37Z",
+                "owner": "uclaml",
+                "repo": "SPIN",
+                "stars": 1254
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "rStar",
+              "description": "2025.01 Microsoft Research rStar-Math 2501.04519 · rStar2-Agent 2508.20722 rStar / rStar-Math / rStar2-Agent",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 848189443,
+                "language": "Python",
+                "last_commit": "2025-09-12T08:26:02Z",
+                "owner": "microsoft",
+                "repo": "rStar",
+                "stars": 1425
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "BIRD",
+              "description": "2026.07 XJTU / PKU arXiv 2607.15736 BIRD — Better Starts, Better Ends; argues OPSD reasoning-compression is bottlenecked by prefix support, not teacher quality — a verbose cold-start spends supervision on prefixes a concise teacher can barely fix. Bootstraps with a prompt-switched brevity SFT pass, then runs CRISP-style OPSD. Qwen3-8B MATH-500 86.2%→92.0% while length drops 3,099→1,115 tokens",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1302827376,
+                "language": "Python",
+                "last_commit": "2026-07-23T13:39:34Z",
+                "owner": "KawhiC",
+                "repo": "BIRD",
+                "stars": 2
+              }
+            }
+          ],
+          "description": "Same model is the teacher, but as a frozen earlier checkpoint, not a privileged-context view. The teacher snapshot is frozen for one round, the student trains, then the snapshot rolls forward. Listed separately because the supervision is typically sequence-level / preference, not per-token logit-distillation.",
+          "node_type": "group",
+          "title": "🔁 Iterative Self-Bootstrapping"
+        }
+      ],
+      "title": "♻️ Self-Distillation with Privileged Context — OPSD"
+    },
+    {
+      "description": "Methods that fuse OPD with RLVR / GRPO / PPO / DPO. Teacher logits become a dense reward shaping or trust-region anchor inside an RL objective; or BoN / preference signals are used as the imitation target.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "AlignDistil",
+          "description": "2025.03 BJTU / Tencent arXiv 2503.02832 AlignDistil — RLHF-equivalent KD (ACL 2025)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1004979536,
+            "language": "Python",
+            "last_commit": "2025-08-26T13:47:53Z",
+            "owner": "songmzhang",
+            "repo": "AlignDistil",
+            "stars": 4
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LUFFY",
+          "description": "2025.04 Westlake U. arXiv 2504.14945 LUFFY — mixed-policy GRPO",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 969637328,
+            "language": "Python",
+            "last_commit": "2026-03-20T10:50:45Z",
+            "owner": "Simplified-Reasoning",
+            "repo": "LUFFY",
+            "stars": 464
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SDPO",
+          "description": "2026.01 ETH / MIT arXiv 2601.20802 · project SDPO — RL via Self-Distillation",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1141366737,
+            "language": "Python",
+            "last_commit": "2026-07-01T13:51:47Z",
+            "owner": "lasgroup",
+            "repo": "SDPO",
+            "stars": 1074
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "KEPO",
+          "description": "2026.02 Industrial arXiv 2602.00400 KEPO",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1097943192,
+            "language": "Jupyter Notebook",
+            "last_commit": "2026-03-26T08:32:54Z",
+            "owner": "Corleno",
+            "repo": "KEPO",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Open-AgentRL",
+          "description": "2026.02 Gen-Verse — Open-AgentRL — RLAnything / DemyAgent multi-domain",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1075117476,
+            "language": "Python",
+            "last_commit": "2026-06-12T09:28:02Z",
+            "owner": "Gen-Verse",
+            "repo": "Open-AgentRL",
+            "stars": 622
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Towards-On-Policy-SFT",
+          "description": "2026.02 MSRA / Shopee arXiv 2602.12222 DDT — on-policy SFT theory",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1149456710,
+            "language": "Python",
+            "last_commit": "2026-03-26T05:35:50Z",
+            "owner": "zhangmiaosen2000",
+            "repo": "Towards-On-Policy-SFT",
+            "stars": 25
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OpenClaw-RL",
+          "description": "2026.03 Gen-Verse arXiv 2603.10165 OpenClaw-RL — combines GRPO + OPD",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1167576951,
+            "language": "Python",
+            "last_commit": "2026-05-23T04:17:31Z",
+            "owner": "Gen-Verse",
+            "repo": "OpenClaw-RL",
+            "stars": 5652
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ExGRPO",
+          "description": "2026.03 UNC / ASU arXiv 2603.19266 Probing-to-Refine / EI / EXGRPO",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1167911373,
+            "language": null,
+            "last_commit": "2026-02-26T20:21:44Z",
+            "owner": "Zhen-Tan-dmml",
+            "repo": "ExGRPO",
+            "stars": 0
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPID",
+          "description": "2026.06 Tsinghua / ZJU / CUHK / NTU / Tongji arXiv 2606.26790 OPID — On-Policy Skill Distillation; turns completed agent trajectories into hierarchical hindsight skills, then re-scores the same sampled response under skill-augmented context; needs no external skill memory or retrieval at inference",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1258040697,
+            "language": "Python",
+            "last_commit": "2026-07-01T09:46:48Z",
+            "owner": "jinyangwu",
+            "repo": "OPID",
+            "stars": 117
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "UCOB",
+          "description": "2026.06 CASIA / Pengcheng Lab / Memorax AI arXiv 2606.29502 UCOB — Credit-Aware Bidirectional Self-Distillation; shows the usual privileged-teacher assumption (skill-conditioned ⇒ better) is empirically false, so it distills whichever branch actually won — in either direction",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1282031701,
+            "language": "Python",
+            "last_commit": "2026-07-03T15:44:19Z",
+            "owner": "TU2021",
+            "repo": "UCOB",
+            "stars": 31
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Distilled RL",
+          "description": "2026.07 Nankai / Zhongguancun Academy / BIT / ZJU / CASIA / HIT arXiv 2607.17247 Distilled RL; drops the KL loss entirely and injects the teacher as a reverse importance ratio on the GRPO advantage, with a negative-sample reset and sequence-level geometric normalisation so the teacher only redistributes credit",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1302572455,
+            "language": "Python",
+            "last_commit": "2026-08-08T11:39:21Z",
+            "owner": "597358816",
+            "repo": "Distilled-RL",
+            "stars": 12
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CEPO",
+          "description": "2026.05 MBZUAI / Linköping / ANU arXiv 2605.19436 Contrastive Evidence Policy Optimization; replaces RLSD’s single privileged-answer ratio with a contrastive one (correct-answer teacher vs rejected-peer teacher), provably leakage-free",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1243114462,
+            "language": "Python",
+            "last_commit": "2026-05-25T09:26:44Z",
+            "owner": "ahmedheakl",
+            "repo": "CEPO",
+            "stars": 14
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LGR",
+          "description": "2026.05 UCAS / ISCAS / Xiaohongshu arXiv 2605.30833 Combating Supervision Fidelity Decay in OPD; adds a Lookahead Group Reward over top-K candidate tokens using teacher confidence one step ahead, with entropy-triggered tree attention",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1252996341,
+            "language": "Python",
+            "last_commit": "2026-06-01T10:00:59Z",
+            "owner": "zui-jiang",
+            "repo": "LGR",
+            "stars": 1
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SDPG",
+          "description": "2026.06 UCLA / Princeton AI Lab arXiv 2606.04036 Self-Distilled Policy Gradient; GRPO plus an exact full-vocabulary reverse-KL self-distillation term, positive-advantage-masked and warmup-decayed",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1231701005,
+            "language": "Python",
+            "last_commit": "2026-06-15T03:35:42Z",
+            "owner": "lauyikfung",
+            "repo": "SDPG",
+            "stars": 54
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Tokenizer Barrier",
+          "description": "2026.06 HKUST(GZ) / Tencent arXiv 2606.09456 Breaking the Tokenizer Barrier: OPD across Model Families; dual-pointer chunk alignment projects a different-family teacher’s chunk log-probability onto mismatched student tokens. Matches same-tokenizer OPD gains at ~4% of the FLOPs of equivalent SFT scaling",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1262804542,
+            "language": "Python",
+            "last_commit": "2026-06-09T07:16:21Z",
+            "owner": "ivanniu",
+            "repo": "On-Policy-Distill",
+            "stars": 12
+          }
+        }
+      ],
+      "title": "🤝 OPD-RL Hybrids — Inside-RL OPD"
+    },
+    {
+      "description": "Genuine OPD work on math / code / long-CoT reasoning. Off-policy SFT-distill from R1, pure RL methods (Skywork-OR1, SimpleRL-Zoo, Time-R1), and analysis-only papers are excluded from this list — each had no student-rollout-with-teacher-supervision component.\nThe reasoning-OPD canon already lives across OPSD (siyan-zhao/OPSD, CRISP, SD-Zero), Iterative Self-Bootstrapping (rStar / rStar-Math), OPD-RL Hybrids (LUFFY, RLAD, KDRL, RLSD, HDPO), and White-Box (REOPOLD, Fast OPD, Entropy-Aware OPD, TIP, SCOPE, PACED). This section only lists items not already covered above.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "G-OPD",
+          "description": "2026.02 RUC / Tencent arXiv 2602.12125 G-OPD (cross-list)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1156077864,
+            "language": "Python",
+            "last_commit": "2026-05-28T15:30:35Z",
+            "owner": "RUCBM",
+            "repo": "G-OPD",
+            "stars": 290
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPD",
+          "description": "2026.04 Tsinghua THUNLP arXiv 2604.13016 Rethinking OPD recipe",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1208510936,
+            "language": "Python",
+            "last_commit": "2026-08-20T18:23:50Z",
+            "owner": "thunlp",
+            "repo": "OPD",
+            "stars": 947
+          }
+        }
+      ],
+      "title": "🧠 Reasoning OPD (by application)"
+    },
+    {
+      "description": "Strict OPD work in non-text modalities. Many \"R1\"/\"GRPO\" multimodal models that bear the brand are pure RL (no teacher-distillation loss) and are excluded.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "piFlow",
+          "description": "2025.10 Multi-org arXiv 2510.14974 π-Flow — image / flow OPD (ICLR 2026)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1077560986,
+            "language": "Python",
+            "last_commit": "2026-07-14T01:08:53Z",
+            "owner": "Lakonik",
+            "repo": "LakonLab",
+            "stars": 464
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Step-Audio-R1",
+          "description": "2025.11 StepFun arXiv 2511.15848 Step-Audio-R1",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1093918952,
+            "language": "Python",
+            "last_commit": "2026-04-29T04:15:21Z",
+            "owner": "stepfun-ai",
+            "repo": "Step-Audio-R1",
+            "stars": 697
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Uni-OPD",
+          "description": "2026.05 Multi-org arXiv 2605.03677 Uni-OPD — unified OPD across LLMs & MLLMs via dual-perspective recipe",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1237481249,
+            "language": "Python",
+            "last_commit": "2026-06-10T17:00:35Z",
+            "owner": "WenjinHou",
+            "repo": "Uni-OPD",
+            "stars": 57
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Flow-OPD",
+          "description": "2026.05 Multi-org arXiv 2605.08063 Flow-OPD — first to integrate OPD into Flow-Matching text-to-image models; consolidates multiple single-reward GRPO expert teachers into one student via on-policy sampling + reverse-KL (SD-3.5-Medium)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1232109753,
+            "language": "Python",
+            "last_commit": "2026-06-24T15:46:36Z",
+            "owner": "CostaliyA",
+            "repo": "Flow-OPD",
+            "stars": 284
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Decomposed-OPD",
+          "description": "2026.06 KAIST / Microsoft Research Asia arXiv 2606.00564 Decomposed-OPD / VGS — decomposes the OPD gradient into (near-orthogonal) language-prior vs. visual-grounding components; Visual Gradient Steering reorients updates toward the visual subspace for VLM reasoning",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1252040225,
+            "language": null,
+            "last_commit": "2026-05-28T06:17:55Z",
+            "owner": "hee-suk-yoon",
+            "repo": "Decomposed_OPD",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DiffusionOPD",
+          "description": "2026.05 Fudan / Wan Team, Alibaba arXiv 2605.15055 DiffusionOPD — A Unified Perspective of OPD in Diffusion Models; lifts token-level KL to a continuous-state Markov chain where identical kernel covariance collapses reverse KL into closed-form L2 transition matching, consolidating multiple single-reward RL experts. Avg 0.929 vs 0.851 Cascade NFT at ~⅔ the GPU-hours",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1250127700,
+            "language": "Python",
+            "last_commit": "2026-07-20T03:07:36Z",
+            "owner": "ali-vilab",
+            "repo": "DiffusionOPD",
+            "stars": 161
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Vision-OPD",
+          "description": "2026.05 ISCAS / UCAS / Xiaohongshu arXiv 2605.18740 Vision-OPD — regional-to-global OPSD for fine visual detail (cross-list with OPSD)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1237274132,
+            "language": "Python",
+            "last_commit": "2026-07-17T16:13:56Z",
+            "owner": "VisionOPD",
+            "repo": "Vision-OPD",
+            "stars": 288
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Visual-OPSD",
+          "description": "2026.06 XJTU / SYSU arXiv 2606.18974 Visual-OPSD — internalises rendered \"visual thoughts\" into a text-only student; +3.40 pp over its own teacher at 14.3× speedup (cross-list with OPSD)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1262604368,
+            "language": "Python",
+            "last_commit": "2026-07-03T01:46:27Z",
+            "owner": "TiezMind",
+            "repo": "Visual-OPSD",
+            "stars": 59
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "V-Zero",
+          "description": "2026.06 Sichuan Univ. / XJTU / TeleAI / PKU arXiv 2606.25319 V-Zero — Answer-Label-Free OPD with Contrastive Evidence Gating; the teacher replays the student's tokens under a positive question-relevant crop and a negative off-region crop, and the log-likelihood gap gates the OPD loss. No answer labels, verifiable rewards, or inference-time tools",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1262015959,
+            "language": "Python",
+            "last_commit": "2026-07-28T15:31:47Z",
+            "owner": "eVI-group-SCU",
+            "repo": "V-Zero",
+            "stars": 44
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "H-OPD",
+          "description": "2026.07 BUPT / ByteDance / USTC / Zhongguancun Academy arXiv 2607.02592 H-OPD — Confidence-Aware Heterogeneous Multi-Teacher Multimodal OPD; replaces sample-level teacher routing with token-level arbitration between a vision-language teacher and a text-only teacher fed a precomputed image description",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1252271227,
+            "language": "Python",
+            "last_commit": "2026-07-08T05:49:20Z",
+            "owner": "buptyqx",
+            "repo": "H-OPD",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPSD-V",
+          "description": "2026.07 Meituan (MeiGen) / HKUST / CityU HK arXiv 2607.08766 OPSD-V — OPSD for few-step autoregressive video generators; real long videos become privileged temporal context in the teacher's KV cache rather than reconstruction targets, fixing long-horizon drift at unchanged NFE",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1292088940,
+            "language": "Python",
+            "last_commit": "2026-08-19T10:41:01Z",
+            "owner": "MeiGen-AI",
+            "repo": "OPSD-V",
+            "stars": 579
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Med-OPD",
+          "description": "2026.07 NUS / USTC arXiv 2607.16303 Med-OPD — Evidence-Aware OPD for Medical VLMs; counterfactually degrades the image to isolate which tokens actually depend on imaging evidence (top 10% carry ~88% of the signal), then reweights the KL accordingly",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1298737049,
+            "language": "Shell",
+            "last_commit": "2026-07-13T17:34:55Z",
+            "owner": "yunhang8658",
+            "repo": "MedOPD",
+            "stars": 5
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "VISD",
+          "description": "2026.05 HUST / WHU / PKU / Tsinghua arXiv 2605.06094 Structured Self-Distillation for Video Reasoning; an EMA self-teacher conditioned on a video-aware judge’s correctness + temporal/spatial grounding modulates advantage magnitude while the rule reward sets direction. Matches VisionCoach with ~50% of its steps",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1244633433,
+            "language": "HTML",
+            "last_commit": "2026-05-21T06:08:15Z",
+            "owner": "lkyyy111",
+            "repo": "VISD",
+            "stars": 0
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "AnyFlow",
+          "description": "2026.05 NVIDIA / Show Lab NUS / MIT arXiv 2605.13724 Any-Step Video Diffusion via On-Policy Flow Map Distillation; the student rolls out its own flow-map backward simulation and a frozen teacher supplies DMD-style reverse-divergence supervision. VBench 84.05 at 4 NFEs",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1190721920,
+            "language": "Python",
+            "last_commit": "2026-08-14T23:46:37Z",
+            "owner": "NVlabs",
+            "repo": "AnyFlow",
+            "stars": 415
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ViCuR",
+          "description": "2026.06 Shanghai AI Lab / Fudan / Nanjing Univ. arXiv 2606.05718 Visual Cues as Recoverable Privilege; privileges only cues derivable from the same input, with a sink-token module letting the student internally recover them — the direct answer to privilege the student can never reproduce",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1256031450,
+            "language": "Python",
+            "last_commit": "2026-08-22T07:28:42Z",
+            "owner": "tiankanghui",
+            "repo": "ViCuR",
+            "stars": 19
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Imagine-OPD",
+          "description": "2026.06 PKU / CSU / USTC / Huawei arXiv 2606.08719 Thinking Without Images; teacher sees privileged zoomed-in ground-truth crops, student reasons from the full image only. Beats explicit tool-call \"thinking with images\" baselines at 1.5–2.7× faster inference",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1255034391,
+            "language": "Python",
+            "last_commit": "2026-06-27T04:37:14Z",
+            "owner": "walkeralan123",
+            "repo": "Imagine-OPD",
+            "stars": 9
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GNDPO",
+          "description": "2026.06 OPPO AI Center arXiv 2606.09091 Stabilizing OPD for MLLM Reasoning with Global Normalization; fixes gradient explosions from OOD low-probability teacher tokens by batch-normalizing KL rewards into relative advantages under a GSPO-style clip",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1262587324,
+            "language": "Python",
+            "last_commit": "2026-06-08T06:10:55Z",
+            "owner": "OPPO-Mente-Lab",
+            "repo": "GNDPO",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ViGOS",
+          "description": "2026.06 SIA CAS / UCAS arXiv 2606.19120 Seeing Before Reasoning; two different teachers supervise different segments of one rollout — an image-only perception teacher for the description, an answer-privileged teacher for the reasoning. Mean Pass@5 68.13→75.60",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1268516037,
+            "language": "Python",
+            "last_commit": "2026-06-18T03:23:42Z",
+            "owner": "OedoSoldier",
+            "repo": "ViGOS",
+            "stars": 4
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "WMSD",
+          "description": "2026.06 University of Bern arXiv 2606.12072 World Model Self-Distillation; a video-diffusion Executor samples its own rollouts and a Demonstrator teacher conditioned on a privileged detailed execution description gives per-timestep velocity supervision. The Executor surpasses its own teacher",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1265005663,
+            "language": null,
+            "last_commit": "2026-06-15T06:27:54Z",
+            "owner": "sebastian-stapf",
+            "repo": "world-model-self-distillation",
+            "stars": 19
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PF-OPSD",
+          "description": "2026.06 Univ. of Macau / LIGHTSPEED arXiv 2606.03603 World Models Meet Language Models; a privileged evaluator that sees the ground-truth future video scores the student’s own trajectories, teaching the MLLM when to invoke and trust a video world model. +10.6/+10.9 over SFT",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1257854090,
+            "language": "Python",
+            "last_commit": "2026-08-21T04:25:50Z",
+            "owner": "yczhou001",
+            "repo": "PF-OPSD",
+            "stars": 22
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "InternVideo3",
+          "description": "2026.06 Shanghai AI Lab / Shanghai Innovation Institute / Nanjing Univ. arXiv 2606.12195 InternVideo3; OPD is the final stage of a 4-stage recipe, applied to examples filtered for a teacher>student gap. Best open-weight Video-MME 73.8",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 569713120,
+            "language": "Python",
+            "last_commit": "2026-07-02T03:20:41Z",
+            "owner": "OpenGVLab",
+            "repo": "InternVideo",
+            "stars": 2366
+          }
+        }
+      ],
+      "title": "🖼️ Multimodal OPD (VLM, Video, Audio, Image)"
+    },
+    {
+      "description": "Genuine OPD where the student is an agent rolling out actions; teacher (or self) supervises those trajectories. Pure-RL agent works (WebRL, WebAgent-R1, InfiGUI-G1, GUI-R1) and off-policy SFT-on-teacher-trajectories (Nardien, AgentRefine, Chain-of-Agents, MapCoder-Lite, SAD, Structured-Web) are excluded.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "LLM4Teach",
+          "description": "2023.11 (updated 2025) ZJ Lab AMMI arXiv 2311.13373 LLM4Teach — small-RL agent guided by LLM",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 724958191,
+            "language": "Python",
+            "last_commit": "2024-04-19T08:41:24Z",
+            "owner": "ZJLAB-AMMI",
+            "repo": "LLM4Teach",
+            "stars": 55
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RPD",
+          "description": "2025.03 TUM / Freiburg arXiv 2503.05833 · project Refined Policy Distillation, VLA (IROS 2026)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1020202521,
+            "language": "Python",
+            "last_commit": "2025-07-18T18:16:08Z",
+            "owner": "Refined-Policy-Distillation",
+            "repo": "RPD",
+            "stars": 21
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "easydistill",
+          "description": "2025.09 Alibaba ModelScope SCoRe arXiv 2509.14257",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 991136783,
+            "language": "Python",
+            "last_commit": "2026-08-17T01:51:06Z",
+            "owner": "modelscope",
+            "repo": "easydistill",
+            "stars": 460
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EMPO²",
+          "description": "2026.02 Microsoft Research arXiv 2602.23008 · code EMPO² — memory-augmented online self-distillation for LLM agents (cross-list with OPSD)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1004147641,
+            "language": "Python",
+            "last_commit": "2026-08-24T09:02:08Z",
+            "owner": "microsoft",
+            "repo": "agent-lightning",
+            "stars": 17632
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OpenClaw-RL",
+          "description": "2026.03 Gen-Verse arXiv 2603.10165 OpenClaw-RL (cross-list with OPD-RL)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1167576951,
+            "language": "Python",
+            "last_commit": "2026-05-23T04:17:31Z",
+            "owner": "Gen-Verse",
+            "repo": "OpenClaw-RL",
+            "stars": 5652
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TCOD",
+          "description": "2026.04 Tongyi Lab, Alibaba / CUHK arXiv 2604.24005 TCOD — temporal curriculum OPD for multi-turn agents; F2B & B2F schedules (COLM 2026)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1223492205,
+            "language": "Python",
+            "last_commit": "2026-07-09T07:25:54Z",
+            "owner": "kokolerk",
+            "repo": "TCOD",
+            "stars": 108
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "HyperEyes",
+          "description": "2026.05 Xiaohongshu / Cambridge arXiv 2605.07177 HyperEyes — parallel multimodal search agent with dual-grained efficiency-aware RL (TRACE + OPD)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1233709504,
+            "language": "Python",
+            "last_commit": "2026-05-23T11:17:58Z",
+            "owner": "DeepExperience",
+            "repo": "HyperEyes",
+            "stars": 74
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SDAR",
+          "description": "2026.05 ZJU-REAL / Meituan arXiv 2605.15155 SDAR — Self-Distilled Agentic RL; multi-turn agent rolls out, a privileged-context self-teacher gives gated token-level OPSD as an auxiliary objective while RL stays the primary backbone (ALFWorld, WebShop, Search-QA)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1238996909,
+            "language": "Python",
+            "last_commit": "2026-08-19T10:54:41Z",
+            "owner": "ZJU-REAL",
+            "repo": "SDAR",
+            "stars": 347
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "KbSD",
+          "description": "2026.06 ZJU / PKU arXiv 2606.29863 KbSD — Knowledge Boundary aware Self-Distillation; a structured boundary hint (parametric certainty, semantic stability, retrieval quality) is privileged context, and the divergence direction itself is chosen per behavioural quadrant. Unreliability rate −17 points at both 3B and 7B",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 949781429,
+            "language": "Python",
+            "last_commit": "2026-06-29T06:37:24Z",
+            "owner": "jiangxinke",
+            "repo": "Agentic-RAG-R1",
+            "stars": 433
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SEED",
+          "description": "2026.07 Tsinghua / ZJU / CUHK / NTU / Tongji arXiv 2607.14777 SEED — Self-Evolving OPD for Agentic RL; the policy becomes its own trajectory analyzer, converting completed rollouts into hindsight skills that condition a self-teacher. ALFWorld 91.8 vs 75.0 GRPO and 84.4 SDAR; matches full-data GRPO with 60% of the data",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1299266129,
+            "language": "Python",
+            "last_commit": "2026-07-17T05:22:51Z",
+            "owner": "jinyangwu",
+            "repo": "SEED",
+            "stars": 247
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ReOPD",
+          "description": "2026.07 Microsoft Research / Univ. of Amsterdam arXiv 2607.04763 ReOPD — Multi-Turn OPD with Prefix Replay; reuses pre-collected teacher prefixes so the student acts at one step per sample and never queries the environment (zero tool calls, ≥4× faster). Beats fully online OPD on math (57.2 vs 55.1) ⚠️ see strictness note",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1294651771,
+            "language": "Python",
+            "last_commit": "2026-07-26T11:48:42Z",
+            "owner": "BaohaoLiao",
+            "repo": "ReOPD",
+            "stars": 27
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "UI-MOPD",
+          "description": "2026.07 Tsinghua SIGS / Xiaomi / HIT-SZ / ZJU / Peng Cheng Lab arXiv 2607.04425 UI-MOPD — Multi-Platform OPD for Continual GUI Agents; replaces GRPO's KL term with a platform-routed teacher penalty, masked off wherever task reward is already strong. Fixes the cross-platform forgetting that makes single-platform SFT collapse the other platform to 0%",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1281996945,
+            "language": "Python",
+            "last_commit": "2026-08-10T10:13:54Z",
+            "owner": "EliSpectre",
+            "repo": "UI-MOPD",
+            "stars": 59
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GUI-SD",
+          "description": "2026.05 IIE CAS / Nankai arXiv 2605.00642 Learn where to Click from Yourself — first OPSD for GUI grounding; teacher gets visually privileged context (ground-truth bbox + Gaussian soft-mask zoom) and supervision is positionally-weighted reverse KL per coordinate digit token. ScreenSpot-Pro 60.7% at 4× faster training than GRPO",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1228512152,
+            "language": "Python",
+            "last_commit": "2026-05-06T03:05:39Z",
+            "owner": "zhangyan-ucas",
+            "repo": "GUI-SD-code",
+            "stars": 13
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SOD",
+          "description": "2026.05 Tencent / ZJU / USTC / NUS arXiv 2605.07725 Step-wise OPD for Small Language Model Agents; step weights from the ratio of consecutive per-step divergences attenuate supervision after tool-call errors cause drift. A 0.6B student reaches 26.13% avg@32 on AIME 2025",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1232776063,
+            "language": "Python",
+            "last_commit": "2026-05-22T05:29:34Z",
+            "owner": "YoungZ365",
+            "repo": "SOD",
+            "stars": 158
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MGSD",
+          "description": "2026.06 Tsinghua / HKUST arXiv 2606.06076 Modality-Gap-Aware Self-Distillation; a frozen text-only teacher conditioned on privileged symbolic state supervises an image-conditioned student, with symbolic context discarded at inference. Macro avg 17.2→35.6",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1258946398,
+            "language": "Python",
+            "last_commit": "2026-06-05T03:14:56Z",
+            "owner": "Oranger-l",
+            "repo": "MGSD",
+            "stars": 23
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OPD-Evolver",
+          "description": "2026.06 LV-NUS Lab / Fudan / PKU / ByteDance arXiv 2606.17628 Cultivating Holistic Agent Evolver via OPD; outcome-calibrated memory-value attribution turns delayed reward into hindsight context for a privileged teacher over a 4-tier agent memory. 9B beats Step-3.5-Flash (196B) on 9/10 subsets",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1249873581,
+            "language": "Python",
+            "last_commit": "2026-06-17T01:47:48Z",
+            "owner": "bingreeky",
+            "repo": "opd-evolver",
+            "stars": 42
+          }
+        }
+      ],
+      "title": "🤖 Agent & Embodied OPD (by application)"
+    },
+    {
+      "description": "Distillation of the draft model so it better mimics the verifier/target. The on-policy element here is over the drafter's own continuations as judged by the target. Listed separately because the goal is inference speedup, not student capability.\nThis section only lists drafters trained with the drafter's own rollouts. Off-policy drafter training (EAGLE-1/2, Medusa, Hydra, Kangaroo, ReDrafter, BiTA, SpecDec++, LayerSkip, FREE, AdaSPEC, POSS) and training-free system tricks (Ouroboros, Sequoia, TriForce, SwiftKV, SuffixDecoding) are excluded.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "OSD",
+          "description": "2023.10 UCB / NVIDIA arXiv 2310.07177 Online Speculative Decoding",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 673959226,
+            "language": "Python",
+            "last_commit": "2024-12-03T06:34:57Z",
+            "owner": "LiuXiaoxuanPKU",
+            "repo": "OSD",
+            "stars": 68
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "HASS",
+          "description": "2024.08 Academic arXiv 2408.15766 HASS",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 863937959,
+            "language": "Python",
+            "last_commit": "2025-03-14T03:13:35Z",
+            "owner": "HArmonizedSS",
+            "repo": "HASS",
+            "stars": 56
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Falcon",
+          "description": "2024.12 Bestpay arXiv 2412.12639 Falcon",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 969942343,
+            "language": "Python",
+            "last_commit": "2025-04-21T07:40:26Z",
+            "owner": "Bestpay-inc",
+            "repo": "Falcon",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EAGLE",
+          "description": "2025.03 PKU / Microsoft EAGLE-3 EAGLE-3 — on-policy multi-step TTT",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 728820625,
+            "language": "Python",
+            "last_commit": "2026-02-20T02:53:29Z",
+            "owner": "SafeAILab",
+            "repo": "EAGLE",
+            "stars": 2509
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SpecForge",
+          "description": "2026.03 SGLang LMSYS blog SpecForge — open EAGLE-3 training framework",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 998697045,
+            "language": "Python",
+            "last_commit": "2026-08-24T04:11:33Z",
+            "owner": "sgl-project",
+            "repo": "SpecForge",
+            "stars": 1116
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Draft-OPD",
+          "description": "2026.05 SJTU / Shanghai AI Lab / Tsinghua / CUHK / PKU / ZJU arXiv 2605.29343 Draft-OPD — on-policy distillation for speculative draft models; target supervises the drafter on draft-induced states, replaying from verification-exposed error positions; ~5× lossless speedup, beats EAGLE-3/DFlash",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1249299225,
+            "language": "Python",
+            "last_commit": "2026-08-14T16:36:33Z",
+            "owner": "Simplified-Reasoning",
+            "repo": "Draft-OPD",
+            "stars": 66
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PIPO",
+          "description": "2026.05 RUC / Xiaohongshu / UESTC / CASIA arXiv 2605.27255 Pair-In, Pair-Out — Latent Multi-Token Prediction; the compressed-pair drafter is trained by OPD against the uncompressed backbone, and a confidence head is learned for free from the same probability ratio the SD acceptance test uses — removing the verifier forward pass. 2.64× TTFT",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1252153392,
+            "language": "Python",
+            "last_commit": "2026-06-10T08:29:25Z",
+            "owner": "redai-infra",
+            "repo": "PIPO",
+            "stars": 42
+          }
+        }
+      ],
+      "title": "⚡ Speculative-Decoding Distillation"
+    },
+    {
+      "description": "Open-source frameworks / libraries that support OPD (with student-generated rollouts during distillation training).",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "trl",
+          "description": "2019.11 Hugging Face TRL — the most diverse OPD trainer collection",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 250510075,
+            "language": "Python",
+            "last_commit": "2026-08-24T14:18:52Z",
+            "owner": "huggingface",
+            "repo": "trl",
+            "stars": 19144
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LLaMA-Factory",
+          "description": "2023.05 hiyouga — LLaMA-Factory — OPD only via TRL integration; not native",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 646410686,
+            "language": "Python",
+            "last_commit": "2026-08-20T10:53:39Z",
+            "owner": "hiyouga",
+            "repo": "LlamaFactory",
+            "stars": 74310
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ms-swift",
+          "description": "2024 Alibaba ModelScope , multimodal/megatron variants ms-swift — wraps TRL",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 673412924,
+            "language": "Python",
+            "last_commit": "2026-08-24T11:08:59Z",
+            "owner": "modelscope",
+            "repo": "ms-swift",
+            "stars": 15341
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "verl",
+          "description": "2024.10 ByteDance Seed ; Async OPD doc verl",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 881221486,
+            "language": "Python",
+            "last_commit": "2026-08-24T14:11:26Z",
+            "owner": "verl-project",
+            "repo": "verl",
+            "stars": 23105
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "rllm",
+          "description": "2025.01 UC Berkeley Sky (incl. self-distill); rllm",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 922406522,
+            "language": "Python",
+            "last_commit": "2026-08-24T06:46:08Z",
+            "owner": "rllm-org",
+            "repo": "rllm",
+            "stars": 5797
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SkyRL",
+          "description": "2025.04 UC Berkeley NovaSky ; blog SkyRL",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 970890722,
+            "language": "Python",
+            "last_commit": "2026-08-22T01:02:39Z",
+            "owner": "NovaSky-AI",
+            "repo": "SkyRL",
+            "stars": 2190
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ROLL",
+          "description": "2025.06 Alibaba ROLL — with VLM support and various-divergence library",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 991939049,
+            "language": "Python",
+            "last_commit": "2026-08-24T10:12:14Z",
+            "owner": "alibaba",
+            "repo": "ROLL",
+            "stars": 3371
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "AReaL",
+          "description": "2025.06 AntGroup / Tsinghua AReaL",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 937952934,
+            "language": "Python",
+            "last_commit": "2026-08-24T12:49:05Z",
+            "owner": "areal-project",
+            "repo": "AReaL",
+            "stars": 5687
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "slime",
+          "description": "2025.06 Tsinghua THUDM slime — RL framework behind GLM-4.5/4.6/4.7",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1004140701,
+            "language": "Python",
+            "last_commit": "2026-08-24T14:14:52Z",
+            "owner": "THUDM",
+            "repo": "slime",
+            "stars": 8230
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RL",
+          "description": "2026.01 NVIDIA NeMo-RL — native OPD with student rollouts",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 949546994,
+            "language": "Python",
+            "last_commit": "2026-08-24T11:23:13Z",
+            "owner": "NVIDIA-NeMo",
+            "repo": "RL",
+            "stars": 1951
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "KDFlow",
+          "description": "2026.03 BJTU (Songming Zhang et al.) (LLM + Qwen3-VL); arXiv 2603.01875 KDFlow — KD-first framework; SGLang teacher + FSDP2 student decoupled; cross-tokenizer & VLM native",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1168545491,
+            "language": "Python",
+            "last_commit": "2026-08-22T16:15:21Z",
+            "owner": "songmzhang",
+            "repo": "KDFlow",
+            "stars": 242
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "spider",
+          "description": "2025.10 Collinear AI , ; recipes Spider — on/off-policy distillation engine; OPD in sandboxed multi-turn / tool / SWE-agent environments, with cross-tokenizer chat-template realignment (e.g. Qwen3-8B ← Kimi-K2-Thinking)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1081541077,
+            "language": "Python",
+            "last_commit": "2026-08-05T19:40:45Z",
+            "owner": "collinear-ai",
+            "repo": "spider",
+            "stars": 109
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "async-opd",
+          "description": "2026.06 FuriosaAI (+ Ajou / Berkeley / MSR / KRAFTON) arXiv 2606.24143 AsyncOPD — How Stale Can OPD Be?; fully asynchronous rollout ∥ teacher-scoring ∥ learner pipeline. Finds forward KL is staleness-robust while reverse KL is not, and that recomputing the RKL signal under the current student beats generic async-RL fixes. 1.6–3.8× throughput",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1276546290,
+            "language": "Python",
+            "last_commit": "2026-06-29T00:34:25Z",
+            "owner": "furiosa-ai",
+            "repo": "async-opd",
+            "stars": 34
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EasyOPD",
+          "description": "2026.07 USTC / Tencent / Shanghai Innovation Institute / NUS arXiv 2607.11012 EasyOPD — verl-based unified OPD framework; factors the method landscape into five extension points (loss, rollout metadata, reward, tokenizer alignment, teacher sidecar) so cross-tokenizer OPD, OPSD and step-wise OPD share one backend, selected by YAML",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1239467538,
+            "language": "Python",
+            "last_commit": "2026-07-13T03:04:29Z",
+            "owner": "lds-ustc",
+            "repo": "EasyOPD",
+            "stars": 68
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EffOPD",
+          "description": "2026.05 USTC / Tencent / SHU / NUS / HKUST(GZ) / IIE-UCAS arXiv 2605.11739 Learning to Foresee — shows OPD updates are low-rank and early-stabilized (\"foresight\") unlike RL, then extrapolates along the early update direction to cut training steps ~3×",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1236352182,
+            "language": "Python",
+            "last_commit": "2026-05-16T02:38:10Z",
+            "owner": "caiyuchen-ustc",
+            "repo": "EffOPD",
+            "stars": 75
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SAfactory",
+          "description": "2026.05 Shanghai AI Laboratory / DeepLink arXiv 2605.06230 SAfactory — agent-safety infrastructure whose Autonomous Evolution Platform ships an optional OPD plugin (teacher token log-probs + reverse-KL regularization inside agentic RL) ⚠️ OPD is one module, with no standalone ablation",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1219608640,
+            "language": "Python",
+            "last_commit": "2026-08-24T10:37:57Z",
+            "owner": "AI45Lab",
+            "repo": "SAfactory",
+            "stars": 197
+          }
+        }
+      ],
+      "title": "🛠️ Frameworks & Toolkits"
+    },
+    {
+      "description": "Flagship model technical reports that publicly describe on-policy distillation in their post-training pipeline. Reports whose tech papers don't actually describe student-rollout distillation (Qwen2.5, Qwen2.5-Math, MiMo predecessor, DeepSeek-V3 / V3.2-Exp / R1, Phi-4, Hunyuan-Large / A13B, Kimi-K2 / K2.5, Yi-Lightning, DistilQwen) are excluded.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "gemma",
+          "description": "2024.08 Google DeepMind arXiv 2408.00118 Gemma 2 (explicit OPD)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 760683276,
+            "language": "Python",
+            "last_commit": "2026-08-21T03:19:46Z",
+            "owner": "google-deepmind",
+            "repo": "gemma",
+            "stars": 5691
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Qwen3",
+          "description": "2025.05 Alibaba Qwen arXiv 2505.09388 Qwen3 (canonical OPD recipe)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 752925682,
+            "language": "Python",
+            "last_commit": "2026-01-09T03:05:47Z",
+            "owner": "QwenLM",
+            "repo": "Qwen3",
+            "stars": 27553
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GLM-4.5",
+          "description": "2025.08 Zhipu / Z.ai arXiv 2508.06471 GLM-4.5 / 4.6",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1022984892,
+            "language": "Python",
+            "last_commit": "2026-02-01T08:28:10Z",
+            "owner": "zai-org",
+            "repo": "GLM-4.5",
+            "stars": 4413
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "HY-MT",
+          "description": "2025.12 Tencent Hunyuan arXiv 2512.24092 · HF 1.8B · HF 7B strong-to-weak distillation for MT",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1123126254,
+            "language": "Python",
+            "last_commit": "2026-06-01T11:38:04Z",
+            "owner": "Tencent-Hunyuan",
+            "repo": "Hy-MT",
+            "stars": 805
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MiMo-V2-Flash",
+          "description": "2026.01 Xiaomi arXiv 2601.02780 MiMo-V2-Flash (MOPD)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1116967234,
+            "language": null,
+            "last_commit": "2026-01-08T04:53:37Z",
+            "owner": "XiaomiMiMo",
+            "repo": "MiMo-V2-Flash",
+            "stars": 1367
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Baichuan-M3-235B",
+          "description": "2026.02 Baichuan arXiv 2602.06570 · HF Collection Baichuan-M3 (learn critically from multi-teacher OPD)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1132725059,
+            "language": "Python",
+            "last_commit": "2026-02-09T06:48:26Z",
+            "owner": "baichuan-inc",
+            "repo": "Baichuan-M3-235B",
+            "stars": 256
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GLM-5",
+          "description": "2026.02 Zhipu / Z.ai arXiv 2602.15763 GLM-5 (cross-stage OPD)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1153372704,
+            "language": null,
+            "last_commit": "2026-08-11T06:36:36Z",
+            "owner": "zai-org",
+            "repo": "GLM-5",
+            "stars": 7033
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Qwen3-Coder",
+          "description": "2026.03 Alibaba Qwen Tech report Qwen3-Coder",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 787368344,
+            "language": "Python",
+            "last_commit": "2026-03-24T08:22:10Z",
+            "owner": "QwenLM",
+            "repo": "Qwen3-Coder",
+            "stars": 16809
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "HY-Embodied",
+          "description": "2026.04 Tencent Hunyuan arXiv 2604.07430 HY-Embodied-0.5 (FKL embodied distillation)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1202005530,
+            "language": "Python",
+            "last_commit": "2026-07-15T11:54:12Z",
+            "owner": "Tencent-Hunyuan",
+            "repo": "HY-Embodied",
+            "stars": 855
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Agents-A1",
+          "description": "2026.06 Shanghai AI Laboratory arXiv 2606.30616 · HF Collection Agents-A1 (35B MoE) — Domain-Routed OPD with Salient Vocabulary Alignment: truncated reverse KL over a teacher-selected top-k support, with domain-normalised aggregation. Beats 1T-class models on SEAL-0 / IFBench / HiPhO",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1277510172,
+            "language": "Python",
+            "last_commit": "2026-07-16T14:13:54Z",
+            "owner": "InternScience",
+            "repo": "Agents-A1",
+            "stars": 549
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Kwai Keye-VL-2.0",
+          "description": "2026.06 Kuaishou (Keye Team) arXiv 2606.10651 Kwai Keye-VL-2.0 (30B-A3B MoE) — Cross-Modal MOPD over 13 RL-trained domain experts, the largest teacher pool of any report here; top-k-overlap advantage on student-visited states. SOTA long-video understanding at its scale",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1008200939,
+            "language": "Python",
+            "last_commit": "2026-06-10T04:16:00Z",
+            "owner": "Kwai-Keye",
+            "repo": "Keye",
+            "stars": 807
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Nemotron 3 Ultra",
+          "description": "2026.06 NVIDIA arXiv 2606.15007 Nemotron 3 Ultra — SFT → RLVR → 2 iterations of MOPD over 10+ domain teachers, run asynchronously with PPO-style clipping around a proximal policy; the report frames MOPD explicitly as the dense-supervision answer to sparse RLVR reward. SWE-Bench Verified 70.7",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1069235905,
+            "language": "Jupyter Notebook",
+            "last_commit": "2026-08-21T21:29:19Z",
+            "owner": "NVIDIA-NeMo",
+            "repo": "Nemotron",
+            "stars": 1967
+          }
+        }
+      ],
+      "title": "🏭 Industrial / Production Model Reports"
+    },
+    {
+      "description": "Opinionated reading order for someone starting an OPD project today.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "3",
+          "description": "Reproducible OPD in <200 lines on a real training stack. tinker-cookbook recipes/distillation",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1019793048,
+            "language": "Python",
+            "last_commit": "2026-08-24T06:32:00Z",
+            "owner": "thinking-machines-lab",
+            "repo": "tinker-cookbook",
+            "stars": 4048
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "8",
+          "description": "Most diverse open-source OPD trainer collection. TRL",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 250510075,
+            "language": "Python",
+            "last_commit": "2026-08-24T14:18:52Z",
+            "owner": "huggingface",
+            "repo": "trl",
+            "stars": 19144
+          }
+        }
+      ],
+      "title": "🌟 Curator's Picks — where to start"
+    }
+  ],
   "metadata": {
-    "last_updated": "2026-08-24T03:27:41.660Z",
+    "last_updated": "2026-08-24T14:18:52.541Z",
     "original_repository": "thinkwee/AwesomeOPD",
     "original_repository_id": 1222978157,
     "original_repository_sha": "3731c2a6f723c7bc224640f3cb65801d4c61f339",
