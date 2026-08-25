@@ -12,10 +12,10 @@
             "archived": false,
             "id": 250510075,
             "language": "Python",
-            "last_commit": "2026-08-25T03:12:15Z",
+            "last_commit": "2026-08-25T05:31:33Z",
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19146
+            "stars": 19147
           }
         },
         {
@@ -75,7 +75,7 @@
             "last_commit": "2026-08-20T18:23:50Z",
             "owner": "thunlp",
             "repo": "OPD",
-            "stars": 949
+            "stars": 951
           }
         },
         {
@@ -171,7 +171,7 @@
             "last_commit": "2026-08-21T19:58:51Z",
             "owner": "google-research",
             "repo": "google-research",
-            "stars": 38612
+            "stars": 38614
           }
         },
         {
@@ -426,7 +426,7 @@
             "last_commit": "2026-08-03T02:39:25Z",
             "owner": "sunjie279",
             "repo": "SimCT-",
-            "stars": 22
+            "stars": 23
           }
         },
         {
@@ -456,7 +456,7 @@
             "last_commit": "2026-05-25T15:57:42Z",
             "owner": "wyy-code",
             "repo": "TA-OPD",
-            "stars": 14
+            "stars": 15
           }
         },
         {
@@ -618,7 +618,7 @@
             "last_commit": "2026-05-10T05:46:29Z",
             "owner": "siyan-zhao",
             "repo": "OPSD",
-            "stars": 587
+            "stars": 588
           }
         },
         {
@@ -675,10 +675,10 @@
             "archived": false,
             "id": 1004147641,
             "language": "Python",
-            "last_commit": "2026-08-24T09:02:08Z",
+            "last_commit": "2026-08-25T03:40:52Z",
             "owner": "microsoft",
             "repo": "agent-lightning",
-            "stars": 17740
+            "stars": 17748
           }
         },
         {
@@ -773,7 +773,7 @@
         },
         {
           "node_type": "item",
-          "title": "CODE",
+          "title": "CrashBugger/CODE",
           "description": "2026.05 USTC arXiv 2605.28303 CODE — OPSD on Knowledge Editing + Casual Editing",
           "children": [],
           "repo_info": {
@@ -798,7 +798,7 @@
             "last_commit": "2026-08-21T03:13:30Z",
             "owner": "THU-BPM",
             "repo": "RLCSD",
-            "stars": 95
+            "stars": 94
           }
         },
         {
@@ -1231,7 +1231,7 @@
             "last_commit": "2026-07-01T13:51:47Z",
             "owner": "lasgroup",
             "repo": "SDPO",
-            "stars": 1074
+            "stars": 1075
           }
         },
         {
@@ -1447,7 +1447,7 @@
             "last_commit": "2026-08-20T18:23:50Z",
             "owner": "thunlp",
             "repo": "OPD",
-            "stars": 949
+            "stars": 951
           }
         }
       ],
@@ -1588,7 +1588,7 @@
             "last_commit": "2026-07-28T15:31:47Z",
             "owner": "eVI-group-SCU",
             "repo": "V-Zero",
-            "stars": 44
+            "stars": 47
           }
         },
         {
@@ -1768,7 +1768,7 @@
             "last_commit": "2026-07-02T03:20:41Z",
             "owner": "OpenGVLab",
             "repo": "InternVideo",
-            "stars": 2366
+            "stars": 2367
           }
         }
       ],
@@ -1831,10 +1831,10 @@
             "archived": false,
             "id": 1004147641,
             "language": "Python",
-            "last_commit": "2026-08-24T09:02:08Z",
+            "last_commit": "2026-08-25T03:40:52Z",
             "owner": "microsoft",
             "repo": "agent-lightning",
-            "stars": 17740
+            "stars": 17748
           }
         },
         {
@@ -2092,7 +2092,7 @@
             "archived": false,
             "id": 998697045,
             "language": "Python",
-            "last_commit": "2026-08-24T23:40:56Z",
+            "last_commit": "2026-08-25T03:39:34Z",
             "owner": "sgl-project",
             "repo": "SpecForge",
             "stars": 1116
@@ -2137,16 +2137,16 @@
         {
           "node_type": "item",
           "title": "trl",
-          "description": "2019.11 Hugging Face TRL — the most diverse OPD trainer collection",
+          "description": "2019.11 Hugging Face  TRL — the most diverse OPD trainer collection",
           "children": [],
           "repo_info": {
             "archived": false,
             "id": 250510075,
             "language": "Python",
-            "last_commit": "2026-08-25T03:12:15Z",
+            "last_commit": "2026-08-25T05:31:33Z",
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19146
+            "stars": 19147
           }
         },
         {
@@ -2161,7 +2161,7 @@
             "last_commit": "2026-08-20T10:53:39Z",
             "owner": "hiyouga",
             "repo": "LlamaFactory",
-            "stars": 74329
+            "stars": 74336
           }
         },
         {
@@ -2176,7 +2176,7 @@
             "last_commit": "2026-08-24T11:08:59Z",
             "owner": "modelscope",
             "repo": "ms-swift",
-            "stars": 15347
+            "stars": 15348
           }
         },
         {
@@ -2188,10 +2188,10 @@
             "archived": false,
             "id": 881221486,
             "language": "Python",
-            "last_commit": "2026-08-25T01:20:06Z",
+            "last_commit": "2026-08-25T05:36:18Z",
             "owner": "verl-project",
             "repo": "verl",
-            "stars": 23114
+            "stars": 23116
           }
         },
         {
@@ -2227,7 +2227,7 @@
         {
           "node_type": "item",
           "title": "ROLL",
-          "description": "2025.06 Alibaba ROLL — with VLM support and various-divergence library",
+          "description": "2025.06 Alibaba  ROLL — with VLM support and various-divergence library",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -2236,19 +2236,19 @@
             "last_commit": "2026-08-25T01:34:29Z",
             "owner": "alibaba",
             "repo": "ROLL",
-            "stars": 3372
+            "stars": 3371
           }
         },
         {
           "node_type": "item",
           "title": "AReaL",
-          "description": "2025.06 AntGroup / Tsinghua AReaL",
+          "description": "2025.06 AntGroup / Tsinghua  AReaL",
           "children": [],
           "repo_info": {
             "archived": false,
             "id": 937952934,
             "language": "Python",
-            "last_commit": "2026-08-25T03:16:10Z",
+            "last_commit": "2026-08-25T06:05:58Z",
             "owner": "areal-project",
             "repo": "AReaL",
             "stars": 5689
@@ -2257,28 +2257,28 @@
         {
           "node_type": "item",
           "title": "slime",
-          "description": "2025.06 Tsinghua THUDM slime — RL framework behind GLM-4.5/4.6/4.7",
+          "description": "2025.06 Tsinghua THUDM  slime — RL framework behind GLM-4.5/4.6/4.7",
           "children": [],
           "repo_info": {
             "archived": false,
             "id": 1004140701,
             "language": "Python",
-            "last_commit": "2026-08-25T03:06:32Z",
+            "last_commit": "2026-08-25T05:32:57Z",
             "owner": "THUDM",
             "repo": "slime",
-            "stars": 8237
+            "stars": 8236
           }
         },
         {
           "node_type": "item",
           "title": "RL",
-          "description": "2026.01 NVIDIA NeMo-RL — native OPD with student rollouts",
+          "description": "2026.01 NVIDIA  NeMo-RL — native OPD with student rollouts",
           "children": [],
           "repo_info": {
             "archived": false,
             "id": 949546994,
             "language": "Python",
-            "last_commit": "2026-08-25T03:15:42Z",
+            "last_commit": "2026-08-25T06:07:27Z",
             "owner": "NVIDIA-NeMo",
             "repo": "RL",
             "stars": 1952
@@ -2482,7 +2482,7 @@
             "last_commit": "2026-08-11T06:36:36Z",
             "owner": "zai-org",
             "repo": "GLM-5",
-            "stars": 7037
+            "stars": 7039
           }
         },
         {
@@ -2497,7 +2497,7 @@
             "last_commit": "2026-03-24T08:22:10Z",
             "owner": "QwenLM",
             "repo": "Qwen3-Coder",
-            "stars": 16809
+            "stars": 16808
           }
         },
         {
@@ -2512,7 +2512,7 @@
             "last_commit": "2026-07-15T11:54:12Z",
             "owner": "Tencent-Hunyuan",
             "repo": "HY-Embodied",
-            "stars": 855
+            "stars": 856
           }
         },
         {
@@ -2557,7 +2557,7 @@
             "last_commit": "2026-08-21T21:29:19Z",
             "owner": "NVIDIA-NeMo",
             "repo": "Nemotron",
-            "stars": 1972
+            "stars": 1973
           }
         }
       ],
@@ -2568,8 +2568,8 @@
       "items": [
         {
           "node_type": "item",
-          "title": "3",
-          "description": "Reproducible OPD in <200 lines on a real training stack. tinker-cookbook recipes/distillation",
+          "title": "tinker-cookbook recipes/distillation",
+          "description": "Reproducible OPD in <200 lines on a real training stack.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -2583,17 +2583,17 @@
         },
         {
           "node_type": "item",
-          "title": "8",
-          "description": "Most diverse open-source OPD trainer collection. TRL",
+          "title": "TRL",
+          "description": "Most diverse open-source OPD trainer collection.",
           "children": [],
           "repo_info": {
             "archived": false,
             "id": 250510075,
             "language": "Python",
-            "last_commit": "2026-08-25T03:12:15Z",
+            "last_commit": "2026-08-25T05:31:33Z",
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19146
+            "stars": 19147
           }
         }
       ],
@@ -2601,7 +2601,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T03:16:17.682Z",
+    "last_updated": "2026-08-25T06:09:41.881Z",
     "original_repository": "thinkwee/AwesomeOPD",
     "original_repository_id": 1222978157,
     "original_repository_sha": "3731c2a6f723c7bc224640f3cb65801d4c61f339",
