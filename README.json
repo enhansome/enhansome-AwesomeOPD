@@ -15,11 +15,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T06:10:40Z",
-            "open_issues": 300,
+            "last_commit": "2026-09-01T05:27:14Z",
+            "open_issues": 307,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19185,
+            "stars": 19192,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -36,11 +36,11 @@
             "id": 1019793048,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T06:42:44Z",
-            "open_issues": 113,
+            "last_commit": "2026-09-01T06:37:20Z",
+            "open_issues": 112,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4073,
+            "stars": 4078,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -57,11 +57,11 @@
             "id": 1019793048,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T06:42:44Z",
-            "open_issues": 113,
+            "last_commit": "2026-09-01T06:37:20Z",
+            "open_issues": 112,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4073,
+            "stars": 4078,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -247,11 +247,11 @@
             "id": 151619717,
             "language": "Jupyter Notebook",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T07:36:52Z",
+            "last_commit": "2026-08-31T14:53:17Z",
             "open_issues": 1989,
             "owner": "google-research",
             "repo": "google-research",
-            "stars": 38658,
+            "stars": 38664,
             "topics": [
               "ai",
               "machine-learning",
@@ -570,7 +570,7 @@
             "open_issues": 2,
             "owner": "BytedTsinghua-SIA",
             "repo": "Direct-OPD",
-            "stars": 87,
+            "stars": 88,
             "topics": [
               "direct-opd",
               "on-policy-distillation",
@@ -665,7 +665,7 @@
             "open_issues": 1,
             "owner": "wyy-code",
             "repo": "TA-OPD",
-            "stars": 15,
+            "stars": 17,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -728,7 +728,7 @@
             "open_issues": 0,
             "owner": "chiefovoavicii",
             "repo": "MAD-OPD",
-            "stars": 36,
+            "stars": 37,
             "topics": [
               "agentic-ai",
               "multi-agent-systems",
@@ -751,7 +751,7 @@
             "language": null,
             "license": null,
             "last_commit": "2026-08-09T19:37:55Z",
-            "open_issues": 2,
+            "open_issues": 1,
             "owner": "Yu-Fangxu",
             "repo": "W2S-OPD",
             "stars": 29,
@@ -885,7 +885,7 @@
             "open_issues": 0,
             "owner": "HuipengHuang",
             "repo": "TA-OPD",
-            "stars": 1,
+            "stars": 2,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -906,7 +906,7 @@
             "open_issues": 1,
             "owner": "BytedTsinghua-SIA",
             "repo": "Open-MOPD",
-            "stars": 58,
+            "stars": 59,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1056,7 +1056,7 @@
             "open_issues": 7,
             "owner": "siyan-zhao",
             "repo": "OPSD",
-            "stars": 602,
+            "stars": 605,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1149,10 +1149,10 @@
             "language": "Python",
             "license": "MIT",
             "last_commit": "2026-08-28T08:29:12Z",
-            "open_issues": 158,
+            "open_issues": 159,
             "owner": "microsoft",
             "repo": "agent-lightning",
-            "stars": 17933,
+            "stars": 17939,
             "topics": [
               "agent",
               "agentic-ai",
@@ -1344,7 +1344,7 @@
             "open_issues": 1,
             "owner": "THU-BPM",
             "repo": "RLCSD",
-            "stars": 96,
+            "stars": 98,
             "topics": [
               "large-language-models",
               "llm",
@@ -1423,7 +1423,7 @@
             "open_issues": 7,
             "owner": "VisionOPD",
             "repo": "Vision-OPD",
-            "stars": 294,
+            "stars": 296,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1444,7 +1444,7 @@
             "open_issues": 0,
             "owner": "vvvvvjdy",
             "repo": "D-OPSD",
-            "stars": 318,
+            "stars": 320,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1545,7 +1545,7 @@
             "id": 1302362085,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T05:58:10Z",
+            "last_commit": "2026-09-01T05:41:30Z",
             "open_issues": 0,
             "owner": "princeton-pli",
             "repo": "rethinking-opsd-for-thinking-models",
@@ -1843,7 +1843,7 @@
             "open_issues": 0,
             "owner": "bingreeky",
             "repo": "LOPD",
-            "stars": 52,
+            "stars": 54,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -2223,7 +2223,7 @@
             "open_issues": 12,
             "owner": "Gen-Verse",
             "repo": "Open-AgentRL",
-            "stars": 625,
+            "stars": 627,
             "topics": [
               "agent-rl",
               "coding-agent",
@@ -2277,7 +2277,7 @@
             "open_issues": 75,
             "owner": "Gen-Verse",
             "repo": "OpenClaw-RL",
-            "stars": 5661,
+            "stars": 5662,
             "topics": [
               "async",
               "coding",
@@ -2333,7 +2333,7 @@
             "open_issues": 1,
             "owner": "jinyangwu",
             "repo": "OPID",
-            "stars": 119,
+            "stars": 123,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -2522,7 +2522,7 @@
             "open_issues": 1,
             "owner": "LeapLabTHU",
             "repo": "OPDVR",
-            "stars": 15,
+            "stars": 17,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -2674,7 +2674,7 @@
             "open_issues": 5,
             "owner": "CostaliyA",
             "repo": "Flow-OPD",
-            "stars": 297,
+            "stars": 298,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -2737,7 +2737,7 @@
             "open_issues": 7,
             "owner": "VisionOPD",
             "repo": "Vision-OPD",
-            "stars": 294,
+            "stars": 296,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -2823,8 +2823,13 @@
             "open_issues": 1,
             "owner": "MeiGen-AI",
             "repo": "OPSD-V",
-            "stars": 609,
-            "topics": []
+            "stars": 613,
+            "topics": [
+              "autoregressive-generation",
+              "opsd",
+              "posttraining",
+              "video-generation"
+            ]
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
         },
@@ -3134,11 +3139,11 @@
             "id": 1330061597,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-10T17:04:08Z",
-            "open_issues": 1,
+            "last_commit": "2026-09-01T07:09:54Z",
+            "open_issues": 0,
             "owner": "withTai",
             "repo": "ADOPD",
-            "stars": 1,
+            "stars": 4,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3180,7 +3185,7 @@
             "open_issues": 0,
             "owner": "nv-tlabs",
             "repo": "cmd",
-            "stars": 51,
+            "stars": 52,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3299,10 +3304,10 @@
             "language": "Python",
             "license": "MIT",
             "last_commit": "2026-08-28T08:29:12Z",
-            "open_issues": 158,
+            "open_issues": 159,
             "owner": "microsoft",
             "repo": "agent-lightning",
-            "stars": 17933,
+            "stars": 17939,
             "topics": [
               "agent",
               "agentic-ai",
@@ -3329,7 +3334,7 @@
             "open_issues": 75,
             "owner": "Gen-Verse",
             "repo": "OpenClaw-RL",
-            "stars": 5661,
+            "stars": 5662,
             "topics": [
               "async",
               "coding",
@@ -3552,7 +3557,7 @@
             "open_issues": 10,
             "owner": "YoungZ365",
             "repo": "SOD",
-            "stars": 159,
+            "stars": 162,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3657,7 +3662,7 @@
             "open_issues": 9,
             "owner": "ZethWang",
             "repo": "AgentOPSD",
-            "stars": 60,
+            "stars": 61,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3678,7 +3683,7 @@
             "open_issues": 0,
             "owner": "bingreeky",
             "repo": "LOPD",
-            "stars": 52,
+            "stars": 54,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3789,7 +3794,7 @@
             "open_issues": 101,
             "owner": "SafeAILab",
             "repo": "EAGLE",
-            "stars": 2516,
+            "stars": 2517,
             "topics": [
               "large-language-models",
               "llm-inference",
@@ -3810,11 +3815,11 @@
             "id": 998697045,
             "language": "Python",
             "license": "MIT",
-            "last_commit": "2026-08-30T10:27:56Z",
-            "open_issues": 158,
+            "last_commit": "2026-09-01T00:40:49Z",
+            "open_issues": 157,
             "owner": "sgl-project",
             "repo": "SpecForge",
-            "stars": 1134,
+            "stars": 1137,
             "topics": [
               "eagle",
               "eagle3",
@@ -3862,7 +3867,7 @@
             "license": "Apache-2.0",
             "last_commit": "2026-06-10T08:29:25Z",
             "open_issues": 0,
-            "owner": "red-ai-studio",
+            "owner": "redai-studio",
             "repo": "PIPO",
             "stars": 42,
             "topics": []
@@ -3885,7 +3890,7 @@
             "open_issues": 5,
             "owner": "Tencent",
             "repo": "AngelSpec",
-            "stars": 237,
+            "stars": 240,
             "topics": [
               "d-cut",
               "dflash",
@@ -3914,11 +3919,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T06:10:40Z",
-            "open_issues": 300,
+            "last_commit": "2026-09-01T05:27:14Z",
+            "open_issues": 307,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19185,
+            "stars": 19192,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3936,10 +3941,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-08-31T08:13:07Z",
-            "open_issues": 1139,
+            "open_issues": 1140,
             "owner": "hiyouga",
             "repo": "LlamaFactory",
-            "stars": 74464,
+            "stars": 74493,
             "topics": [
               "agent",
               "ai",
@@ -3977,11 +3982,11 @@
             "id": 673412924,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T07:41:27Z",
-            "open_issues": 632,
+            "last_commit": "2026-09-01T07:48:08Z",
+            "open_issues": 627,
             "owner": "modelscope",
             "repo": "ms-swift",
-            "stars": 15450,
+            "stars": 15473,
             "topics": [
               "deepseek-r1",
               "embedding",
@@ -4019,11 +4024,11 @@
             "id": 881221486,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T07:19:37Z",
-            "open_issues": 1154,
+            "last_commit": "2026-09-01T07:51:35Z",
+            "open_issues": 1151,
             "owner": "verl-project",
             "repo": "verl",
-            "stars": 23217,
+            "stars": 23230,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4044,7 +4049,7 @@
             "open_issues": 158,
             "owner": "rllm-org",
             "repo": "rllm",
-            "stars": 5809,
+            "stars": 5810,
             "topics": [
               "agent-framework",
               "agentic-workflow",
@@ -4076,11 +4081,11 @@
             "id": 970890722,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-29T00:48:19Z",
-            "open_issues": 440,
+            "last_commit": "2026-09-01T07:32:54Z",
+            "open_issues": 444,
             "owner": "NovaSky-AI",
             "repo": "SkyRL",
-            "stars": 2212,
+            "stars": 2213,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4097,7 +4102,7 @@
             "id": 991939049,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T01:33:53Z",
+            "last_commit": "2026-09-01T01:36:55Z",
             "open_issues": 128,
             "owner": "alibaba",
             "repo": "ROLL",
@@ -4122,11 +4127,11 @@
             "id": 937952934,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-30T19:21:08Z",
-            "open_issues": 105,
+            "last_commit": "2026-09-01T07:12:57Z",
+            "open_issues": 108,
             "owner": "areal-project",
             "repo": "AReaL",
-            "stars": 5704,
+            "stars": 5706,
             "topics": [
               "agent",
               "llm",
@@ -4156,7 +4161,7 @@
             "open_issues": 455,
             "owner": "THUDM",
             "repo": "slime",
-            "stars": 8325,
+            "stars": 8336,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4173,11 +4178,11 @@
             "id": 949546994,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T08:30:40Z",
-            "open_issues": 1037,
+            "last_commit": "2026-09-01T07:48:56Z",
+            "open_issues": 1045,
             "owner": "NVIDIA-NeMo",
             "repo": "RL",
-            "stars": 1971,
+            "stars": 1973,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4271,7 +4276,7 @@
             "open_issues": 3,
             "owner": "lds-ustc",
             "repo": "EasyOPD",
-            "stars": 68,
+            "stars": 69,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4309,7 +4314,7 @@
             "id": 1219608640,
             "language": "Python",
             "license": null,
-            "last_commit": "2026-08-31T08:18:39Z",
+            "last_commit": "2026-09-01T07:15:58Z",
             "open_issues": 19,
             "owner": "AI45Lab",
             "repo": "SAfactory",
@@ -4330,11 +4335,11 @@
             "id": 1314075859,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-30T03:58:49Z",
-            "open_issues": 3,
+            "last_commit": "2026-09-01T05:22:32Z",
+            "open_issues": 9,
             "owner": "DaoyuanLi2816",
             "repo": "mini-verl",
-            "stars": 210,
+            "stars": 220,
             "topics": [
               "agentic-rl",
               "alignment",
@@ -4374,10 +4379,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-08-26T04:08:08Z",
-            "open_issues": 320,
+            "open_issues": 327,
             "owner": "google-deepmind",
             "repo": "gemma",
-            "stars": 5707,
+            "stars": 5708,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4398,7 +4403,7 @@
             "open_issues": 66,
             "owner": "QwenLM",
             "repo": "Qwen3",
-            "stars": 27575,
+            "stars": 27584,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4446,7 +4451,7 @@
             "open_issues": 24,
             "owner": "Tencent-Hunyuan",
             "repo": "Hy-MT",
-            "stars": 811,
+            "stars": 812,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4506,10 +4511,10 @@
             "language": null,
             "license": "Apache-2.0",
             "last_commit": "2026-08-27T13:22:56Z",
-            "open_issues": 48,
+            "open_issues": 49,
             "owner": "zai-org",
             "repo": "GLM-5",
-            "stars": 7113,
+            "stars": 7120,
             "topics": [
               "agentic-ai",
               "coding",
@@ -4535,7 +4540,7 @@
             "open_issues": 112,
             "owner": "QwenLM",
             "repo": "Qwen3-Coder",
-            "stars": 16822,
+            "stars": 16823,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4619,7 +4624,7 @@
             "open_issues": 84,
             "owner": "NVIDIA-NeMo",
             "repo": "Nemotron",
-            "stars": 2003,
+            "stars": 2007,
             "topics": [
               "ai",
               "fine-tuning",
@@ -4643,8 +4648,8 @@
             "id": 664913876,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T06:12:14Z",
-            "open_issues": 364,
+            "last_commit": "2026-08-31T09:48:10Z",
+            "open_issues": 365,
             "owner": "InternLM",
             "repo": "xtuner",
             "stars": 5187,
@@ -4682,11 +4687,11 @@
             "id": 1019793048,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T06:42:44Z",
-            "open_issues": 113,
+            "last_commit": "2026-09-01T06:37:20Z",
+            "open_issues": 112,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4073,
+            "stars": 4078,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4703,11 +4708,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-31T06:10:40Z",
-            "open_issues": 300,
+            "last_commit": "2026-09-01T05:27:14Z",
+            "open_issues": 307,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19185,
+            "stars": 19192,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4717,7 +4722,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-31T08:44:15.695Z",
+    "last_updated": "2026-09-01T07:53:07.836Z",
     "original_repository_info": {
       "archived": false,
       "description": "Awesome List for On-Policy Distillation",
