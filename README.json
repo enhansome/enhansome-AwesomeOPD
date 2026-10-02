@@ -15,11 +15,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-01T08:23:46Z",
-            "open_issues": 284,
+            "last_commit": "2026-10-02T08:20:54Z",
+            "open_issues": 272,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19425,
+            "stars": 19436,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -36,11 +36,11 @@
             "id": 1019793048,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-01T00:30:56Z",
+            "last_commit": "2026-10-02T06:30:27Z",
             "open_issues": 131,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4161,
+            "stars": 4164,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -57,11 +57,11 @@
             "id": 1019793048,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-01T00:30:56Z",
+            "last_commit": "2026-10-02T06:30:27Z",
             "open_issues": 131,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4161,
+            "stars": 4164,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -103,7 +103,7 @@
             "open_issues": 0,
             "owner": "Thinking-Space",
             "repo": "Rethinking-OPD",
-            "stars": 1029,
+            "stars": 1030,
             "topics": [
               "llms",
               "mechanism",
@@ -166,7 +166,7 @@
             "id": 1212882934,
             "language": "Python",
             "license": null,
-            "last_commit": "2026-08-03T21:49:38Z",
+            "last_commit": "2026-10-01T14:57:36Z",
             "open_issues": 0,
             "owner": "YuxuanJiang1",
             "repo": "Rock-Token",
@@ -251,7 +251,7 @@
             "open_issues": 1996,
             "owner": "google-research",
             "repo": "google-research",
-            "stars": 38856,
+            "stars": 38859,
             "topics": [
               "ai",
               "machine-learning",
@@ -1056,7 +1056,7 @@
             "open_issues": 7,
             "owner": "siyan-zhao",
             "repo": "OPSD",
-            "stars": 665,
+            "stars": 666,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1077,7 +1077,7 @@
             "open_issues": 7,
             "owner": "idanshen",
             "repo": "Self-Distillation",
-            "stars": 708,
+            "stars": 710,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1149,10 +1149,10 @@
             "language": "Python",
             "license": "MIT",
             "last_commit": "2026-09-29T08:13:46Z",
-            "open_issues": 160,
+            "open_issues": 162,
             "owner": "microsoft",
             "repo": "agent-lightning",
-            "stars": 18542,
+            "stars": 18549,
             "topics": [
               "agent",
               "agentic-ai",
@@ -2215,7 +2215,7 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-07-01T13:51:47Z",
-            "open_issues": 11,
+            "open_issues": 203,
             "owner": "lasgroup",
             "repo": "SDPO",
             "stars": 1108,
@@ -2612,7 +2612,7 @@
             "open_issues": 0,
             "owner": "Thinking-Space",
             "repo": "Rethinking-OPD",
-            "stars": 1029,
+            "stars": 1030,
             "topics": [
               "llms",
               "mechanism",
@@ -2933,7 +2933,7 @@
             "open_issues": 6,
             "owner": "NVlabs",
             "repo": "AnyFlow",
-            "stars": 434,
+            "stars": 435,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3080,7 +3080,7 @@
             "open_issues": 147,
             "owner": "OpenGVLab",
             "repo": "InternVideo",
-            "stars": 2398,
+            "stars": 2399,
             "topics": [
               "action-recognition",
               "benchmark",
@@ -3346,10 +3346,10 @@
             "language": "Python",
             "license": "MIT",
             "last_commit": "2026-09-29T08:13:46Z",
-            "open_issues": 160,
+            "open_issues": 162,
             "owner": "microsoft",
             "repo": "agent-lightning",
-            "stars": 18542,
+            "stars": 18549,
             "topics": [
               "agent",
               "agentic-ai",
@@ -3449,11 +3449,11 @@
             "id": 1238996909,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-09-18T04:54:28Z",
+            "last_commit": "2026-10-02T07:59:17Z",
             "open_issues": 7,
             "owner": "ZJU-REAL",
             "repo": "SDAR",
-            "stars": 396,
+            "stars": 398,
             "topics": [
               "agentic-ai",
               "agentic-skill",
@@ -3506,7 +3506,7 @@
             "open_issues": 3,
             "owner": "jinyangwu",
             "repo": "SEED",
-            "stars": 283,
+            "stars": 284,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3599,7 +3599,7 @@
             "open_issues": 10,
             "owner": "YoungZ365",
             "repo": "SOD",
-            "stars": 165,
+            "stars": 166,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3750,6 +3750,27 @@
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
+        },
+        {
+          "node_type": "item",
+          "title": "UOPD",
+          "description": "2026.09 UC Irvine / University of Michigan arXiv 2609.34036 UOPD — Uncertainty-Aware Intervention for On-Policy Distillation of Multi-Turn Agents — Unifies on-policy distillation and SFT through selective intervention guided by teacher uncertainty for multi-turn agents.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Official implementation of Uncertainty-Aware Intervention for On-Policy Distillation of Multi-Turn Agents",
+            "homepage": null,
+            "id": 1389905305,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-02T02:42:37Z",
+            "open_issues": 0,
+            "owner": "onepounchman",
+            "repo": "UOPD",
+            "stars": 2,
+            "topics": []
+          },
+          "first_seen": "2026-10-02T08:40:36.493Z"
         }
       ],
       "title": "🤖 Agent & Embodied OPD (by application)"
@@ -3857,8 +3878,8 @@
             "id": 998697045,
             "language": "Python",
             "license": "MIT",
-            "last_commit": "2026-10-01T04:18:47Z",
-            "open_issues": 181,
+            "last_commit": "2026-10-02T01:11:42Z",
+            "open_issues": 184,
             "owner": "sgl-project",
             "repo": "SpecForge",
             "stars": 1196,
@@ -3961,11 +3982,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-01T08:23:46Z",
-            "open_issues": 284,
+            "last_commit": "2026-10-02T08:20:54Z",
+            "open_issues": 272,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19425,
+            "stars": 19436,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3983,10 +4004,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-09-28T09:10:59Z",
-            "open_issues": 1167,
+            "open_issues": 1170,
             "owner": "hiyouga",
             "repo": "LlamaFactory",
-            "stars": 75246,
+            "stars": 75267,
             "topics": [
               "agent",
               "ai",
@@ -4024,11 +4045,11 @@
             "id": 673412924,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-01T06:45:38Z",
-            "open_issues": 581,
+            "last_commit": "2026-10-01T23:29:51Z",
+            "open_issues": 584,
             "owner": "modelscope",
             "repo": "ms-swift",
-            "stars": 15764,
+            "stars": 15768,
             "topics": [
               "deepseek",
               "embedding",
@@ -4066,11 +4087,11 @@
             "id": 881221486,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-09-30T17:33:57Z",
-            "open_issues": 1295,
+            "last_commit": "2026-10-02T07:19:20Z",
+            "open_issues": 1301,
             "owner": "verl-project",
             "repo": "verl",
-            "stars": 23714,
+            "stars": 23726,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4088,10 +4109,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-09-12T21:26:46Z",
-            "open_issues": 169,
+            "open_issues": 168,
             "owner": "rllm-org",
             "repo": "rllm",
-            "stars": 5853,
+            "stars": 5854,
             "topics": [
               "agent-framework",
               "agentic-workflow",
@@ -4123,8 +4144,8 @@
             "id": 970890722,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-01T08:14:10Z",
-            "open_issues": 509,
+            "last_commit": "2026-10-02T05:21:24Z",
+            "open_issues": 522,
             "owner": "NovaSky-AI",
             "repo": "SkyRL",
             "stars": 2368,
@@ -4144,7 +4165,7 @@
             "id": 991939049,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-01T01:44:42Z",
+            "last_commit": "2026-10-02T01:35:22Z",
             "open_issues": 135,
             "owner": "alibaba",
             "repo": "ROLL",
@@ -4200,10 +4221,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-09-30T12:45:18Z",
-            "open_issues": 522,
+            "open_issues": 525,
             "owner": "THUDM",
             "repo": "slime",
-            "stars": 8577,
+            "stars": 8581,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4220,11 +4241,11 @@
             "id": 949546994,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-01T06:48:45Z",
-            "open_issues": 1195,
+            "last_commit": "2026-10-02T08:36:23Z",
+            "open_issues": 1204,
             "owner": "NVIDIA-NeMo",
             "repo": "RL",
-            "stars": 2043,
+            "stars": 2044,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4424,10 +4445,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-09-30T08:06:26Z",
-            "open_issues": 329,
+            "open_issues": 331,
             "owner": "google-deepmind",
             "repo": "gemma",
-            "stars": 5757,
+            "stars": 5763,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4448,7 +4469,7 @@
             "open_issues": 68,
             "owner": "QwenLM",
             "repo": "Qwen3",
-            "stars": 27668,
+            "stars": 27670,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4469,7 +4490,7 @@
             "open_issues": 32,
             "owner": "zai-org",
             "repo": "GLM-4.5",
-            "stars": 4426,
+            "stars": 4424,
             "topics": [
               "agent",
               "glm",
@@ -4496,7 +4517,7 @@
             "open_issues": 25,
             "owner": "Tencent-Hunyuan",
             "repo": "Hy-MT",
-            "stars": 827,
+            "stars": 828,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4559,7 +4580,7 @@
             "open_issues": 20,
             "owner": "zai-org",
             "repo": "GLM-5",
-            "stars": 7261,
+            "stars": 7268,
             "topics": [
               "agentic-ai",
               "coding",
@@ -4585,7 +4606,7 @@
             "open_issues": 113,
             "owner": "QwenLM",
             "repo": "Qwen3-Coder",
-            "stars": 16841,
+            "stars": 16840,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4627,7 +4648,7 @@
             "open_issues": 7,
             "owner": "InternScience",
             "repo": "Agents-A1",
-            "stars": 566,
+            "stars": 567,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4648,7 +4669,7 @@
             "open_issues": 41,
             "owner": "Kwai-Keye",
             "repo": "Keye",
-            "stars": 812,
+            "stars": 811,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4669,7 +4690,7 @@
             "open_issues": 90,
             "owner": "NVIDIA-NeMo",
             "repo": "Nemotron",
-            "stars": 2119,
+            "stars": 2121,
             "topics": [
               "ai",
               "fine-tuning",
@@ -4732,11 +4753,11 @@
             "id": 1019793048,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-01T00:30:56Z",
+            "last_commit": "2026-10-02T06:30:27Z",
             "open_issues": 131,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4161,
+            "stars": 4164,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4753,11 +4774,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-01T08:23:46Z",
-            "open_issues": 284,
+            "last_commit": "2026-10-02T08:20:54Z",
+            "open_issues": 272,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19425,
+            "stars": 19436,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4767,7 +4788,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-01T09:06:37.212Z",
+    "last_updated": "2026-10-02T08:40:36.493Z",
     "original_repository_info": {
       "archived": false,
       "description": "Awesome List for On-Policy Distillation",
@@ -4775,8 +4796,8 @@
       "id": 1222978157,
       "language": null,
       "license": null,
-      "last_commit": "2026-09-18T17:12:52Z",
-      "open_issues": 1,
+      "last_commit": "2026-10-01T13:35:20Z",
+      "open_issues": 0,
       "owner": "thinkwee",
       "repo": "AwesomeOPD",
       "stars": 873,
@@ -4787,7 +4808,7 @@
         "on-policy-distillation"
       ]
     },
-    "original_repository_sha": "7bf90228add8b91157ef62c41772f07b45fbe857",
+    "original_repository_sha": "882e0759a24d5cdcdc63abc1cb751008dd6ab9a4",
     "enhanced_repository": "enhansome/enhansome-AwesomeOPD",
     "enhanced_repository_description": null,
     "title": "Awesome When LLMs Distill On-Policy with stars"
