@@ -15,11 +15,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-06T09:00:46Z",
-            "open_issues": 274,
+            "last_commit": "2026-10-06T10:28:41Z",
+            "open_issues": 266,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19453,
+            "stars": 19454,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1152,7 +1152,7 @@
             "open_issues": 184,
             "owner": "microsoft",
             "repo": "agent-lightning",
-            "stars": 18570,
+            "stars": 18571,
             "topics": [
               "agent",
               "agentic-ai",
@@ -3349,7 +3349,7 @@
             "open_issues": 184,
             "owner": "microsoft",
             "repo": "agent-lightning",
-            "stars": 18570,
+            "stars": 18571,
             "topics": [
               "agent",
               "agentic-ai",
@@ -3449,7 +3449,7 @@
             "id": 1238996909,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-02T07:59:17Z",
+            "last_commit": "2026-10-06T09:23:56Z",
             "open_issues": 8,
             "owner": "ZJU-REAL",
             "repo": "SDAR",
@@ -3878,8 +3878,8 @@
             "id": 998697045,
             "language": "Python",
             "license": "MIT",
-            "last_commit": "2026-10-06T06:14:00Z",
-            "open_issues": 200,
+            "last_commit": "2026-10-06T09:25:49Z",
+            "open_issues": 203,
             "owner": "sgl-project",
             "repo": "SpecForge",
             "stars": 1199,
@@ -3982,11 +3982,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-06T09:00:46Z",
-            "open_issues": 274,
+            "last_commit": "2026-10-06T10:28:41Z",
+            "open_issues": 266,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19453,
+            "stars": 19454,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4007,7 +4007,7 @@
             "open_issues": 1172,
             "owner": "hiyouga",
             "repo": "LlamaFactory",
-            "stars": 75331,
+            "stars": 75333,
             "topics": [
               "agent",
               "ai",
@@ -4241,8 +4241,8 @@
             "id": 949546994,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-06T08:16:51Z",
-            "open_issues": 1270,
+            "last_commit": "2026-10-06T10:22:16Z",
+            "open_issues": 1272,
             "owner": "NVIDIA-NeMo",
             "repo": "RL",
             "stars": 2048,
@@ -4444,8 +4444,8 @@
             "id": 760683276,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-06T08:53:10Z",
-            "open_issues": 331,
+            "last_commit": "2026-10-06T09:16:03Z",
+            "open_issues": 330,
             "owner": "google-deepmind",
             "repo": "gemma",
             "stars": 5766,
@@ -4469,7 +4469,7 @@
             "open_issues": 68,
             "owner": "QwenLM",
             "repo": "Qwen3",
-            "stars": 27658,
+            "stars": 27659,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4774,11 +4774,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-06T09:00:46Z",
-            "open_issues": 274,
+            "last_commit": "2026-10-06T10:28:41Z",
+            "open_issues": 266,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19453,
+            "stars": 19454,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4788,7 +4788,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-06T09:07:43.261Z",
+    "last_updated": "2026-10-06T10:45:45.018Z",
     "original_repository_info": {
       "archived": false,
       "description": "Awesome List for On-Policy Distillation",
