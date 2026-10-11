@@ -15,11 +15,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-09T19:42:57Z",
-            "open_issues": 236,
+            "last_commit": "2026-10-10T18:09:52Z",
+            "open_issues": 239,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19481,
+            "stars": 19488,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -37,10 +37,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-10-10T06:31:51Z",
-            "open_issues": 130,
+            "open_issues": 131,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4183,
+            "stars": 4185,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -58,10 +58,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-10-10T06:31:51Z",
-            "open_issues": 130,
+            "open_issues": 131,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4183,
+            "stars": 4185,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -82,7 +82,7 @@
             "open_issues": 6,
             "owner": "hhh675597",
             "repo": "revisiting_opd",
-            "stars": 141,
+            "stars": 140,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -103,7 +103,7 @@
             "open_issues": 0,
             "owner": "Thinking-Space",
             "repo": "Rethinking-OPD",
-            "stars": 1038,
+            "stars": 1037,
             "topics": [
               "llms",
               "mechanism",
@@ -174,6 +174,69 @@
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
+        },
+        {
+          "node_type": "item",
+          "title": "What Does PI Add to OPSD?",
+          "description": "2026.09 NUS arXiv 2609.20612 What Does Privileged Information Add to On-Policy Self-Distillation?: builds AMPLE-Math (5,319 problems × six reasoning views sharing one answer) and compares each view against matched reference-free distillation. Reference-free distillation accounts for much of Qwen3-1.7B's gain, and the reference adds a modest, model-dependent extra. Swapping short direct-response rollouts for long thinking rollouts turns gains into losses. Concludes that OPSD mostly unlocks cross-mode (thinking → direct) transfer. Joins the negative-PI line (Rethinking Privileged Information, OP²SD, Fin-SD ablations)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1371120223,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-09-21T01:52:01Z",
+            "open_issues": 0,
+            "owner": "xiuyuz",
+            "repo": "opsd-reference-study",
+            "stars": 6,
+            "topics": []
+          },
+          "first_seen": "2026-10-11T09:04:27.633Z"
+        },
+        {
+          "node_type": "item",
+          "title": "One-Shot OPD",
+          "description": "2026.09 Tsinghua / UCAS / Northeastern / UIUC / JHU arXiv 2609.04172 Rethinking OPD of LLMs II: One Training Example: OPD on a single query keeps improving for hundreds of steps and recovers most of full-data OPD's gain. One query already reaches 71.5% state coverage of what full-data OPD visits, and 16 diverse queries reach 98.9% and match full data, including for MOPD. Alignment slows at the same rate regardless of data, so OPD is \"data-overfed but algorithm-starved\". Sequel to Rethinking OPD (THUNLP)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+            "homepage": null,
+            "id": 1355993451,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-09-04T03:48:56Z",
+            "open_issues": 0,
+            "owner": "Thinking-Space",
+            "repo": "One-Shot-OPD",
+            "stars": 94,
+            "topics": []
+          },
+          "first_seen": "2026-10-11T09:04:27.633Z"
+        },
+        {
+          "node_type": "item",
+          "title": "DF-OPD",
+          "description": "2026.09 Tencent (Foundation Model Dept.) / CASIA / UCAS arXiv 2609.14193 Data-Free OPD: How Far Can We Go Without External Data?: 8 real prompts ≈ 17k problems in two single-teacher OPD settings, and difficulty or initial gap barely matter. With 64 self-generated questions (no seed examples), DF-OPD matches full-data OPD, and in multi-teacher OPD 1k generated questions ≈ 7k real ones. Independently reaches the same data-minimal conclusion as One-Shot OPD",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1400250193,
+            "language": null,
+            "license": null,
+            "last_commit": "2026-10-08T12:50:45Z",
+            "open_issues": 0,
+            "owner": "Ryuki661",
+            "repo": "DF-OPD",
+            "stars": 8,
+            "topics": []
+          },
+          "first_seen": "2026-10-11T09:04:27.633Z"
         }
       ],
       "title": "📚 Surveys, Foundations & Position Papers"
@@ -247,11 +310,11 @@
             "id": 151619717,
             "language": "Jupyter Notebook",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-09T17:22:43Z",
+            "last_commit": "2026-10-10T14:34:09Z",
             "open_issues": 1998,
             "owner": "google-research",
             "repo": "google-research",
-            "stars": 38887,
+            "stars": 38893,
             "topics": [
               "ai",
               "machine-learning",
@@ -903,13 +966,34 @@
             "language": "Python",
             "license": null,
             "last_commit": "2026-08-20T14:25:41Z",
-            "open_issues": 2,
+            "open_issues": 3,
             "owner": "BytedTsinghua-SIA",
             "repo": "Open-MOPD",
             "stars": 99,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
+        },
+        {
+          "node_type": "item",
+          "title": "DN-MOPD",
+          "description": "2026.09 NTU / Yale / Manchester arXiv 2609.35347 Beyond Teacher Assignment: Domain-Normalized Multi-Teacher OPD: in Qwen3.5 (three sizes), vanilla MOPD does not beat the best single-teacher student, because instruction-following feedback is several times more spread out than math feedback and dominates the updates. DN-MOPD keeps the routing but rescales each domain's token feedback by its measured spread, improving MOPD at every size (+1.17–2.36 pp at 16K). Most of the gain comes from turning IF down. Companion to Open-MOPD's budget-imbalance diagnosis",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Beyond Teacher Assignment: Domain-Normalized Multi-Teacher On-Policy Distillation (DN-MOPD)",
+            "homepage": "https://lixin.ai/DN-MOPD/",
+            "id": 1392482274,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-05T02:17:03Z",
+            "open_issues": 1,
+            "owner": "LiXin97",
+            "repo": "DN-MOPD",
+            "stars": 55,
+            "topics": []
+          },
+          "first_seen": "2026-10-11T09:04:27.633Z"
         }
       ],
       "title": "🔬 OPD with Larger External Teachers — White-Box"
@@ -987,7 +1071,7 @@
             "open_issues": 4,
             "owner": "Peregrine123",
             "repo": "ROPD_official",
-            "stars": 87,
+            "stars": 88,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1056,7 +1140,7 @@
             "open_issues": 8,
             "owner": "siyan-zhao",
             "repo": "OPSD",
-            "stars": 678,
+            "stars": 677,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1077,7 +1161,7 @@
             "open_issues": 7,
             "owner": "idanshen",
             "repo": "Self-Distillation",
-            "stars": 715,
+            "stars": 716,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1149,10 +1233,10 @@
             "language": "Python",
             "license": "MIT",
             "last_commit": "2026-10-09T07:47:53Z",
-            "open_issues": 163,
+            "open_issues": 164,
             "owner": "microsoft",
             "repo": "agent-lightning",
-            "stars": 18639,
+            "stars": 18651,
             "topics": [
               "agent",
               "agentic-ai",
@@ -1175,7 +1259,7 @@
             "id": 1175049141,
             "language": "Python",
             "license": null,
-            "last_commit": "2026-10-10T08:37:48Z",
+            "last_commit": "2026-10-11T08:51:41Z",
             "open_issues": 5,
             "owner": "HJSang",
             "repo": "CRISP_Reasoning_Compression",
@@ -1344,7 +1428,7 @@
             "open_issues": 1,
             "owner": "THU-BPM",
             "repo": "RLCSD",
-            "stars": 114,
+            "stars": 115,
             "topics": [
               "large-language-models",
               "llm",
@@ -1373,7 +1457,7 @@
             "open_issues": 1,
             "owner": "xingzhejun",
             "repo": "d-opsd-code",
-            "stars": 18,
+            "stars": 19,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1528,7 +1612,7 @@
             "open_issues": 0,
             "owner": "Moenupa",
             "repo": "SDPO-CL",
-            "stars": 13,
+            "stars": 15,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1801,7 +1885,7 @@
             "open_issues": 0,
             "owner": "vanhowe",
             "repo": "AR-OPD",
-            "stars": 51,
+            "stars": 46,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1843,7 +1927,7 @@
             "open_issues": 1,
             "owner": "bingreeky",
             "repo": "LOPD",
-            "stars": 61,
+            "stars": 62,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -2120,7 +2204,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2025-09-12T08:26:02Z",
-                "open_issues": 38,
+                "open_issues": 39,
                 "owner": "microsoft",
                 "repo": "rStar",
                 "stars": 1430,
@@ -2142,9 +2226,9 @@
                 "license": "MIT",
                 "last_commit": "2026-07-23T13:39:34Z",
                 "open_issues": 0,
-                "owner": "KawhiC",
+                "owner": "PRISM-AI-Lab",
                 "repo": "BIRD",
-                "stars": 2,
+                "stars": 3,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:25:49.086Z"
@@ -2218,7 +2302,7 @@
             "open_issues": 11,
             "owner": "lasgroup",
             "repo": "SDPO",
-            "stars": 1116,
+            "stars": 1117,
             "topics": [
               "distillation",
               "llm",
@@ -2265,7 +2349,7 @@
             "open_issues": 13,
             "owner": "Gen-Verse",
             "repo": "Open-AgentRL",
-            "stars": 650,
+            "stars": 651,
             "topics": [
               "agent-rl",
               "coding-agent",
@@ -2319,7 +2403,7 @@
             "open_issues": 75,
             "owner": "Gen-Verse",
             "repo": "OpenClaw-RL",
-            "stars": 5717,
+            "stars": 5718,
             "topics": [
               "async",
               "coding",
@@ -2612,7 +2696,7 @@
             "open_issues": 0,
             "owner": "Thinking-Space",
             "repo": "Rethinking-OPD",
-            "stars": 1038,
+            "stars": 1037,
             "topics": [
               "llms",
               "mechanism",
@@ -3080,7 +3164,7 @@
             "open_issues": 147,
             "owner": "OpenGVLab",
             "repo": "InternVideo",
-            "stars": 2401,
+            "stars": 2402,
             "topics": [
               "action-recognition",
               "benchmark",
@@ -3252,6 +3336,48 @@
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
+        },
+        {
+          "node_type": "item",
+          "title": "OPD-Aha",
+          "description": "2026.09 Arizona State / UVA / Stevens arXiv 2609.16459 OPD-Aha: From Linguistic Momentum to Visual Reflection in Multimodal OPD: in privileged multimodal OPD, a student's early misreading of the image pulls the teacher along (\"linguistic momentum\"), and both converge on the same hallucination exactly where correction is needed. OPD-Aha rebuilds the target from the teacher's real-image vs. visual-null contrast, which aggressively suppresses image-contradicting continuations, and students learn to interrupt themselves with \"wait\" / \"actually\". Cf. VCSD",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Official implementation of OPD-Aha for fine-grained visual perception and multimodal reasoning",
+            "homepage": null,
+            "id": 1349855386,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-09-16T03:08:45Z",
+            "open_issues": 0,
+            "owner": "Echochef",
+            "repo": "OPD-Aha",
+            "stars": 11,
+            "topics": []
+          },
+          "first_seen": "2026-10-11T09:04:27.633Z"
+        },
+        {
+          "node_type": "item",
+          "title": "RT-OPD",
+          "description": "2026.09 NEC Labs America / UConn arXiv 2609.28778 Reward-Tilted OPD for Acoustic Grounding in Audio-Language Models: on student-generated text, a frozen teacher predicts each token with and without the audio. The log-prob contrast defines a reward that tilts the teacher distribution for reverse-KL distillation, so the student learns to rely on acoustic evidence rather than textual shortcuts. Beats vanilla OPD on all 3 benchmarks; 3B student reaches 72.72% MMAU. The audio counterpart of OPD-Aha / VCSD",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Reward-Tilted On-Policy Distillation: main experiments, Ke and Qwen training, pinned data and reproducibility.",
+            "homepage": null,
+            "id": 1371691090,
+            "language": "Python",
+            "license": "BSD-3-Clause-Clear",
+            "last_commit": "2026-10-01T18:19:20Z",
+            "open_issues": 0,
+            "owner": "kaiyangli-ml",
+            "repo": "RT-OPD",
+            "stars": 1,
+            "topics": []
+          },
+          "first_seen": "2026-10-11T09:04:27.633Z"
         }
       ],
       "title": "🖼️ Multimodal OPD (VLM, Video, Audio, Image)"
@@ -3346,10 +3472,10 @@
             "language": "Python",
             "license": "MIT",
             "last_commit": "2026-10-09T07:47:53Z",
-            "open_issues": 163,
+            "open_issues": 164,
             "owner": "microsoft",
             "repo": "agent-lightning",
-            "stars": 18639,
+            "stars": 18651,
             "topics": [
               "agent",
               "agentic-ai",
@@ -3376,7 +3502,7 @@
             "open_issues": 75,
             "owner": "Gen-Verse",
             "repo": "OpenClaw-RL",
-            "stars": 5717,
+            "stars": 5718,
             "topics": [
               "async",
               "coding",
@@ -3480,7 +3606,7 @@
             "open_issues": 8,
             "owner": "jiangxinke",
             "repo": "Harness-RL",
-            "stars": 446,
+            "stars": 447,
             "topics": [
               "agentic",
               "grpo",
@@ -3641,7 +3767,7 @@
             "open_issues": 0,
             "owner": "bingreeky",
             "repo": "opd-evolver",
-            "stars": 46,
+            "stars": 47,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3725,7 +3851,7 @@
             "open_issues": 1,
             "owner": "bingreeky",
             "repo": "LOPD",
-            "stars": 61,
+            "stars": 62,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3771,6 +3897,27 @@
             "topics": []
           },
           "first_seen": "2026-10-02T08:40:36.493Z"
+        },
+        {
+          "node_type": "item",
+          "title": "GATS",
+          "description": "2026.09 Kuaishou / DUT / XJTU / THU / UCAS / BFSU / SEU / MBZUAI arXiv 2609.37898 Guide, Then Let Go: Gap-Adaptive Teacher Scheduling for Sparse-Reward Agentic RL: an OPD term on the student's own rollouts fixes the cold start, but helps only while the teacher leads. GATS shrinks the OPD weight as the student approaches the teacher's reference success and withdraws it once reached, which also makes teachers smaller than the student usable. +4.37–11.87% over reward-only GRPO on ALFWorld / WebShop / ScienceWorld. Cf. RetireOPD",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Guide, Then Let Go: Gap-Adaptive Teacher Scheduling for Sparse-Reward Agentic RL",
+            "homepage": null,
+            "id": 1376191598,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-09-28T09:13:21Z",
+            "open_issues": 0,
+            "owner": "Ricardo-H",
+            "repo": "guide-then-let-go",
+            "stars": 0,
+            "topics": []
+          },
+          "first_seen": "2026-10-11T09:04:27.633Z"
         }
       ],
       "title": "🤖 Agent & Embodied OPD (by application)"
@@ -3882,7 +4029,7 @@
             "open_issues": 208,
             "owner": "sgl-project",
             "repo": "SpecForge",
-            "stars": 1206,
+            "stars": 1210,
             "topics": [
               "eagle",
               "eagle3",
@@ -3953,7 +4100,7 @@
             "open_issues": 6,
             "owner": "Tencent",
             "repo": "AngelSpec",
-            "stars": 279,
+            "stars": 280,
             "topics": [
               "d-cut",
               "dflash",
@@ -3973,7 +4120,7 @@
         {
           "node_type": "item",
           "title": "trl",
-          "description": "2019.11 Hugging Face  TRL — the most diverse OPD trainer collection",
+          "description": "huggingface/trl",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -3982,11 +4129,32 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-09T19:42:57Z",
-            "open_issues": 236,
+            "last_commit": "2026-10-10T18:09:52Z",
+            "open_issues": 239,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19481,
+            "stars": 19488,
+            "topics": []
+          },
+          "first_seen": "2026-08-28T14:25:49.086Z"
+        },
+        {
+          "node_type": "item",
+          "title": "TRL — the most diverse OPD trainer collection. v1.11.0",
+          "description": "adds : the teacher is a remote vLLM server only (logprobs via ), and several can be routed per sample for multi-teacher OPD",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Train transformer language models with reinforcement learning.",
+            "homepage": "http://hf.co/docs/trl",
+            "id": 250510075,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-10T18:09:52Z",
+            "open_issues": 239,
+            "owner": "huggingface",
+            "repo": "trl",
+            "stars": 19488,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4007,7 +4175,7 @@
             "open_issues": 1183,
             "owner": "hiyouga",
             "repo": "LlamaFactory",
-            "stars": 75397,
+            "stars": 75408,
             "topics": [
               "agent",
               "ai",
@@ -4045,11 +4213,11 @@
             "id": 673412924,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-10T06:31:03Z",
-            "open_issues": 585,
+            "last_commit": "2026-10-11T01:17:25Z",
+            "open_issues": 588,
             "owner": "modelscope",
             "repo": "ms-swift",
-            "stars": 15805,
+            "stars": 15809,
             "topics": [
               "deepseek",
               "embedding",
@@ -4087,11 +4255,11 @@
             "id": 881221486,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-10T08:22:49Z",
-            "open_issues": 1332,
+            "last_commit": "2026-10-10T15:47:02Z",
+            "open_issues": 1343,
             "owner": "verl-project",
             "repo": "verl",
-            "stars": 23815,
+            "stars": 23823,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4109,10 +4277,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-10-09T01:22:22Z",
-            "open_issues": 170,
+            "open_issues": 171,
             "owner": "rllm-org",
             "repo": "rllm",
-            "stars": 5865,
+            "stars": 5869,
             "topics": [
               "agent-framework",
               "agentic-workflow",
@@ -4145,10 +4313,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-10-10T01:26:55Z",
-            "open_issues": 528,
+            "open_issues": 530,
             "owner": "NovaSky-AI",
             "repo": "SkyRL",
-            "stars": 2400,
+            "stars": 2401,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4165,11 +4333,11 @@
             "id": 991939049,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-10T01:38:32Z",
+            "last_commit": "2026-10-11T01:42:24Z",
             "open_issues": 136,
             "owner": "alibaba",
             "repo": "ROLL",
-            "stars": 3416,
+            "stars": 3419,
             "topics": [
               "agentic",
               "rlhf",
@@ -4191,10 +4359,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-10-10T07:08:40Z",
-            "open_issues": 134,
+            "open_issues": 136,
             "owner": "areal-project",
             "repo": "AReaL",
-            "stars": 5824,
+            "stars": 5827,
             "topics": [
               "agent",
               "llm",
@@ -4220,11 +4388,11 @@
             "id": 1004140701,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-10T08:01:31Z",
-            "open_issues": 534,
+            "last_commit": "2026-10-10T14:33:22Z",
+            "open_issues": 536,
             "owner": "THUDM",
             "repo": "slime",
-            "stars": 8623,
+            "stars": 8631,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4241,11 +4409,11 @@
             "id": 949546994,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-10T07:51:22Z",
-            "open_issues": 1319,
+            "last_commit": "2026-10-11T08:06:13Z",
+            "open_issues": 1316,
             "owner": "NVIDIA-NeMo",
             "repo": "RL",
-            "stars": 2054,
+            "stars": 2058,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4448,7 +4616,7 @@
             "open_issues": 330,
             "owner": "google-deepmind",
             "repo": "gemma",
-            "stars": 5780,
+            "stars": 5782,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4466,10 +4634,10 @@
             "language": "Python",
             "license": null,
             "last_commit": "2026-01-09T03:05:47Z",
-            "open_issues": 68,
+            "open_issues": 69,
             "owner": "QwenLM",
             "repo": "Qwen3",
-            "stars": 27662,
+            "stars": 27663,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4580,7 +4748,7 @@
             "open_issues": 21,
             "owner": "zai-org",
             "repo": "GLM-5",
-            "stars": 7304,
+            "stars": 7309,
             "topics": [
               "agentic-ai",
               "coding",
@@ -4627,7 +4795,7 @@
             "open_issues": 12,
             "owner": "Tencent-Hunyuan",
             "repo": "HY-Embodied",
-            "stars": 875,
+            "stars": 876,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4645,10 +4813,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-07-16T14:13:54Z",
-            "open_issues": 7,
+            "open_issues": 8,
             "owner": "InternScience",
             "repo": "Agents-A1",
-            "stars": 568,
+            "stars": 569,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4714,11 +4882,11 @@
             "id": 664913876,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-09T14:43:53Z",
-            "open_issues": 393,
+            "last_commit": "2026-10-10T22:27:58Z",
+            "open_issues": 395,
             "owner": "InternLM",
             "repo": "xtuner",
-            "stars": 5205,
+            "stars": 5206,
             "topics": [
               "agent",
               "deepseek-v3",
@@ -4734,6 +4902,27 @@
             ]
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
+        },
+        {
+          "node_type": "item",
+          "title": "ME-VLM",
+          "description": "2026.09 Li Auto arXiv 2609.24526 ME-VLM (MachEmbodied-VLM) (4B / 35B-A3B): embodied capability injection, then separate RL for an embodied expert and a multimodal-agent expert, then multi-teacher OPD into one student initialised from the embodied expert. Deployed on-device (M100, prefill 400 → 188 ms). Cross-listed with Agent & Embodied",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1378999836,
+            "language": null,
+            "license": null,
+            "last_commit": "2026-09-22T03:47:31Z",
+            "open_issues": 1,
+            "owner": "MachEmbodied",
+            "repo": "ME-VLM",
+            "stars": 8,
+            "topics": []
+          },
+          "first_seen": "2026-10-11T09:04:27.633Z"
         }
       ],
       "title": "🏭 Industrial / Production Model Reports"
@@ -4754,10 +4943,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-10-10T06:31:51Z",
-            "open_issues": 130,
+            "open_issues": 131,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4183,
+            "stars": 4185,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4774,11 +4963,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-09T19:42:57Z",
-            "open_issues": 236,
+            "last_commit": "2026-10-10T18:09:52Z",
+            "open_issues": 239,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19481,
+            "stars": 19488,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4788,7 +4977,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-10T08:39:53.588Z",
+    "last_updated": "2026-10-11T09:04:27.633Z",
     "original_repository_info": {
       "archived": false,
       "description": "Awesome List for On-Policy Distillation",
@@ -4796,11 +4985,11 @@
       "id": 1222978157,
       "language": null,
       "license": null,
-      "last_commit": "2026-10-01T13:35:20Z",
+      "last_commit": "2026-10-10T11:58:30Z",
       "open_issues": 0,
       "owner": "thinkwee",
       "repo": "AwesomeOPD",
-      "stars": 873,
+      "stars": 874,
       "topics": [
         "awesome-list",
         "distillation",
@@ -4808,7 +4997,7 @@
         "on-policy-distillation"
       ]
     },
-    "original_repository_sha": "882e0759a24d5cdcdc63abc1cb751008dd6ab9a4",
+    "original_repository_sha": "b1f5f5d66dca06fb7546ae47ed5eae6d9a6d4b3d",
     "enhanced_repository": "enhansome/enhansome-AwesomeOPD",
     "enhanced_repository_description": null,
     "title": "Awesome When LLMs Distill On-Policy with stars"
