@@ -15,11 +15,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-16T09:54:32Z",
-            "open_issues": 295,
+            "last_commit": "2026-11-17T10:42:23Z",
+            "open_issues": 290,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19743,
+            "stars": 19749,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -36,11 +36,11 @@
             "id": 1019793048,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-14T18:00:15Z",
-            "open_issues": 163,
+            "last_commit": "2026-11-17T01:09:49Z",
+            "open_issues": 165,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4261,
+            "stars": 4264,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -57,11 +57,11 @@
             "id": 1019793048,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-14T18:00:15Z",
-            "open_issues": 163,
+            "last_commit": "2026-11-17T01:09:49Z",
+            "open_issues": 165,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4261,
+            "stars": 4264,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -212,7 +212,7 @@
             "open_issues": 0,
             "owner": "Thinking-Space",
             "repo": "One-Shot-OPD",
-            "stars": 100,
+            "stars": 101,
             "topics": []
           },
           "first_seen": "2026-10-11T09:04:27.633Z"
@@ -237,6 +237,132 @@
             "topics": []
           },
           "first_seen": "2026-10-11T09:04:27.633Z"
+        },
+        {
+          "node_type": "item",
+          "title": "OPD Vanishing Signals",
+          "description": "2026.10 UPenn / Tsinghua / UC Riverside / Marquette arXiv 2610.11247 Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals — Continuous-time dynamical analysis of OPD failures on code and math. OPD with larger teachers plateaus (average final loss reduction 25.1% vs 96.2% for self-RL teachers), associated with an early decline in a learning-signal proxy. Includes a local recovery guarantee for teachers close to the student.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Code and reproducibility artifacts for Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals",
+            "homepage": "https://leizhao7.github.io/opd-learning-signals/",
+            "id": 1408569176,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-10-30T16:53:11Z",
+            "open_issues": 0,
+            "owner": "leizhao7",
+            "repo": "opd-learning-signals",
+            "stars": 0,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Does SD Improve Reasoning?",
+          "description": "2026.10 MIT / MIT-IBM Computing Research Lab arXiv 2610.18613 Does self-distillation improve reasoning? — Re-evaluates SDPO and OPSD on code, science, tool use and math with Qwen3 1.7B-14B and OLMo-3-7B. Reported gains do not consistently generalise to unseen problems and are largely explained by overfitting or transferred thinking behaviour rather than privileged information. Self-distillation gradients align weakly with policy gradients.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1388293638,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-10-19T15:31:24Z",
+            "open_issues": 1,
+            "owner": "sleepypandu",
+            "repo": "does-sd-improve-reasoning",
+            "stars": 2,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "OPDArena",
+          "description": "2026.10 Microsoft Research / Nankai arXiv 2610.25651 OPDArena: Understanding Learning and Forgetting in On-Policy Distillation — Framework comparing SFT, RLVR and OPD across five models and varied teacher sources on math learning, capability retention and distribution change. Students of RLVR-trained teachers improve on the target task while retaining prior capabilities, whereas SFT-trained teachers cause greater loss. OOD distribution change tracks forgetting more consistently than in-domain change.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "OPDArena: training and evaluation for learning and forgetting in on-policy distillation",
+            "homepage": null,
+            "id": 1424993980,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-19T01:50:27Z",
+            "open_issues": 0,
+            "owner": "StellarCurtain",
+            "repo": "OPDArena",
+            "stars": 7,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "ESC",
+          "description": "2026.10 Simon Fraser / Borealis AI arXiv 2610.39020 Distilling the Shape of Uncertainty: What On-Policy Distillation Learns and How to Predict It — Shows OPD learns where to branch (entropy shape) as well as how to branch. Introduces Entropy Shape Correlation and uses causal interventions on teacher entropy. Where to branch causally drives OPD gains; pre-OPD ESC picks the best teacher, outperforming existing predictors.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1179516971,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-11-02T08:31:03Z",
+            "open_issues": 0,
+            "owner": "maybenotime",
+            "repo": "opd-esc",
+            "stars": 0,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "EP-OPD",
+          "description": "2026.11 Yale NLP Lab arXiv 2611.01967 Better Answers, Weaker Evidence Control: Evidence Bypass in On-Policy Distillation — Finds OPD improves answers but weakens evidence responsiveness. On QASPER, standard OPD gives +3.4pp original accuracy, -5.3pp counterfactual accuracy and +15.7pp bypass. Supplying the teacher with answer-critical spans helps most. The proposed EP-OPD recovers 54-66% of the counterfactual loss.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1438040421,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-11-02T12:50:04Z",
+            "open_issues": 0,
+            "owner": "RuoranXu",
+            "repo": "EP-OPD",
+            "stars": 3,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "OPD Mismatch Budget",
+          "description": "2026.11 Aalto / NTU / BIT / Cambridge / SZUAT arXiv 2611.11450 How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate? — Measures how much quantization, weight staleness and noise mismatch OPD tolerates, giving an empirical mismatch budget and a lightweight admission check. OPD stays stable where RL destabilises. FP8 plus async rollouts reaches the same quality 1.62x sooner than sync BF16.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1434516627,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-10T09:14:00Z",
+            "open_issues": 0,
+            "owner": "benyucong",
+            "repo": "train-inference-mismatch-opd",
+            "stars": 6,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
         }
       ],
       "title": "📚 Surveys, Foundations & Position Papers"
@@ -310,11 +436,11 @@
             "id": 151619717,
             "language": "Jupyter Notebook",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-14T12:36:20Z",
+            "last_commit": "2026-11-16T16:31:35Z",
             "open_issues": 2013,
             "owner": "google-research",
             "repo": "google-research",
-            "stars": 39187,
+            "stars": 39199,
             "topics": [
               "ai",
               "machine-learning",
@@ -994,6 +1120,153 @@
             "topics": []
           },
           "first_seen": "2026-10-11T09:04:27.633Z"
+        },
+        {
+          "node_type": "item",
+          "title": "A2-OPD",
+          "description": "2026.10 Zhejiang Univ / Shanghai AI Lab / Fudan Univ / ANU / RUC arXiv 2610.13205 Rethinking Relative Policy Differences Transfer of On-Policy Distillation — Unified view in which the log-ratio of a proxy expert vs reference is an implicit reward for KL-regularized on-policy updates of the target, recovering conventional OPD as a special case. Task-training (RL/SFT) differences transfer consistently, while scale-only differences transfer weakly or not at all.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1415028490,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-12T04:04:24Z",
+            "open_issues": 0,
+            "owner": "KnowledgeXLab",
+            "repo": "A2-OPD",
+            "stars": 5,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "MPOPD",
+          "description": "2026.10 UIUC / Stanford arXiv 2610.36477 Proposing Better Rollouts for On-Policy Distillation — Mixture Proposal OPD samples rollouts from a learned proposal policy, initialised from the student, that approximates a geometric student-teacher mixture. The teacher then scores those rollouts per token. Qwen3-4B-Base: +6.91 avg math accuracy over OPD with 41% shorter generations.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1425848421,
+            "language": null,
+            "license": null,
+            "last_commit": "2026-10-19T16:26:51Z",
+            "open_issues": 0,
+            "owner": "csr16",
+            "repo": "MPOPD",
+            "stars": 6,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "KL-MOPD",
+          "description": "2026.10 Zhejiang University / Alibaba arXiv 2610.36973 KL-MOPD: Discrepancy-Aware Multi-Objective On-Policy Distillation for Generative Recommendation — Multi-teacher OPD for generative recommendation. The student samples item (SID) sequences and click and value teachers supply per-token reverse-KL targets. Each teacher is weighted per token in proportion to its initial student-teacher KL. Average +4.12% on the joint objective over the strongest baseline; online A/B tests reported.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "推荐生成式模型MOPD",
+            "homepage": null,
+            "id": 1433389269,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-10-26T04:34:10Z",
+            "open_issues": 0,
+            "owner": "Yandorn",
+            "repo": "KL-MOPD",
+            "stars": 3,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "ATI-OPD",
+          "description": "2026.10 Huawei / Harbin Institute of Technology arXiv 2610.38160 ATI-OPD: Adaptive Teacher Intervention for Stable Long-Sequence On-Policy Distillation — The student rolls out and the teacher scores it in 128-token segments. The earliest high-divergence segment is replaced by a short teacher segment and the student resumes. Persistently divergent suffixes are masked from the loss. Higher student-only accuracy than OPD on five math benchmarks and two teacher-student pairs (e.g. 39.65 vs 38.45 avg), with fewer gradient spikes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1264739604,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-17T03:53:41Z",
+            "open_issues": 0,
+            "owner": "jubgjf",
+            "repo": "ATI-OPD",
+            "stars": 0,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Bernoulli OPD",
+          "description": "2026.11 University of Surrey / UCL / ELLIS Institute Tübingen / MPI-IS / Tübingen AI Center arXiv 2611.02093 Bernoulli On-Policy Distillation: Don't Ignore High-Confidence Student Tokens — Sampled reverse-KL OPD damps updates on tokens the student is already confident about. Bernoulli OPD treats each sampled token as a binary prediction and matches student and teacher probabilities (gradient p_S - p_T), which restores signal there. Qwen3-4B-Instruct to Qwen3-1.7B: 5-benchmark average rises from 44.38 (vanilla OPD).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Official code for “Bernoulli On-Policy Distillation: Don’t Ignore High-Confidence Student Tokens.”",
+            "homepage": null,
+            "id": 1440274357,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-09T21:26:15Z",
+            "open_issues": 0,
+            "owner": "duterscmy",
+            "repo": "Bernoulli-OPD",
+            "stars": 1,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "P2-MOPD",
+          "description": "2026.11 Adelaide Univ. / StepFun / SJTU / SUTD / MBZUAI arXiv 2611.03953 P$^2$-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors — Treats the linear combination of student and expert weights as one differentiable model, and jointly optimises the mixing coefficients and student weights under the standard MOPD objective. The 1.7B model reaches 94.7% average recovery vs 80.9% for MOPD, matching final MOPD in half the steps.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1446641809,
+            "language": null,
+            "license": null,
+            "last_commit": "2026-11-05T07:07:26Z",
+            "open_issues": 1,
+            "owner": "SinuoWang",
+            "repo": "P2-MOPD",
+            "stars": 18,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "SD-OPD",
+          "description": "2026.11 Zhejiang Univ. / Ant Group arXiv 2611.07722 Reinforcing What the Student Has Learned: Teacher-Guided On-Policy Distillation — Style tokens show 3.5x the teacher-student log-prob gap of math tokens. SD-OPD uses centered student-minus-base differences as update coefficients and keeps each only where its sign agrees with centered teacher-student feedback. Improves 6-task math avg@16 pass@1 over OPD by 7.76-10.37 points across 5 teacher-student configs with Qwen3 1.7B-8B students.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Reinforcing What the Student Has Learned: Teacher-Guided On-Policy Distillation",
+            "homepage": null,
+            "id": 1446732301,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-11-09T09:31:08Z",
+            "open_issues": 0,
+            "owner": "aim-uofa",
+            "repo": "sd-opd",
+            "stars": 1,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
         }
       ],
       "title": "🔬 OPD with Larger External Teachers — White-Box"
@@ -1140,7 +1413,7 @@
             "open_issues": 9,
             "owner": "siyan-zhao",
             "repo": "OPSD",
-            "stars": 717,
+            "stars": 718,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1236,7 +1509,7 @@
             "open_issues": 184,
             "owner": "microsoft",
             "repo": "agent-lightning",
-            "stars": 18960,
+            "stars": 18970,
             "topics": [
               "agent",
               "agentic-ai",
@@ -1507,7 +1780,7 @@
             "open_issues": 8,
             "owner": "VisionOPD",
             "repo": "Vision-OPD",
-            "stars": 351,
+            "stars": 354,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -1524,7 +1797,7 @@
             "id": 1205592360,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-09T04:05:16Z",
+            "last_commit": "2026-11-17T10:38:19Z",
             "open_issues": 1,
             "owner": "vvvvvjdy",
             "repo": "D-OPSD",
@@ -1864,7 +2137,7 @@
             "open_issues": 1,
             "owner": "divelab",
             "repo": "OPDLM",
-            "stars": 27,
+            "stars": 26,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -2164,6 +2437,174 @@
           "first_seen": "2026-09-19T07:24:47.635Z"
         },
         {
+          "node_type": "item",
+          "title": "VRSD",
+          "description": "2026.10 King's College London / Tencent YouTu Lab / LMU Munich / MCML arXiv 2610.16354 Self-Distillation with Verbal Regularization — System prompts regulate how the privileged-information-conditioned teacher uses its PI, countering shortcut reasoning and entropy collapse in OPSD. Theory derives conditions for entropy preservation. Improves Pass@1 over OPSD in 11 of 12 model-task settings, +3.9 pp on average.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Self-Distillation with Verbal Regularization (VRSD)",
+            "homepage": null,
+            "id": 1388226508,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-14T07:32:37Z",
+            "open_issues": 1,
+            "owner": "lijiazheng99",
+            "repo": "VRSD",
+            "stars": 6,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "LEAF",
+          "description": "2026.10 Clemson / Utah arXiv 2610.17734 Explore with Memory, Learn without It: In-Context Exploration and Self-Distillation for LLM Reasoning — Rollouts are explored with a problem-specific in-context memory of the last response, its reward and verifier feedback. The policy is then updated by self-distilling the memory-conditioned model into the memory-free student on student samples (reverse KL). About 4x faster exploration than random sampling; +1.59 / +1.83 pp over the strongest baseline with less compute than any RL baseline.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1415010069,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-10-12T03:37:54Z",
+            "open_issues": 0,
+            "owner": "on1262",
+            "repo": "LEAF",
+            "stars": 1,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "RUSD",
+          "description": "2026.10 George Mason Univ arXiv 2610.19176 Learning from Self-Generated Responses: Reliability--Uncertainty Self-Distillation for Reasoning — The self-teacher sees the question plus the model's own completed attempt, and the question-only student matches its token predictions. Each loss is weighted by self-judged reliability plus student uncertainty. 70.47% on Qwen3-4B and 76.69% on Qwen3-8B (+8.90 / +2.10 pp over base) across eleven reasoning benchmarks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1409494301,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-10-08T19:57:10Z",
+            "open_issues": 0,
+            "owner": "JP-25",
+            "repo": "RUSD",
+            "stars": 1,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "BSD",
+          "description": "2026.10 TUM / LMU / MCML arXiv 2610.26397 Bridged Self-Distillation for On-Policy Learning — Any external teacher (same-tokenizer, cross-tokenizer or closed API) only supplies a reasoning trace as text. A student copy conditioned on that trace scores the student's rollouts per token, and the guidance is applied to unsuccessful rollouts with a verifier outcome. Improves over the base model in all 12 teacher-student pairs (+1.2 to +4.7 points).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1425511356,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-20T09:58:41Z",
+            "open_issues": 1,
+            "owner": "TUMLegalTech",
+            "repo": "Bridged-Self-Distillation",
+            "stars": 3,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "SEPO",
+          "description": "2026.10 Renmin Univ / Peking Univ / Tencent arXiv 2610.34137 Self-Evolution Reasoner: Continuous Optimization via Policy-Intrinsic Exploration and Exploitation — Per step, an EMA teacher given the ground-truth label elicits correct reasoning, and the same-model teacher conditioned on that reasoning scores the student's unhinted rollout prefixes per token. The student is distilled toward it, with bounded divergence and tail truncation. Best under identical time or steps across science, tool-use and logic tasks, including 0.6B and 1.7B scales where baselines fail.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Self-Evolution Reasoner: Continuous Optimization via Policy-Intrinsic Exploration and Exploitation (NIPS 2026)",
+            "homepage": null,
+            "id": 1432961974,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-27T09:39:16Z",
+            "open_issues": 1,
+            "owner": "Eric8932",
+            "repo": "SEPO",
+            "stars": 1,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Fin-SD",
+          "description": "2026.10 UC Berkeley / CTGT arXiv 2610.36082 How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning — Localised hindsight self-distillation: the student finds its first wrong step and writes a short critique. A frozen copy given the correct prefix plus the critique is distilled under reverse KL on a short rollout. A generic-feedback control matches the entire +3.03 pp gain on FinanceReasoning Hard (GPT-OSS-20B), so the gain comes from where supervision lands, not the hint content. arXiv version of the CTGT Fin-SD blog listed in Surveys",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Fin-SD: hindsight self-distillation for financial reasoning (ICAIF '26)",
+            "homepage": "https://arxiv.org/abs/2610.36082",
+            "id": 1340142323,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-28T03:26:04Z",
+            "open_issues": 1,
+            "owner": "johnnyhyu",
+            "repo": "fin-sd",
+            "stars": 0,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "MTA-OPSD",
+          "description": "2026.10 TU Munich / MCML / Kyoto Univ / NII / Aalto arXiv 2610.40574 Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation — Token-level adaptive OPSD: a pool of reference-conditioned self-teachers with different reference exposure, where each token picks its preferred teacher via majority voting and KL-based selection. Up to +5.9 average over the base model on Qwen3 math reasoning.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "The code for the paper “Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-Policy Self-distillation\"",
+            "homepage": null,
+            "id": 1437158254,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-10-30T11:41:56Z",
+            "open_issues": 0,
+            "owner": "xingzhejun",
+            "repo": "MTA-OPSD",
+            "stars": 4,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "SSD (speculative self-distill.)",
+          "description": "2026.11 Stanford / ETH Zurich arXiv 2611.12016 Speculative Self-Distillation enables Efficient Knowledge Internalization — A source-conditioned self-teacher intervenes only at positions where its next-token distribution diverges from the student's (JS divergence above a threshold). Distillation loss is computed at every position. Nearly matches on-policy self-distillation with 38-69% fewer supervised tokens; less forgetting than on-policy or off-policy distillation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Speculative Self-Distillation enables Efficient Knowledge Internalization (NeurIPS 2026)",
+            "homepage": "https://ssd-distill.github.io/",
+            "id": 1447937506,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-12T18:32:59Z",
+            "open_issues": 0,
+            "owner": "ShayanTalaei",
+            "repo": "SpeculativeSelfDistillation",
+            "stars": 22,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
           "children": [
             {
               "node_type": "item",
@@ -2403,7 +2844,7 @@
             "open_issues": 77,
             "owner": "Gen-Verse",
             "repo": "OpenClaw-RL",
-            "stars": 5747,
+            "stars": 5748,
             "topics": [
               "async",
               "coding",
@@ -2652,6 +3093,111 @@
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
+        },
+        {
+          "node_type": "item",
+          "title": "RELAY",
+          "description": "2026.10 USTC / Fudan Univ / Alibaba arXiv 2610.17623 RELAY: Selective Self-Distillation with Adaptive Hand-off for Rubric-Based Reinforcement Learning — Adds self-distillation from a frozen copy of the initial model, which reads the rubric, to GRPO. It distills only selected rollouts (positive advantage, or near-zero advantage with low rubric score) and retires the teacher when distillation progress plateaus. +4.62 (1.7B) and +6.02 (4B) over GRPO on RaR-Medicine.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Official implementation of RELAY: Selective Self-Distillation with Adaptive Hand-off for Rubric-Based Reinforcement Learning",
+            "homepage": null,
+            "id": 1415797278,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-12T15:40:26Z",
+            "open_issues": 0,
+            "owner": "kunwang392",
+            "repo": "RELAY",
+            "stars": 0,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "VASPO",
+          "description": "2026.10 USTC / iFLYTEK Research arXiv 2610.20516 VASPO: Self-Distillation with Privileged Value Estimation — Within PPO, a privileged critic computes token-level advantages from predicted continuation returns, while the privileged self-teacher modulates selected positive advantages via bounded probability ratios at student-generated prefixes. +2.59 / +1.81 pp mean accuracy over PPO on Qwen3-4B / OLMo3-7B across six math benchmarks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1419444198,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-15T05:47:03Z",
+            "open_issues": 1,
+            "owner": "cii030",
+            "repo": "VASPO",
+            "stars": 1,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "GIFT",
+          "description": "2026.10 SJTU / Tencent arXiv 2610.30796 GIFT: Gradient Informed Filtering for Distillation Augmented Reasoning RL — Adds sparse token-level forward-KL distillation from a privileged self-teacher to GRPO. Each token's distillation gradient is split into a part parallel to the RL gradient (conflict) and an orthogonal part (value), and tokens are ranked on that split. Coverage is annealed to zero, ending at pure GRPO. Up to 9.5% relative gain on hard math reasoning.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1415612832,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-10-23T03:52:40Z",
+            "open_issues": 0,
+            "owner": "lilifree",
+            "repo": "GIFT",
+            "stars": 5,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "AOPD (advantage-based)",
+          "description": "2026.10 UPenn / USC arXiv 2610.31563 When to Follow the Teacher: Advantage-Based On-Policy Distillation — Weights teacher actions by their counterfactual advantage under the student, estimated from standard student rollouts and terminal rewards via teacher importance weights, with no extra rollouts. Works with both external-teacher and self-distillation settings. Gains over distillation and RL baselines on math, coding and MedQA. ⚠️ Name collision with AOPD (2605.06387)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Advantage-based Online Policy Distillation",
+            "homepage": null,
+            "id": 1417980046,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-05T17:10:15Z",
+            "open_issues": 0,
+            "owner": "Helloworld10011",
+            "repo": "AOPD",
+            "stars": 2,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "RuACT",
+          "description": "2026.11 Zhejiang Univ / Huawei arXiv 2611.09597 RuACT: Recovering Inactive Rubrics as Adaptive Critics and Teachers — In rubric-GRPO, unreachable rubrics are placed in a frozen self-teacher's prompt for reward-gated on-policy self-distillation, while saturated rubrics are split into finer child rubrics as critics. 60.88% of query-rubric observations are inactive in Qwen3-4B medical training; outperforms GRPO and reweighting on all four benchmarks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Official code for RuACT: Recovering Inactive Rubrics as Adaptive Critics and Teachers",
+            "homepage": "https://zjureal.com/RuACT/",
+            "id": 1446617497,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-13T13:17:01Z",
+            "open_issues": 0,
+            "owner": "ZJU-REAL",
+            "repo": "RuACT",
+            "stars": 3,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
         }
       ],
       "title": "🤝 OPD-RL Hybrids — Inside-RL OPD"
@@ -2727,7 +3273,7 @@
             "open_issues": 10,
             "owner": "Lakonik",
             "repo": "LakonLab",
-            "stars": 495,
+            "stars": 497,
             "topics": [
               "diffusion-models",
               "distillation",
@@ -2800,7 +3346,7 @@
             "open_issues": 5,
             "owner": "CostaliyA",
             "repo": "Flow-OPD",
-            "stars": 313,
+            "stars": 312,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -2842,7 +3388,7 @@
             "open_issues": 4,
             "owner": "ali-vilab",
             "repo": "DiffusionOPD",
-            "stars": 196,
+            "stars": 197,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -2863,7 +3409,7 @@
             "open_issues": 8,
             "owner": "VisionOPD",
             "repo": "Vision-OPD",
-            "stars": 351,
+            "stars": 354,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -2905,7 +3451,7 @@
             "open_issues": 1,
             "owner": "eVI-group-SCU",
             "repo": "V-Zero",
-            "stars": 180,
+            "stars": 181,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3017,7 +3563,7 @@
             "open_issues": 6,
             "owner": "NVlabs",
             "repo": "AnyFlow",
-            "stars": 450,
+            "stars": 451,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3164,7 +3710,7 @@
             "open_issues": 148,
             "owner": "OpenGVLab",
             "repo": "InternVideo",
-            "stars": 2419,
+            "stars": 2420,
             "topics": [
               "action-recognition",
               "benchmark",
@@ -3206,7 +3752,7 @@
             "open_issues": 2,
             "owner": "EricTan7",
             "repo": "VeritasPP",
-            "stars": 14,
+            "stars": 15,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -3399,6 +3945,303 @@
             "topics": []
           },
           "first_seen": "2026-10-19T07:55:43.611Z"
+        },
+        {
+          "node_type": "item",
+          "title": "GPD",
+          "description": "2026.10 Zhejiang Univ arXiv 2610.12355 Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models — Geometry-Privileged Distillation makes question-routed depth, semantic and BEV cues (rendered as text) plus the reference answer the privilege for a same-model OPSD teacher. A privileged KL on incorrect student rollouts is added to GRPO, and the deployed model is RGB-only. 4B model reaches 57.1 on VSI-Bench and 37.6 average on four other spatial benchmarks, beating GRPO and answer-only OPSD.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "GPD: Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
+            "homepage": null,
+            "id": 1394969461,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-11-05T09:47:43Z",
+            "open_issues": 2,
+            "owner": "ZJU-REAL",
+            "repo": "GPD",
+            "stars": 23,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "CV-OPD",
+          "description": "2026.10 Xiamen Univ / Moxin Technology arXiv 2610.13264 CV-OPD: Contrastive Vision On-policy Distillation — Answer-hinted OPD lets VLMs answer correctly even with the relevant visual regions masked, a shortcut. CV-OPD contrasts teacher distributions from positive and negative crops on the same student prefix, adds a margin-based contrastive divergence loss and a discrepancy-aware gate over tokens and samples. Reduces the shortcut and consistently improves fine-grained visual benchmarks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1392252983,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-09T11:13:36Z",
+            "open_issues": 1,
+            "owner": "HaoLin3419",
+            "repo": "Contrastive-Vision-OPD",
+            "stars": 3,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "OPD Inherits the Teacher",
+          "description": "2026.10 Georgia Tech arXiv 2610.20989 Do As I Do, Not As I Say: On-Policy Distillation Inherits the Teacher in Vision-Language Models — Controlled comparison of OPD and filtered SFT for VLMs. OPD works only when the teacher stays reliable on student-generated trajectories. On Geometry3K, where the teacher fails to complete 22% of solutions, OPD trails SFT by 7.9 points, and OPD from an SFT start cuts completion from 76% to 62%. On ChartQA, OPD on 10% of the data comes within 1.4 points of full-data SFT.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1388443655,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-09-26T03:31:57Z",
+            "open_issues": 0,
+            "owner": "ffy208",
+            "repo": "opd-inherits-teacher-vlm",
+            "stars": 0,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "SCOPED",
+          "description": "2026.10 Northeastern Univ (China) / Alibaba arXiv 2610.22217 Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models — Trains capability-specific RL experts and extracts explicit skills by reward-guided reflection. During OPD those skills guide the expert's supervision but are hidden from the unified student, which internalises procedural knowledge. Consistently beats the backbone and mixed-capability RL on 8 multimodal benchmarks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1419287625,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-10-20T05:18:11Z",
+            "open_issues": 0,
+            "owner": "NEUIR",
+            "repo": "SCOPED",
+            "stars": 11,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "NLD-Uni",
+          "description": "2026.10 NVIDIA arXiv 2610.36466 Nemotron-Labs-Diffusion-Uni: Elastic Self-Refining Unified Diffusion LLM with Cross-Paradigm On-Policy Distillation — Cross-paradigm OPD transfers AR-VLM understanding and flow-model generation into one unified discrete-diffusion LLM, supervising the student's AR view on its own rollouts plus a self-consistency loss for the diffusion view. A progressive per-token self-refining corruption process is added. SOTA among unified DLLMs on VQA, multimodal reasoning, grounding, T2I and image editing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1429217302,
+            "language": "Python",
+            "license": "NOASSERTION",
+            "last_commit": "2026-10-28T00:43:14Z",
+            "open_issues": 1,
+            "owner": "NVlabs",
+            "repo": "Nemotron-Labs-Diffusion-Uni",
+            "stars": 15,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Youtu-Parsing-Omni",
+          "description": "2026.10 Tencent Youtu arXiv 2610.39301 Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities — OmniSchema-Aware OPD (OSAD): the 5B parser samples its own parses, and a frozen copy of itself conditioned on the reference parse supplies token-level JS and forward-KL targets, with the teacher refreshed each round (six rounds). OmniDocBench v1.6 Overall 96.96; OmniParsingBench Avg 75.08.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Youtu-Parsing: Perception, Structuring and Recognition via High-Parallelism Decoding && Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+            "homepage": null,
+            "id": 1138713269,
+            "language": "Python",
+            "license": "NOASSERTION",
+            "last_commit": "2026-10-30T09:07:10Z",
+            "open_issues": 7,
+            "owner": "TencentCloudADP",
+            "repo": "youtu-parsing",
+            "stars": 521,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "SelfThinker",
+          "description": "2026.10 Tsinghua SIGS arXiv 2610.40115 SelfThinker: Self-Evolving Reasoning via Reliability-Verified Intrinsic Visual Thoughts — A unified model samples its own helper images, scores them via conditional PMI with its frozen understanding pathway, refines the generator by flow matching, and uses verified images as privileged EMA-teacher context for OPSD. At inference it reasons in text only. Seven-benchmark average of ThinkMorph-7B 52.7 → 64.0 (+11.3).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1436638088,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-10-29T06:19:01Z",
+            "open_issues": 0,
+            "owner": "zhangquanchen",
+            "repo": "SelfThinker",
+            "stars": 1,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "DTP-OPSD",
+          "description": "2026.10 South China Univ of Technology arXiv 2611.00120 DTP-OPSD: Reinforcement Learning with Distractor-Aware Temporal-Privilege On-Policy Self-Distillation for Temporal Video Grounding — Inside GRPO for temporal video grounding, a shared-weight teacher sees the video with the target window (red border) and distractor windows (blue border) marked. It scores student prefixes with token-level JSD, which gives signal on dead groups where all rollouts get zero tIoU. mIoU 55.93 / 54.77 / 66.71 on Charades / ActivityNet / QVHighlights-TimeLens with only 300 extra examples.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "DTP-OPSD code",
+            "homepage": null,
+            "id": 1413978854,
+            "language": null,
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-11T05:48:37Z",
+            "open_issues": 0,
+            "owner": "nian1125",
+            "repo": "DTP-OPSD",
+            "stars": 0,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "StreamDuo",
+          "description": "2026.10 Alaya Lab / Univ of Tokyo / Georgia Tech / Peking Univ / Institute of Science Tokyo arXiv 2611.01120 StreamDuo: A Live Commentator and a Research Agent for Unseen Games — A streaming commentator asks a frozen wiki-reading research agent for hints. Stage 2 is OPSD: a frozen copy of the commentator that sees the ideal answer teaches the student, which sees a noisy answer, to use answers. Entity recall 0.082 → 0.116 over Proact-VL on ten unseen games; source-game leakage 9.9% → 1.0%.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Code for StreamDuo: a live commentator and a research agent for unseen games",
+            "homepage": null,
+            "id": 1425312582,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-11-03T05:16:21Z",
+            "open_issues": 1,
+            "owner": "ZixianGao",
+            "repo": "StreamDuo-code",
+            "stars": 14,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "History Forcing",
+          "description": "2026.11 Zhejiang Univ / Microsoft Research / Monash / Adelaide arXiv 2611.02782 History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models — On-policy distillation for few-step autoregressive video generators. The residual between teacher predictions with and without history, using earlier generated chunks or a fixed-view teacher rollout, is weighted and added to the DMD score or velocity target. VBench quality 85.07 for 15s video and VBench-Long 79.82 for 60s among 1.3B models.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Official code for History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models.",
+            "homepage": "https://ziplab.co/History-Forcing-Project-Page/",
+            "id": 1297183054,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-04T09:33:35Z",
+            "open_issues": 1,
+            "owner": "ziplab",
+            "repo": "History-Forcing",
+            "stars": 64,
+            "topics": [
+              "video-generation",
+              "world-models"
+            ]
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "OmniOPD (audio-video)",
+          "description": "2026.11 USTC arXiv 2611.02803 OmniOPD: Stable On-Policy Distillation for Joint Audio-Video Generation — Modality-wise OPD for joint audio-video generation: audio and video RL specialist teachers supervise one student. Asymmetric noise gives the audio teacher cleaner video context as privileged information, grouped multi-noise sampling widens audio supervision, and a teacher-student transition-divergence weight stabilises training. Preserves audio quality while significantly improving video on JavisBench and VBench. ⚠️ Name collision with Meta's OmniOPD (2606.01476, Black-Box)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "OmniOPD: Stable On-Policy Distillation for Joint Audio-Video Generation. https://arxiv.org/pdf/2611.02803",
+            "homepage": "https://fanzh03.github.io/OmniOPD/",
+            "id": 1444441901,
+            "language": "Python",
+            "license": "NOASSERTION",
+            "last_commit": "2026-11-03T15:00:36Z",
+            "open_issues": 0,
+            "owner": "fanzh03",
+            "repo": "OmniOPD",
+            "stars": 2,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "StepX-OPD",
+          "description": "2026.11 StepFun / Westlake Univ arXiv 2611.04386 StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models — Merges multi-teacher capability integration and few-step distillation into one OPD stage: frozen full-step specialists supervise the 4-step student on the states its own rollout visits, with velocity regression weighted toward the low-noise end. The 4-step student exceeds the 40-step Flow-OPD model on SD3.5-M and FLUX.1-dev, with about 37% fewer GPU-hours than sequential DiffusionOPD plus step distillation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1413848133,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-11T21:02:49Z",
+            "open_issues": 3,
+            "owner": "WinterCCC",
+            "repo": "StepX-OPD",
+            "stars": 10,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "PhysOPSD",
+          "description": "2026.11 HKUST / Alibaba Token Hub arXiv 2611.12411 PhysOPSD: Code as Privilege for Physically Plausible Video Generation — Executable simulation code (built by PhysOPSD-Engine) serves as privileged physical context for on-policy self-distillation of video generators. It uses dual-level physical privilege and paired rollouts with controlled physical variations under shared noise. Outperforms SFT and RL baselines with only 3K samples, and keeps general video quality.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "PhysOPSD: Code as Privilege for Physically Plausible Video Generation",
+            "homepage": "https://haroldchen19.github.io/PhysOPSD-site/",
+            "id": 1451428480,
+            "language": null,
+            "license": null,
+            "last_commit": "2026-11-10T09:39:51Z",
+            "open_issues": 1,
+            "owner": "aigc3d",
+            "repo": "PhysOPSD",
+            "stars": 3,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "BlinkOPD",
+          "description": "2026.11 King's College London / Cornell / Aalto / Huawei Noah's Ark / Imperial College London arXiv 2611.16402 Teach with Blinks: Breaking Linguistic Momentum in On-Policy Distillation for Fine-Grained Multimodal Perception — Counters 'linguistic momentum' (the teacher drifting along the student's wrong prefix) by having the teacher read each student prefix twice, eyes open and eyes closed. A first-glance gain strengthens correction on rollouts that conflict with the teacher. SOTA on 6 fine-grained benchmarks with only 500 training images (12x less data), plus zero-shot gains on 10 held-out benchmarks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "BlinkOPD: on-policy self-distillation for fine-grained multimodal perception",
+            "homepage": null,
+            "id": 1445855885,
+            "language": "Python",
+            "license": "CC-BY-4.0",
+            "last_commit": "2026-11-13T14:20:45Z",
+            "open_issues": 0,
+            "owner": "Supltz",
+            "repo": "BlinkOPD",
+            "stars": 2,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
         }
       ],
       "title": "🖼️ Multimodal OPD (VLM, Video, Audio, Image)"
@@ -3496,7 +4339,7 @@
             "open_issues": 184,
             "owner": "microsoft",
             "repo": "agent-lightning",
-            "stars": 18960,
+            "stars": 18970,
             "topics": [
               "agent",
               "agentic-ai",
@@ -3523,7 +4366,7 @@
             "open_issues": 77,
             "owner": "Gen-Verse",
             "repo": "OpenClaw-RL",
-            "stars": 5747,
+            "stars": 5748,
             "topics": [
               "async",
               "coding",
@@ -3939,6 +4782,287 @@
             "topics": []
           },
           "first_seen": "2026-10-11T09:04:27.633Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Reflect-VLA",
+          "description": "2026.10 Tsinghua Univ / Univ of Macau / USTC / Beijing Jiaotong Univ / NTU arXiv 2610.13453 Reflect-VLA: Internalizing Reflective Guidance via Dual-Path On-Policy Self-Distillation for Autonomous Driving — Dual-OPSD for a driving VLA: reflective diagnoses and corrections are training-time privileged context for the teacher. The driving score only routes student rollouts: risky ones get dense token-level teacher corrections, reliable ones get self-imitation. Competitive on NAVSIM v1/v2 and Bench2Drive, with over 90% less training time than RL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Repo of \"Reflect-VLA: Internalizing Reflective Guidance via Dual-Path On-Policy Self-Distillation for Autonomous Driving\"",
+            "homepage": "https://luo-yc17.github.io/reflect-vla-web/",
+            "id": 1410589900,
+            "language": null,
+            "license": null,
+            "last_commit": "2026-10-08T16:25:15Z",
+            "open_issues": 1,
+            "owner": "luo-yc17",
+            "repo": "Reflect-VLA",
+            "stars": 4,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "RSIPO",
+          "description": "2026.10 CUHK / THU / NUS / Tongji / UW-Madison / Westlake arXiv 2610.15772 RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution — RLVR plus OPSD in which the policy extracts skills from its own completed trajectories (trained via trajectory replay) and the skill-conditioned teacher scores student tokens. Empirical-Bayes shrinkage calibrates how far the student trusts those teacher scores. Qwen2.5-7B: 98.6% on ALFWorld, +2.5 pp over the second-best baseline and +17.4 pp over GRPO.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Official repository for the paper “RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution”",
+            "homepage": null,
+            "id": 1414354154,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-10-26T09:02:05Z",
+            "open_issues": 2,
+            "owner": "zfkarl",
+            "repo": "RSIPO",
+            "stars": 318,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "SD Agentic-RL Reality Check",
+          "description": "2026.10 Zhejiang University / Ant Group arXiv 2610.19789 More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning — Unified benchmark of ten self-distillation agent-RL methods (GRPO+OPSD, SDAR, RLSD, AgentOPSD, Skill-SD and others) against GRPO on ALFWorld, ScienceWorld, Search-QA and WebShop across three sizes (132 runs, 12,124 H800 GPU-hours). No method consistently beats GRPO, strong final scores can mask unstable training, and extra cost does not reliably buy gains.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+            "homepage": "https://aim-uofa.github.io/Self-Distillation-AgentRL/",
+            "id": 1418455494,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-15T03:17:31Z",
+            "open_issues": 0,
+            "owner": "aim-uofa",
+            "repo": "Self-Distillation-AgentRL",
+            "stars": 93,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "PI-OPSD",
+          "description": "2026.10 Michigan / Mila / Scale AI arXiv 2610.22512 Predicting Privileged Information Effectiveness for On-Policy Self-Distillation — Evaluates 16 privileged-information configurations for OPSD across three multi-turn agentic benchmarks and three students. PI effectiveness depends on content, generation source and student; KL-based metrics (reverse KL, error-step KL contrast) predict post-training gains better than PI utility. Selecting PI by error-step KL contrast beats random selection.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1427339897,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-20T18:18:26Z",
+            "open_issues": 1,
+            "owner": "zkjzou",
+            "repo": "PI-OPSD",
+            "stars": 1,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "SPOD",
+          "description": "2026.10 USC / UF / Emory / UAlabama / UMD / Amazon AGI arXiv 2610.25034 Beyond the Teacher: Understanding and Preserving Distillation Overshoot in Agentic On-Policy Distillation — Finds distillation overshoot in agentic OPD: a weaker student transiently beats its teacher, then regresses as the teacher erodes successful student choices. SPOD masks conflicting supervision on successful choices and adds a soft probability floor. Up to +15.2 pts final success over OPD; up to +20.0 pts over the teacher.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1424022433,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-10-22T02:06:30Z",
+            "open_issues": 0,
+            "owner": "Jike338",
+            "repo": "SPOD",
+            "stars": 3,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "ToolOPD",
+          "description": "2026.10 Northeastern Univ. / Honor arXiv 2610.25693 ToolOPD: Credit-Aware On-Policy Distillation for Tool-Use Agents — Reweights action-token OPD by how a hindsight skill, summarized from the finished trajectory, shifts the teacher's probabilities, so credit concentrates on critical decisions. It is trained jointly with GRPO. ALFWorld (Qwen3-0.6B): 59.4% vs 14.8% GRPO and 53.9% vanilla OPD.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "ToolOPD: Credit-Aware On-Policy Distillation for Tool-Use Agents",
+            "homepage": null,
+            "id": 1425033524,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-19T02:53:36Z",
+            "open_issues": 5,
+            "owner": "MagicAgent-Search",
+            "repo": "ToolOPD",
+            "stars": 6,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "CORD (agents)",
+          "description": "2026.10 CUHK / Tencent / PKU arXiv 2610.29965 CORD: Conflict-Aware Optimization for Joint RL and Distillation in Agents — Gradient-combination add-on for joint RL plus on-policy (self-)distillation agent recipes. It projects out the part of the distillation gradient that opposes the protected objective. ALFWorld success +1.5 to +15.9 pp across three recipes; SDAR 60.7% to 64.6% on WebShop. ⚠️ Name collision: not CORD (2601.16547) or CoRD (2611.07959)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1413043734,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-10T10:13:02Z",
+            "open_issues": 0,
+            "owner": "LvAoAo",
+            "repo": "CORD-release",
+            "stars": 0,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "SWE-Ladder",
+          "description": "2026.10 Zhejiang Univ arXiv 2610.33667 SWE-Ladder: Learning to Localize, Reproduce, and Patch via Progressive Privileged Self-Distillation — A rule-based router assigns each step of the SWE-agent's own rollout to a stage (localize, reproduce, patch). A frozen teacher sees only the matching stage evidence (changed lines, fail-to-pass tests, diff) and distills token-level supervision in repair order, alongside GRPO. Qwen3-4B on SWE-bench Verified (R2E-Gym): pass@1 9.6% to 16.4%, vs 10.4% for GRPO and 12.4% for full-patch OPSD.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "SWE-Ladder: Learning to Localize, Reproduce, and Patch via Progressive Privileged Self-Distillation.",
+            "homepage": null,
+            "id": 1416911229,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-29T07:35:59Z",
+            "open_issues": 0,
+            "owner": "sekongger",
+            "repo": "SWE-Ladder",
+            "stars": 7,
+            "topics": [
+              "grpo",
+              "llm-agents",
+              "on-policy-distillation",
+              "reinforcement-learning",
+              "self-distillation",
+              "software-engineering-agents",
+              "swe-bench"
+            ]
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "EvoRouter",
+          "description": "2026.10 BUPT / Fudan (SII) / NTU arXiv 2610.35690 EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation — A privileged teacher sees distilled routing insights, the plan and the execution outcome, and gives dense reverse-KL on the router's own planning tokens. Cost-aware RL follows. +7.23 points over RCR-Router in-domain and 50.95% lower mean MAS cost.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation",
+            "homepage": null,
+            "id": 1432824688,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-04T08:33:13Z",
+            "open_issues": 0,
+            "owner": "CenYangtze",
+            "repo": "EvoRouter",
+            "stars": 5,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "ORSD",
+          "description": "2026.11 UCAS / Zhejiang Univ / CNIC CAS arXiv 2611.06543 Using Experience Twice: Dynamic Process Rubrics for Privileged Token-Level Credit Assignment — Online Rubric Self-Distillation: the policy derives process rubrics from cross-trajectory differences, a frozen verifier selects a bundle, and the rubric becomes privileged context. The with/without-rubric token log-likelihood gap on the policy's own tokens is added to the GRPO advantage as dense credit. It speeds up learning and improves final performance on ALFWorld and WebShop for Qwen3-1.7B and Qwen3-4B (no headline number in the abstract).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Online rubric-guided reinforcement learning for interactive agents, built on veRL",
+            "homepage": null,
+            "id": 1443050082,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-03T00:55:59Z",
+            "open_issues": 0,
+            "owner": "AnnaXChun",
+            "repo": "ORSD",
+            "stars": 0,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "VLA-MOPD",
+          "description": "2026.11 USTC / ACE Robotics / Central South Univ arXiv 2611.12286 VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation — Consolidates flow-matching VLA specialists into one student: the student collects its own robot rollouts and instruction-routed frozen teachers supervise every visited observation and intermediate ODE state, with an optional reference-policy term for retention. LIBERO mean success-once 75.4% to 98.9% (vs 98.15% endpoint distillation); RoboTwin 2.0 73.0% to 89.3%; Piper robot 70% to 90%.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "On-policy distillation for multi-task vision-language-action policy consolidation.",
+            "homepage": "https://huggingface.co/collections/yxuan1234/vla-mopd-libero-models-6aef8082e68b1425f09b28cc",
+            "id": 1246559152,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-07T20:13:15Z",
+            "open_issues": 0,
+            "owner": "yxuan1234",
+            "repo": "VLA-MOPD",
+            "stars": 0,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Reframe",
+          "description": "2026.11 Nanjing Univ / Institute of Automation, CAS arXiv 2611.12886 Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning — GD-GRPO trains spatial and temporal specialists with evidence-aware rewards and stochastic dropout of the original visual input. OG-MOPD then replaces deficient tool actions with canonical ones mid-rollout and resumes multi-teacher distillation from the repaired observation. Beats Mix-RL and vanilla MOPD on 14 image and video benchmarks, with no SFT cold start.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+            "homepage": null,
+            "id": 1451906379,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-11T04:48:03Z",
+            "open_issues": 0,
+            "owner": "EliYuan30",
+            "repo": "Reframe",
+            "stars": 37,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "OPSD4MAS",
+          "description": "2026.11 ICT CAS / UCAS / Ant Group arXiv 2611.16206 Turning Multi-Agent Communication into Token-Level Credit with On Policy Self Distillation — A fact-conditioned copy of each agent's policy, conditioned on future inter-agent communication, gives token-level log-prob credit on the agents' own rollouts. Facts are filtered by an external model and leave-one-out, and the credit is annealed into GRPO. Up to +20.00 pp math pass@4 over GRPO.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Code for OPSD4MAS",
+            "homepage": null,
+            "id": 1454731115,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-16T06:36:45Z",
+            "open_issues": 0,
+            "owner": "Camel-Prince",
+            "repo": "OPSD4MAS",
+            "stars": 1,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
         }
       ],
       "title": "🤖 Agent & Embodied OPD (by application)"
@@ -4046,11 +5170,11 @@
             "id": 998697045,
             "language": "Python",
             "license": "MIT",
-            "last_commit": "2026-11-16T09:36:11Z",
-            "open_issues": 271,
+            "last_commit": "2026-11-17T10:48:54Z",
+            "open_issues": 264,
             "owner": "sgl-project",
             "repo": "SpecForge",
-            "stars": 1287,
+            "stars": 1289,
             "topics": [
               "eagle",
               "eagle3",
@@ -4150,11 +5274,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-16T09:54:32Z",
-            "open_issues": 295,
+            "last_commit": "2026-11-17T10:42:23Z",
+            "open_issues": 290,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19743,
+            "stars": 19749,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4162,7 +5286,7 @@
         {
           "node_type": "item",
           "title": "TRL — the most diverse OPD trainer collection. v1.11.0",
-          "description": "adds : the teacher is a remote vLLM server only (logprobs via ), and several can be routed per sample for multi-teacher OPD",
+          "description": "adds : the teacher is a remote vLLM server only (logprobs via ), and several can be routed per sample for multi-teacher OPD. v1.15.0 (2026-10-08) adds PEFT support and a Triton distillation-divergence kernel / fused LM head for (v1.17's X-Token cross-tokenizer GOLD is off-policy)",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -4171,11 +5295,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-16T09:54:32Z",
-            "open_issues": 295,
+            "last_commit": "2026-11-17T10:42:23Z",
+            "open_issues": 290,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19743,
+            "stars": 19749,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4192,11 +5316,11 @@
             "id": 646410686,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-16T04:22:56Z",
-            "open_issues": 1247,
+            "last_commit": "2026-11-17T04:25:42Z",
+            "open_issues": 1249,
             "owner": "hiyouga",
             "repo": "LlamaFactory",
-            "stars": 76062,
+            "stars": 76078,
             "topics": [
               "agent",
               "ai",
@@ -4234,11 +5358,11 @@
             "id": 673412924,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-16T09:16:22Z",
-            "open_issues": 585,
+            "last_commit": "2026-11-17T10:12:36Z",
+            "open_issues": 581,
             "owner": "modelscope",
             "repo": "ms-swift",
-            "stars": 16112,
+            "stars": 16116,
             "topics": [
               "deepseek",
               "embedding",
@@ -4275,11 +5399,11 @@
             "id": 881221486,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-16T08:01:37Z",
-            "open_issues": 1508,
+            "last_commit": "2026-11-17T09:59:38Z",
+            "open_issues": 1511,
             "owner": "verl-project",
             "repo": "verl",
-            "stars": 24241,
+            "stars": 24260,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4300,7 +5424,7 @@
             "open_issues": 206,
             "owner": "rllm-org",
             "repo": "rllm",
-            "stars": 5920,
+            "stars": 5923,
             "topics": [
               "agent-framework",
               "agentic-workflow",
@@ -4323,7 +5447,7 @@
         {
           "node_type": "item",
           "title": "SkyRL",
-          "description": "2025.04 UC Berkeley NovaSky ; blog SkyRL",
+          "description": "NovaSky-AI/SkyRL",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -4332,11 +5456,32 @@
             "id": 970890722,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-16T07:19:32Z",
-            "open_issues": 648,
+            "last_commit": "2026-11-17T09:00:56Z",
+            "open_issues": 653,
             "owner": "NovaSky-AI",
             "repo": "SkyRL",
-            "stars": 2531,
+            "stars": 2532,
+            "topics": []
+          },
+          "first_seen": "2026-08-28T14:25:49.086Z"
+        },
+        {
+          "node_type": "item",
+          "title": "SkyRL — dedicated OPD entrypoint (PR #2256",
+          "description": ", 2026-11): student rollouts scored by a frozen vLLM teacher, reverse KL folded into advantages, optional pure-OPD mode with task reward zeroed",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "SkyRL: A Modular Full-stack RL Library for LLMs",
+            "homepage": "https://docs.skyrl.ai/docs",
+            "id": 970890722,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-17T09:00:56Z",
+            "open_issues": 653,
+            "owner": "NovaSky-AI",
+            "repo": "SkyRL",
+            "stars": 2532,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4353,11 +5498,11 @@
             "id": 991939049,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-16T01:15:12Z",
+            "last_commit": "2026-11-17T01:13:54Z",
             "open_issues": 147,
             "owner": "alibaba",
             "repo": "ROLL",
-            "stars": 3455,
+            "stars": 3454,
             "topics": [
               "agentic",
               "rlhf",
@@ -4369,7 +5514,7 @@
         {
           "node_type": "item",
           "title": "AReaL",
-          "description": "2025.06 AntGroup / Tsinghua  AReaL",
+          "description": "areal-project/AReaL",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -4378,11 +5523,41 @@
             "id": 937952934,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-16T09:50:43Z",
-            "open_issues": 176,
+            "last_commit": "2026-11-17T08:53:23Z",
+            "open_issues": 178,
             "owner": "areal-project",
             "repo": "AReaL",
-            "stars": 5912,
+            "stars": 5914,
+            "topics": [
+              "agent",
+              "llm",
+              "llm-agent",
+              "llm-reasoning",
+              "machine-learning-systems",
+              "mlsys",
+              "reinforcement-learning",
+              "rl"
+            ]
+          },
+          "first_seen": "2026-08-28T14:25:49.086Z"
+        },
+        {
+          "node_type": "item",
+          "title": "AReaL — v2.1.1",
+          "description": "(2026-11, repo moved to ) adds a multi-teacher policy-distillation trainer (PR #1592): routed actor rollouts scored by persistent teacher workers with weighted reverse KL, composable with the policy loss",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible.",
+            "homepage": "https://areal-ai.io",
+            "id": 937952934,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-17T08:53:23Z",
+            "open_issues": 178,
+            "owner": "areal-project",
+            "repo": "AReaL",
+            "stars": 5914,
             "topics": [
               "agent",
               "llm",
@@ -4409,10 +5584,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-11-05T23:42:16Z",
-            "open_issues": 574,
+            "open_issues": 577,
             "owner": "THUDM",
             "repo": "slime",
-            "stars": 8830,
+            "stars": 8837,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4420,7 +5595,7 @@
         {
           "node_type": "item",
           "title": "RL",
-          "description": "2026.01 NVIDIA  NeMo-RL — native OPD with student rollouts",
+          "description": "NVIDIA-NeMo/RL",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -4429,11 +5604,32 @@
             "id": 949546994,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-16T09:39:40Z",
-            "open_issues": 1442,
+            "last_commit": "2026-11-17T10:51:36Z",
+            "open_issues": 1454,
             "owner": "NVIDIA-NeMo",
             "repo": "RL",
-            "stars": 2134,
+            "stars": 2137,
+            "topics": []
+          },
+          "first_seen": "2026-08-28T14:25:49.086Z"
+        },
+        {
+          "node_type": "item",
+          "title": "NeMo-RL — native OPD with student rollouts; v0.8.0",
+          "description": "lists MOPD among the features supported on the Single Controller",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Scalable toolkit for efficient model reinforcement",
+            "homepage": "https://docs.nvidia.com/nemo/rl/latest/index.html",
+            "id": 949546994,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-17T10:51:36Z",
+            "open_issues": 1454,
+            "owner": "NVIDIA-NeMo",
+            "repo": "RL",
+            "stars": 2137,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4450,7 +5646,7 @@
             "id": 1168545491,
             "language": "Python",
             "license": "MIT",
-            "last_commit": "2026-11-10T08:59:23Z",
+            "last_commit": "2026-11-16T12:21:30Z",
             "open_issues": 0,
             "owner": "songmzhang",
             "repo": "KDFlow",
@@ -4527,7 +5723,7 @@
             "open_issues": 3,
             "owner": "lds-ustc",
             "repo": "EasyOPD",
-            "stars": 84,
+            "stars": 83,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4630,7 +5826,7 @@
             "open_issues": 0,
             "owner": "zsxm1998",
             "repo": "awesome-perception-aware-rlvr",
-            "stars": 39,
+            "stars": 40,
             "topics": [
               "agentic-rl",
               "awesome",
@@ -4655,6 +5851,27 @@
             ]
           },
           "first_seen": "2026-10-19T07:55:43.611Z"
+        },
+        {
+          "node_type": "item",
+          "title": "LoongSage",
+          "description": "2026.10 Baidu Teacher Manager (full-vocab / top-k / JSD multi-teacher OPD, standalone or with GRPO/GSPO); arXiv 2610.16352 LoongSage — ~14K-LoC async agent-native RL framework (Megatron + SGLang + Ray) with sliding-window staleness control; native multi-teacher OPD path. Validated MOPD run cut step latency 1,100 s → 700 s. ⚠️ OPD is one feature of a general RL framework",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "A production-grade, high-efficiency Agentic RL framework for frontier LLMs with validated recipes.",
+            "homepage": "http://docs.loongsage.org/",
+            "id": 1349320558,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-17T03:51:38Z",
+            "open_issues": 21,
+            "owner": "baidu-baige",
+            "repo": "LoongSage",
+            "stars": 709,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
         }
       ],
       "title": "🛠️ Frameworks & Toolkits"
@@ -4675,10 +5892,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-10-28T02:38:40Z",
-            "open_issues": 341,
+            "open_issues": 342,
             "owner": "google-deepmind",
             "repo": "gemma",
-            "stars": 5853,
+            "stars": 5856,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4699,7 +5916,7 @@
             "open_issues": 70,
             "owner": "QwenLM",
             "repo": "Qwen3",
-            "stars": 27739,
+            "stars": 27743,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4720,7 +5937,7 @@
             "open_issues": 34,
             "owner": "zai-org",
             "repo": "GLM-4.5",
-            "stars": 4426,
+            "stars": 4428,
             "topics": [
               "agent",
               "glm",
@@ -4789,7 +6006,7 @@
             "open_issues": 5,
             "owner": "baichuan-inc",
             "repo": "Baichuan-M3-235B",
-            "stars": 264,
+            "stars": 265,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4810,7 +6027,7 @@
             "open_issues": 19,
             "owner": "zai-org",
             "repo": "GLM-5",
-            "stars": 7462,
+            "stars": 7466,
             "topics": [
               "agentic-ai",
               "coding",
@@ -4836,7 +6053,7 @@
             "open_issues": 116,
             "owner": "QwenLM",
             "repo": "Qwen3-Coder",
-            "stars": 16858,
+            "stars": 16857,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4857,7 +6074,7 @@
             "open_issues": 12,
             "owner": "Tencent-Hunyuan",
             "repo": "HY-Embodied",
-            "stars": 881,
+            "stars": 882,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4878,7 +6095,7 @@
             "open_issues": 7,
             "owner": "InternScience",
             "repo": "Agents-A1",
-            "stars": 607,
+            "stars": 608,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -4916,11 +6133,11 @@
             "id": 1069235905,
             "language": "Jupyter Notebook",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-12T16:19:43Z",
+            "last_commit": "2026-11-16T20:42:56Z",
             "open_issues": 95,
             "owner": "NVIDIA-NeMo",
             "repo": "Nemotron",
-            "stars": 2349,
+            "stars": 2356,
             "topics": [
               "ai",
               "fine-tuning",
@@ -4944,8 +6161,8 @@
             "id": 664913876,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-16T09:12:09Z",
-            "open_issues": 425,
+            "last_commit": "2026-11-17T06:43:49Z",
+            "open_issues": 427,
             "owner": "InternLM",
             "repo": "xtuner",
             "stars": 5223,
@@ -4985,6 +6202,88 @@
             "topics": []
           },
           "first_seen": "2026-10-11T09:04:27.633Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Hy-Memory",
+          "description": "2026.10 Tencent Hunyuan arXiv 2610.22196 Hy-Memory-30B-A3B: Attributed Reinforcement Learning for Long-Term Memory Writing — Stage-1 Memory OPD: the student runs the unmodified Mem0/MemOS/Hy-Memory write harness over chunks, and a frozen Hy3 teacher returns top-50 distributions on the student's tokens (top-50 reverse-KL approximation). Chunk-level GRPO follows. Ranks first on all four harnesses; 55.49% macro vs 54.62% for Claude Opus 5.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1420743720,
+            "language": "Python",
+            "license": "NOASSERTION",
+            "last_commit": "2026-11-15T08:49:03Z",
+            "open_issues": 110,
+            "owner": "Tencent-Hunyuan",
+            "repo": "Hy-Memory",
+            "stars": 2072,
+            "topics": []
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Nemotron 3.5 Super",
+          "description": "2026.10 NVIDIA arXiv 2610.38095 Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI — Super (120B-A12B) runs a two-stage MOPD after RL. The domain-routed teacher (agentic, reasoning, RLHF, vision tool use, video) gives a token-level reverse-KL advantage on student rollouts, with a frozen self-anchor for unowned environments. Lightning (30B-A3B) has no MOPD. Super reaches 51.78% on SWE-bench Pro with ~4.6x fewer active parameters than Nemotron 3 Ultra; this is the full post-trained model, not MOPD alone.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Developer Asset Hub for NVIDIA Nemotron — A one-stop resource for training recipes, usage cookbooks, datasets, and full end-to-end reference examples to build with Nemotron models",
+            "homepage": "https://docs.nvidia.com/nemotron/latest/index.html",
+            "id": 1069235905,
+            "language": "Jupyter Notebook",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-16T20:42:56Z",
+            "open_issues": 95,
+            "owner": "NVIDIA-NeMo",
+            "repo": "Nemotron",
+            "stars": 2356,
+            "topics": [
+              "ai",
+              "fine-tuning",
+              "model-training",
+              "nemotron",
+              "nvidia",
+              "reinforcement-learning"
+            ]
+          },
+          "first_seen": "2026-08-28T14:25:49.086Z"
+        },
+        {
+          "node_type": "item",
+          "title": "MNN-Pocket-0.3B",
+          "description": "2026.11 Alibaba (Taobao & Tmall, MNN) arXiv 2611.12311 MNN-Pocket-0.3B Technical Report — The post-training stage uses four frozen RL teachers (code, math, knowledge, instruction following) in domain-routed OPD with top-K reverse KL on the student's rollouts. A self-OPD step against the frozen BF16 model recovers the INT4 quantization loss. Macro average 35.79 (SFT) → 50.00 after MOPD; INT4 49.59 vs BF16 50.00; 173 MB, 466 tok/s on iPad Pro M5.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
+            "homepage": null,
+            "id": 181436799,
+            "language": "C++",
+            "license": "Apache-2.0",
+            "last_commit": "2026-11-17T09:32:06Z",
+            "open_issues": 93,
+            "owner": "alibaba",
+            "repo": "MNN",
+            "stars": 16552,
+            "topics": [
+              "arm",
+              "convolution",
+              "deep-learning",
+              "embedded-devices",
+              "llm",
+              "machine-learning",
+              "ml",
+              "mnn",
+              "transformer",
+              "vulkan",
+              "winograd-algorithm"
+            ]
+          },
+          "first_seen": "2026-11-17T10:51:35.348Z"
         }
       ],
       "title": "🏭 Industrial / Production Model Reports"
@@ -5004,11 +6303,11 @@
             "id": 1019793048,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-14T18:00:15Z",
-            "open_issues": 163,
+            "last_commit": "2026-11-17T01:09:49Z",
+            "open_issues": 165,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4261,
+            "stars": 4264,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -5025,11 +6324,11 @@
             "id": 250510075,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-16T09:54:32Z",
-            "open_issues": 295,
+            "last_commit": "2026-11-17T10:42:23Z",
+            "open_issues": 290,
             "owner": "huggingface",
             "repo": "trl",
-            "stars": 19743,
+            "stars": 19749,
             "topics": []
           },
           "first_seen": "2026-08-28T14:25:49.086Z"
@@ -5039,7 +6338,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-16T09:55:24.080Z",
+    "last_updated": "2026-11-17T10:51:35.348Z",
     "original_repository_info": {
       "archived": false,
       "description": "Awesome List for On-Policy Distillation",
@@ -5047,7 +6346,7 @@
       "id": 1222978157,
       "language": null,
       "license": null,
-      "last_commit": "2026-10-18T11:19:03Z",
+      "last_commit": "2026-11-17T00:19:28Z",
       "open_issues": 0,
       "owner": "thinkwee",
       "repo": "AwesomeOPD",
@@ -5059,7 +6358,7 @@
         "on-policy-distillation"
       ]
     },
-    "original_repository_sha": "324c2acf88bf2a8bccff4892cd6b5abc11b19b0b",
+    "original_repository_sha": "589a2b29c0dfca67d7cfe62220ec4bca982ee6c4",
     "enhanced_repository": "enhansome/enhansome-AwesomeOPD",
     "enhanced_repository_description": null,
     "title": "Awesome When LLMs Distill On-Policy with stars"
